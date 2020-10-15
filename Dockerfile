@@ -4,5 +4,3 @@ COPY ./examples-2.5.4/ /usr/local/apache2/htdocs/
 RUN mkdir -p /usr/local/apache2/conf/sites/
 COPY ./my-httpd.conf /usr/local/apache2/conf/httpd.conf
 COPY ./vhost.conf /usr/local/apache2/conf/sites/vhost.conf
-
-EXPOSE 80
