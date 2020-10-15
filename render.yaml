@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: masterportal
+    env: docker
+    plan: standard
+    region: frankfurt
+    healthCheckPath: /
