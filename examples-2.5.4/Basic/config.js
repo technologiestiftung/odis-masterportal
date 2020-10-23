@@ -3,15 +3,16 @@
 const Config = {
     wfsImgPath: "./ressources/img/",
     namedProjections: [
-        ["EPSG:25832", "+title=ETRS89/UTM 32N +proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"]
+        ["EPSG:25832", "+title=ETRS89/UTM 32N +proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"],
+        ["EPSG:25833", "+title=ETRS89/UTM 33N +proj=utm +zone=33 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"]
     ],
     footer: {
         urls: [
             {
-                "bezeichnung": "Kartographie und Gestaltung: ",
-                "url": "https://www.geoinfo.hamburg.de/",
-                "alias": "Landesbetrieb Geoinformation und Vermessung",
-                "alias_mobil": "LGV"
+                "bezeichnung": "Geodaten Pankow",
+                "url": "https://www.berlin.de/ba-pankow/",
+                "alias": "Daten des Bezirksamts Pankow",
+                "alias_mobil": "Geodaten Pankow"
             }
         ],
         showVersion: true
