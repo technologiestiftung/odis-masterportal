@@ -1,4 +1,100 @@
 [
+ {
+  "styleId": "301",
+  "rules": [
+    {
+      "conditions": {
+        "properties": {
+          "SubKat1": "Seniorenfreizeit- und Begegnungsstätten"
+        }
+      },
+      "style": {
+        "type": "icon",
+        "imageScale" : "0.03",
+        "imageWidth": 40,
+        "imageHeight": 40,
+        "clusterImageName": "schule.png",
+        "imageName" : "haus1.png"
+      }
+    },
+    {
+      "conditions": {
+        "properties": {
+          "SubKat1": "Soziale Organisationen, Verbände, Projekte"
+        }
+      },
+      "style": {
+        "type": "icon",
+        "imageScale" : "0.03",
+        "imageWidth": 40,
+        "imageHeight": 40,
+        "clusterImageName": "schule.png",
+        "imageName" : "haus2.png"
+      }
+    },
+    {
+      "conditions": {
+        "properties": {
+          "SubKat1": "Seniorenwohnhäuser \/ Seniorenwohnungen"
+        }
+      },
+      "style": {
+        "type": "icon",
+        "imageScale" : "0.03",
+        "imageWidth": 40,
+        "imageHeight": 40,
+        "clusterImageName": "schule.png",
+        "imageName" : "haus3.png"
+      }
+    },
+    {
+      "conditions": {
+        "properties": {
+          "SubKat1": "Beratungsangebote"
+        }
+      },
+      "style": {
+        "type": "icon",
+        "imageScale" : "0.03",
+        "imageWidth": 40,
+        "imageHeight": 40,
+        "clusterImageName": "schule.png",
+        "imageName" : "haus4.png"
+      }
+    },
+    {
+      "conditions": {
+        "properties": {
+          "SubKat1": "Teilstationäre Pflegeeinrichtungen"
+        }
+      },
+      "style": {
+        "type": "icon",
+        "imageScale" : "0.03",
+        "imageWidth": 40,
+        "imageHeight": 40,
+        "clusterImageName": "schule.png",
+        "imageName" : "haus5.png"
+      }
+    },
+    {
+      "conditions": {
+        "properties": {
+          "SubKat1": "Vollstationäre Pflegeeinrichtungen"
+        }
+      },
+      "style": {
+        "type": "icon",
+        "imageScale" : "0.03",
+        "imageWidth": 40,
+        "imageHeight": 40,
+        "clusterImageName": "schule.png",
+        "imageName" : "haus6.png"
+      }
+    }
+  ]
+},
+
   {
     "styleId": "location_eventlotse",
     "rules": [
