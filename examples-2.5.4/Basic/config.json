@@ -1,17 +1,25 @@
 {
 	"Portalconfig": {
+		"portalTitle": {
+			"title": "Geodaten Pankow",
+			"logo": "./ressources/img/berlin_logo.png",
+			"link": "https://www.berlin.de/vermessungsaemter/",
+			"tooTtip": "Geodaten Pankow"
+		},
 		"treeType": "light",
 		"searchBar": {
 			"osm": {
 				"minChars": 3,
 				"serviceId": "10",
 				"limit": 60,
-				"states": "Hamburg",
+				"city": "Berlin",
 				"classes": "place,highway,building,shop,historic,leisure,city,county"
 			},
       "visibleVector": {},
       "tree": {},
 			"startoomLevel": 9,
+			"recommandedListLength": "10",
+			"zoomLevel": 8,
 			"placeholder": "Suche nach: - Adresse - Aktiven WFS"
 		},
 		"mapView": {
