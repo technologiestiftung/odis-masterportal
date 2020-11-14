@@ -1,0 +1,894 @@
+<csw:GetRecordByIdResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2">
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd">
+<gmd:fileIdentifier>
+<gco:CharacterString>0CBAA166-3A14-4B94-BDDD-DF3D1B502BCF</gco:CharacterString>
+</gmd:fileIdentifier>
+<gmd:language>
+<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger">ger</gmd:LanguageCode>
+</gmd:language>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+</gmd:characterSet>
+<gmd:parentIdentifier>
+<gco:CharacterString>B6E2F3E8-32D4-4198-A3F3-BCD1638D0D88</gco:CharacterString>
+</gmd:parentIdentifier>
+<gmd:hierarchyLevel>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="series">series</gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+<gmd:hierarchyLevelName>
+<gco:CharacterString>series</gco:CharacterString>
+</gmd:hierarchyLevelName>
+<gmd:contact>
+<gmd:CI_ResponsibleParty uuid="880A75A8-FA6E-4329-B1EB-41386DFA933D">
+<gmd:organisationName>
+<gco:CharacterString>LGV</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:electronicMailAddress>
+<gco:CharacterString>ive.fenske@gv.hamburg.de</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:contact>
+<gmd:dateStamp>
+<gco:Date>2020-11-09</gco:Date>
+</gmd:dateStamp>
+<gmd:metadataStandardName>
+<gco:CharacterString>ISO19115</gco:CharacterString>
+</gmd:metadataStandardName>
+<gmd:metadataStandardVersion>
+<gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
+</gmd:metadataStandardVersion>
+<gmd:spatialRepresentationInfo>
+<gmd:MD_VectorSpatialRepresentation>
+<gmd:topologyLevel>
+<gmd:MD_TopologyLevelCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_TopologyLevelCode" codeListValue="fullSurfaceGraph"/>
+</gmd:topologyLevel>
+<gmd:geometricObjects>
+<gmd:MD_GeometricObjects>
+<gmd:geometricObjectType>
+<gmd:MD_GeometricObjectTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_GeometricObjectTypeCode" codeListValue="composite"/>
+</gmd:geometricObjectType>
+<gmd:geometricObjectCount>
+<gco:Integer>1684200</gco:Integer>
+</gmd:geometricObjectCount>
+</gmd:MD_GeometricObjects>
+</gmd:geometricObjects>
+</gmd:MD_VectorSpatialRepresentation>
+</gmd:spatialRepresentationInfo>
+<gmd:referenceSystemInfo>
+<gmd:MD_ReferenceSystem>
+<gmd:referenceSystemIdentifier>
+<gmd:RS_Identifier>
+<gmd:code>
+<gmx:Anchor xlink:href="http://www.opengis.net/def/crs/EPSG/0/25832">EPSG 25832: ETRS89 / UTM Zone 32N</gmx:Anchor>
+</gmd:code>
+</gmd:RS_Identifier>
+</gmd:referenceSystemIdentifier>
+</gmd:MD_ReferenceSystem>
+</gmd:referenceSystemInfo>
+<gmd:identificationInfo>
+<gmd:MD_DataIdentification uuid="https://registry.gdi-de.org/id/de.hh/9b2c86c4-540b-4d78-aaee-46d3e6a5a090">
+<gmd:citation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>ALKIS - Festlegungen</gco:CharacterString>
+</gmd:title>
+<gmd:alternateTitle>
+<gco:CharacterString>ALKIS</gco:CharacterString>
+</gmd:alternateTitle>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>2020-11-09T00:00:00.000+01:00</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>2014-11-19T00:00:00.000+01:00</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:identifier>
+<gmd:MD_Identifier>
+<gmd:code>
+<gco:CharacterString>
+https://registry.gdi-de.org/id/de.hh/9b2c86c4-540b-4d78-aaee-46d3e6a5a090
+</gco:CharacterString>
+</gmd:code>
+</gmd:MD_Identifier>
+</gmd:identifier>
+</gmd:CI_Citation>
+</gmd:citation>
+<gmd:abstract>
+<gco:CharacterString>
+Im Amtlichen Liegenschaftskatasterinformationssystem (ALKIS®) werden alle Daten des Liegenschaftskatasters zusammengeführt und integriert gepflegt. Damit sind Daten der ehemaligen Liegenschaftskarte, des ehemaligen Liegenschaftsbuches und des Grenznachweises in ALKIS enthalten. Basis für ALKIS® ist ein von der Arbeitsgemeinschaft der Vermessungsverwaltungen der Länder der Bundesrepublik Deutschland (AdV) entwickeltes Fachkonzept zur Führung aller Basisdaten des amtlichen Vermessungswesens (siehe Verweis). Alle Bundesländer haben sich verpflichtet einen ALKIS-Grunddatenbestand nach diesem Konzept zu führen. Daneben gibt es entsprechend dem Datenmodell länderspezifische zusätzliche Daten. Dieser Datensatz enthält ausgewählte Daten: Festlegungen (Denkmalschutzrecht, Lämschutzbereiche, Umlegungs- und Sanierungsgebiete, Wasserrecht, Wasser- und Bodenverbände, Überschwemmungsgebiete, Besonderes Vorkaufsrecht, Vorbereitende Untersuchungen städtebauliche Entwicklungsmaßnahme)
+</gco:CharacterString>
+</gmd:abstract>
+<gmd:status>
+<gmd:MD_ProgressCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing"/>
+</gmd:status>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty uuid="F5A1078F-25C2-4111-B497-877CDCACD9D5">
+<gmd:organisationName>
+<gco:CharacterString>
+Landesbetrieb Geoinformation und Vermessung (LGV) Hamburg
+</gco:CharacterString>
+</gmd:organisationName>
+<gmd:positionName>
+<gco:CharacterString>
+Der Landesbetrieb Geoinformation und Vermessung führt im Liegenschaftskataster (LiKa), das zugleich amtliches Verzeichnis des Grundbuches ist, die Beschreibung und maßstabsgetreue Abbildung der Grundstücke und Gebäude. Es stellt geodätische Bezugssysteme der Lage, Höhe und Schwere bereit, führt Grundstücks-/bautechnische Lage- und Höhenvermessungen aus und erteilt Auskünfte/Auszüge/Bescheinigungen über grundstücksbezogene Sachverhalte. Darüber hinaus werden digitale geographische Basisdaten und analoge Stadt-, Verwaltungs- und Themakarten in unterschiedlichen Maßstäben sowie Luftbilder für Kunden vorgehalten. Anfahrt mit der Bahn: bis HH-Hauptbahnhof, dann mit der S-Bahn S3 / S31 (Richtung Harburg / Neugraben / Buxtehude / Stade) bis Bf. Wilhelmsburg Auskünfte, Auszüge, Bescheinigungen, Karten- und Luftbildvertrieb Neuenfelder Straße 19, 21109 Hamburg Öffnungszeiten Montag bis Freitag: 8 - 13 Uhr Donnerstag: 8 - 16 Uhr
+</gco:CharacterString>
+</gmd:positionName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:phone>
+<gmd:CI_Telephone>
+<gmd:voice>
+<gco:CharacterString>+49 40 4 28 28 - 0</gco:CharacterString>
+</gmd:voice>
+<gmd:facsimile>
+<gco:CharacterString>+49 40 4 27 31 - 04 07</gco:CharacterString>
+</gmd:facsimile>
+</gmd:CI_Telephone>
+</gmd:phone>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>Neuenfelder Straße 19</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>Hamburg</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>Hamburg</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>D-21109</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gco:CharacterString>DEU</gco:CharacterString>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>Info@gv.hamburg.de</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+<gmd:onlineResource>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>http://www.geoinfo.hamburg.de</gmd:URL>
+</gmd:linkage>
+</gmd:CI_OnlineResource>
+</gmd:onlineResource>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher"/>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty uuid="779CF02F-DAE4-42C9-A277-06B76C01D19E">
+<gmd:individualName>
+<gco:CharacterString>Behr, Christian, Herr</gco:CharacterString>
+</gmd:individualName>
+<gmd:organisationName>
+<gco:CharacterString>
+Landesbetrieb Geoinformation und Vermessung (LGV) Hamburg, Geschäftsbereich Geobasisinformation
+</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:phone>
+<gmd:CI_Telephone>
+<gmd:voice>
+<gco:CharacterString>+49 40 428 26 - 0</gco:CharacterString>
+</gmd:voice>
+<gmd:facsimile>
+<gco:CharacterString>+49 40 427 31 - 04 07</gco:CharacterString>
+</gmd:facsimile>
+</gmd:CI_Telephone>
+</gmd:phone>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>Neuenfelder Straße 19</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>Hamburg</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>Hamburg</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>D-21109</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gco:CharacterString>DEU</gco:CharacterString>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>christian.behr@gv.hamburg.de</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian"/>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:pointOfContact>
+<gmd:CI_ResponsibleParty uuid="5F51CA04-5659-4D2E-A130-155DFE85DA14">
+<gmd:organisationName>
+<gco:CharacterString>
+Landesbetrieb Geoinformation und Vermessung (LGV) Hamburg, Geschäftsbereich Geobasisinformation, LGV Support
+</gco:CharacterString>
+</gmd:organisationName>
+<gmd:contactInfo>
+<gmd:CI_Contact>
+<gmd:address>
+<gmd:CI_Address>
+<gmd:deliveryPoint>
+<gco:CharacterString>Neuenfelder Straße 19</gco:CharacterString>
+</gmd:deliveryPoint>
+<gmd:city>
+<gco:CharacterString>Hamburg</gco:CharacterString>
+</gmd:city>
+<gmd:administrativeArea>
+<gco:CharacterString>Hamburg</gco:CharacterString>
+</gmd:administrativeArea>
+<gmd:postalCode>
+<gco:CharacterString>D-21109</gco:CharacterString>
+</gmd:postalCode>
+<gmd:country>
+<gco:CharacterString>DEU</gco:CharacterString>
+</gmd:country>
+<gmd:electronicMailAddress>
+<gco:CharacterString>gvgeoportal@gv.hamburg.de</gco:CharacterString>
+</gmd:electronicMailAddress>
+</gmd:CI_Address>
+</gmd:address>
+</gmd:CI_Contact>
+</gmd:contactInfo>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:pointOfContact>
+<gmd:resourceMaintenance>
+<gmd:MD_MaintenanceInformation>
+<gmd:maintenanceAndUpdateFrequency>
+<gmd:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="quarterly"/>
+</gmd:maintenanceAndUpdateFrequency>
+<gmd:updateScope>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="series"/>
+</gmd:updateScope>
+</gmd:MD_MaintenanceInformation>
+</gmd:resourceMaintenance>
+<gmd:graphicOverview>
+<gmd:MD_BrowseGraphic>
+<gmd:fileName>
+<gco:CharacterString>
+DDDDGDFG
+</gco:CharacterString>
+</gmd:fileName>
+</gmd:MD_BrowseGraphic>
+</gmd:graphicOverview>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>Datenmodell</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Denkmalschutz</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Geoinformation</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Grundstück</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Kataster</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Liegenschaft</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Nutzungsart</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Raumbezogene Information</gco:CharacterString>
+</gmd:keyword>
+<gmd:type>
+<gmd:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+</gmd:type>
+<gmd:thesaurusName>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>UMTHES Thesaurus</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2009-01-15</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+</gmd:CI_Citation>
+</gmd:thesaurusName>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>1:1000</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>1:2000</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>1:500</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>AAA</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Amtlich</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Auszug</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Digitale Stadtgrundkarte</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Festlegungen</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Flurkarte</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Flurstück</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Grenzpunkt</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Liegenschaftskarte</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Nutzung</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Tatsächliche</gco:CharacterString>
+</gmd:keyword>
+<gmd:keyword>
+<gco:CharacterString>Web</gco:CharacterString>
+</gmd:keyword>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:descriptiveKeywords>
+<gmd:MD_Keywords>
+<gmd:keyword>
+<gco:CharacterString>Gesetze und Justiz</gco:CharacterString>
+</gmd:keyword>
+<gmd:type>
+<gmd:MD_KeywordTypeCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#MD_KeywordTypeCode" codeListValue="theme"/>
+</gmd:type>
+<gmd:thesaurusName>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>OGDD-Kategorien</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:Date>2012-11-27</gco:Date>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+</gmd:CI_Citation>
+</gmd:thesaurusName>
+</gmd:MD_Keywords>
+</gmd:descriptiveKeywords>
+<gmd:resourceSpecificUsage>
+<gmd:MD_Usage>
+<gmd:specificUsage>
+<gco:CharacterString>
+Der Datensatz ist nicht für die Amtlichen Auszüge der Liegenschaftskarte geeignet.
+</gco:CharacterString>
+</gmd:specificUsage>
+<gmd:userContactInfo gco:nilReason="unknown"/>
+</gmd:MD_Usage>
+</gmd:resourceSpecificUsage>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:useLimitation>
+<gco:CharacterString>siehe Verweis "LGV Nutzungsbedingungen"</gco:CharacterString>
+</gmd:useLimitation>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:otherConstraints>
+<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations">Es gelten keine Zugriffsbeschränkungen</gmx:Anchor>
+</gmd:otherConstraints>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:otherConstraints>
+<gco:CharacterString>
+Hamburgisches Vermessungsgesetz (HmbVermG) vom 20. April 2005
+</gco:CharacterString>
+</gmd:otherConstraints>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:resourceConstraints>
+<gmd:MD_LegalConstraints>
+<gmd:accessConstraints>
+<gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+</gmd:accessConstraints>
+<gmd:otherConstraints>
+<gco:CharacterString>
+Hamburgisches Geodateninfrastrukturgesetz (HmbGDIG)
+</gco:CharacterString>
+</gmd:otherConstraints>
+</gmd:MD_LegalConstraints>
+</gmd:resourceConstraints>
+<gmd:spatialRepresentationType>
+<gmd:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector"/>
+</gmd:spatialRepresentationType>
+<gmd:spatialResolution>
+<gmd:MD_Resolution>
+<gmd:equivalentScale>
+<gmd:MD_RepresentativeFraction>
+<gmd:denominator>
+<gco:Integer>1000</gco:Integer>
+</gmd:denominator>
+</gmd:MD_RepresentativeFraction>
+</gmd:equivalentScale>
+</gmd:MD_Resolution>
+</gmd:spatialResolution>
+<gmd:language>
+<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="ger"/>
+</gmd:language>
+<gmd:characterSet>
+<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+</gmd:characterSet>
+<gmd:topicCategory>
+<gmd:MD_TopicCategoryCode>planningCadastre</gmd:MD_TopicCategoryCode>
+</gmd:topicCategory>
+<gmd:extent>
+<gmd:EX_Extent>
+<gmd:geographicElement>
+<gmd:EX_GeographicDescription>
+<gmd:extentTypeCode>
+<gco:Boolean>true</gco:Boolean>
+</gmd:extentTypeCode>
+<gmd:geographicIdentifier>
+<gmd:MD_Identifier>
+<gmd:code>
+<gco:CharacterString>Hamburg (02000000)</gco:CharacterString>
+</gmd:code>
+</gmd:MD_Identifier>
+</gmd:geographicIdentifier>
+</gmd:EX_GeographicDescription>
+</gmd:geographicElement>
+<gmd:geographicElement>
+<gmd:EX_GeographicBoundingBox>
+<gmd:extentTypeCode>
+<gco:Boolean>true</gco:Boolean>
+</gmd:extentTypeCode>
+<gmd:westBoundLongitude>
+<gco:Decimal>8.420551</gco:Decimal>
+</gmd:westBoundLongitude>
+<gmd:eastBoundLongitude>
+<gco:Decimal>10.326304</gco:Decimal>
+</gmd:eastBoundLongitude>
+<gmd:southBoundLatitude>
+<gco:Decimal>53.394985</gco:Decimal>
+</gmd:southBoundLatitude>
+<gmd:northBoundLatitude>
+<gco:Decimal>53.964153</gco:Decimal>
+</gmd:northBoundLatitude>
+</gmd:EX_GeographicBoundingBox>
+</gmd:geographicElement>
+<gmd:temporalElement>
+<gmd:EX_TemporalExtent>
+<gmd:extent>
+<gml:TimePeriod gml:id="timePeriod_ID_a632a7de-61a8-455a-a200-589246517b15">
+<gml:beginPosition>1997-01-01T00:00:00.000+01:00</gml:beginPosition>
+<gml:endPosition/>
+</gml:TimePeriod>
+</gmd:extent>
+</gmd:EX_TemporalExtent>
+</gmd:temporalElement>
+</gmd:EX_Extent>
+</gmd:extent>
+</gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+<gmd:contentInfo>
+<gmd:MD_FeatureCatalogueDescription>
+<gmd:includedWithDataset>
+<gco:Boolean>false</gco:Boolean>
+</gmd:includedWithDataset>
+<gmd:featureTypes>
+<gco:LocalName>
+Zu jeder Objektart können oder müssen Attribute geführt werden (siehe Datenmodellierung nach ALKIS - OK)
+</gco:LocalName>
+</gmd:featureTypes>
+<gmd:featureCatalogueCitation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>Objektartenkatalog (OK)</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>2009-05-31T00:00:00.000+02:00</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:edition>
+<gco:CharacterString>6.0.1</gco:CharacterString>
+</gmd:edition>
+</gmd:CI_Citation>
+</gmd:featureCatalogueCitation>
+<gmd:featureCatalogueCitation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>Signaturenkatalog (SK)</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>2009-05-31T00:00:00.000+02:00</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:edition>
+<gco:CharacterString>6.0.1</gco:CharacterString>
+</gmd:edition>
+</gmd:CI_Citation>
+</gmd:featureCatalogueCitation>
+</gmd:MD_FeatureCatalogueDescription>
+</gmd:contentInfo>
+<gmd:distributionInfo>
+<gmd:MD_Distribution>
+<gmd:distributionFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>TIFF</gco:CharacterString>
+</gmd:name>
+<gmd:version gco:nilReason="unknown"/>
+</gmd:MD_Format>
+</gmd:distributionFormat>
+<gmd:distributionFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>Shapefiles</gco:CharacterString>
+</gmd:name>
+<gmd:version gco:nilReason="unknown"/>
+</gmd:MD_Format>
+</gmd:distributionFormat>
+<gmd:distributionFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>ASCII</gco:CharacterString>
+</gmd:name>
+<gmd:version gco:nilReason="unknown"/>
+</gmd:MD_Format>
+</gmd:distributionFormat>
+<gmd:distributionFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>DXF</gco:CharacterString>
+</gmd:name>
+<gmd:version gco:nilReason="unknown"/>
+</gmd:MD_Format>
+</gmd:distributionFormat>
+<gmd:distributionFormat>
+<gmd:MD_Format>
+<gmd:name>
+<gco:CharacterString>NAS Austauschformat</gco:CharacterString>
+</gmd:name>
+<gmd:version>
+<gco:CharacterString>6.0.1</gco:CharacterString>
+</gmd:version>
+</gmd:MD_Format>
+</gmd:distributionFormat>
+<gmd:distributor>
+<gmd:MD_Distributor>
+<gmd:distributorContact>
+<gmd:CI_ResponsibleParty>
+<gmd:role>
+<gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor"/>
+</gmd:role>
+</gmd:CI_ResponsibleParty>
+</gmd:distributorContact>
+<gmd:distributionOrderProcess>
+<gmd:MD_StandardOrderProcess>
+<gmd:orderingInstructions>
+<gco:CharacterString>
+Siehe hierzu die Informationen auf der Internetseite des Landesbetriebes Geoinformation und Vermessung (Verweis: LGV im Internet).
+</gco:CharacterString>
+</gmd:orderingInstructions>
+</gmd:MD_StandardOrderProcess>
+</gmd:distributionOrderProcess>
+</gmd:MD_Distributor>
+</gmd:distributor>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+<gmd:onLine>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>
+http://www.adv-online.de/icc/extdeu/broker.jsp?uMen=0a170f15-8e71-3c01-e1f3-351ec0023010
+</gmd:URL>
+</gmd:linkage>
+<gmd:name>
+<gco:CharacterString>AdV (Schlüsselkatalog)</gco:CharacterString>
+</gmd:name>
+<gmd:function>
+<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="Key Catalog">Key Catalog</gmd:CI_OnLineFunctionCode>
+</gmd:function>
+</gmd:CI_OnlineResource>
+</gmd:onLine>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+<gmd:onLine>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>
+http://www.hamburg.de/startseite-landesbetrieb-geoinformation-und-vermessung/
+</gmd:URL>
+</gmd:linkage>
+<gmd:name>
+<gco:CharacterString>
+Weitere Informationen über den Datensatz - LGV im Internet
+</gco:CharacterString>
+</gmd:name>
+</gmd:CI_OnlineResource>
+</gmd:onLine>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+<gmd:onLine>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>http://www.adv-online.de</gmd:URL>
+</gmd:linkage>
+<gmd:name>
+<gco:CharacterString>Dokumente der GeoInfoDok</gco:CharacterString>
+</gmd:name>
+<gmd:description>
+<gco:CharacterString>
+Die GiD beschreibt das komplette Datenmodell von ALKIS. Neben dem Hauptdokument gehören auch der Objektartenkatalog (OK) und der Signaturenkatalog (SK) dazu. Es wird eine Versionshistorie geführt.
+</gco:CharacterString>
+</gmd:description>
+</gmd:CI_OnlineResource>
+</gmd:onLine>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+<gmd:onLine>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>
+https://www.hamburg.de/contentblob/6759970/0d2017e3a82656bdf87a3aa389ed2a78/data/d-nutzungsbedingungen.pdf
+</gmd:URL>
+</gmd:linkage>
+<gmd:name>
+<gco:CharacterString>LGV Nutzungsbedingungen</gco:CharacterString>
+</gmd:name>
+<gmd:function>
+<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="Use Constraints">Use Constraints</gmd:CI_OnLineFunctionCode>
+</gmd:function>
+</gmd:CI_OnlineResource>
+</gmd:onLine>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+<gmd:onLine>
+<gmd:CI_OnlineResource>
+<gmd:linkage>
+<gmd:URL>
+fdfdfd
+</gmd:URL>
+</gmd:linkage>
+<gmd:name>
+<gco:CharacterString>Dienst "WMS ALKIS Fachdaten" (GetCapabilities)</gco:CharacterString>
+</gmd:name>
+</gmd:CI_OnlineResource>
+</gmd:onLine>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+<gmd:offLine>
+<gmd:MD_Medium>
+<gmd:name>
+<gmd:MD_MediumNameCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MediumNameCode" codeListValue="cdRom"/>
+</gmd:name>
+</gmd:MD_Medium>
+</gmd:offLine>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+<gmd:transferOptions>
+<gmd:MD_DigitalTransferOptions>
+<gmd:offLine>
+<gmd:MD_Medium>
+<gmd:name>
+<gmd:MD_MediumNameCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MediumNameCode" codeListValue="dvd"/>
+</gmd:name>
+</gmd:MD_Medium>
+</gmd:offLine>
+</gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+</gmd:MD_Distribution>
+</gmd:distributionInfo>
+<gmd:dataQualityInfo>
+<gmd:DQ_DataQuality>
+<gmd:scope>
+<gmd:DQ_Scope>
+<gmd:level>
+<gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="series"/>
+</gmd:level>
+</gmd:DQ_Scope>
+</gmd:scope>
+<gmd:report>
+<gmd:DQ_CompletenessOmission>
+<gmd:nameOfMeasure>
+<gco:CharacterString>Rate of missing items</gco:CharacterString>
+</gmd:nameOfMeasure>
+<gmd:measureIdentification>
+<gmd:MD_Identifier>
+<gmd:code>
+<gco:CharacterString>7</gco:CharacterString>
+</gmd:code>
+</gmd:MD_Identifier>
+</gmd:measureIdentification>
+<gmd:measureDescription>
+<gco:CharacterString>completeness omission (rec_grade)</gco:CharacterString>
+</gmd:measureDescription>
+<gmd:result>
+<gmd:DQ_QuantitativeResult>
+<gmd:valueUnit>
+<gml:UnitDefinition gml:id="unitDefinition_ID_2269168d-7bc4-447d-bdc3-209cf9db8dc5">
+<gml:identifier codeSpace=""/>
+<gml:name>percent</gml:name>
+<gml:quantityType>completeness omission</gml:quantityType>
+<gml:catalogSymbol>%</gml:catalogSymbol>
+</gml:UnitDefinition>
+</gmd:valueUnit>
+<gmd:value>
+<gco:Record>0</gco:Record>
+</gmd:value>
+</gmd:DQ_QuantitativeResult>
+</gmd:result>
+</gmd:DQ_CompletenessOmission>
+</gmd:report>
+<gmd:report>
+<gmd:DQ_AbsoluteExternalPositionalAccuracy>
+<gmd:nameOfMeasure>
+<gco:CharacterString>Mean value of positional uncertainties (2D)</gco:CharacterString>
+</gmd:nameOfMeasure>
+<gmd:measureIdentification>
+<gmd:MD_Identifier>
+<gmd:code>
+<gco:CharacterString>28</gco:CharacterString>
+</gmd:code>
+</gmd:MD_Identifier>
+</gmd:measureIdentification>
+<gmd:measureDescription>
+<gco:CharacterString>geographic</gco:CharacterString>
+</gmd:measureDescription>
+<gmd:result>
+<gmd:DQ_QuantitativeResult>
+<gmd:valueUnit>
+<gml:UnitDefinition gml:id="unitDefinition_ID_33c9879e-b6c2-44e2-b79e-1d5ac54af840">
+<gml:identifier codeSpace=""/>
+<gml:name>meter</gml:name>
+<gml:quantityType>
+absolute external positional accuracy, geographic accuracy
+</gml:quantityType>
+<gml:catalogSymbol>m</gml:catalogSymbol>
+</gml:UnitDefinition>
+</gmd:valueUnit>
+<gmd:value>
+<gco:Record>0.100000000000000006</gco:Record>
+</gmd:value>
+</gmd:DQ_QuantitativeResult>
+</gmd:result>
+</gmd:DQ_AbsoluteExternalPositionalAccuracy>
+</gmd:report>
+<gmd:lineage>
+<gmd:LI_Lineage>
+<gmd:statement>
+<gco:CharacterString>
+Das amtliche Liegenschaftskatasterinformationssystem (ALKIS) ist das amtliche Verzeichnis, das gemäß Grundbuchordnung die rechtlichen und tatsächlichen Verhältnisse der Liegenschaften maßstabsgetreu und georeferenziert darstellt und beschreibt. Innerhalb des ALKIS werden besondere Fachthemen in eigenen Objektarten gespeichert, wie z.B. Umlegungs- und Sanierungsgebiete, Denkmalschutzrechte, Wasserrechte, Brunnen und Bohrungen. Verantwortlich für diese Inhalte sind die datenhaltenden Stellen, die ALKIS-Daten werden aufgrund von Veränderungsmitteilungen dieser Stellen aktualisiert.
+</gco:CharacterString>
+</gmd:statement>
+<gmd:processStep>
+<gmd:LI_ProcessStep>
+<gmd:description>
+<gco:CharacterString>
+Die Daten mit Liegenschaftsbezug werden durch örtliche Vermessungsarbeiten erfasst und im Innendienst weiterverarbeitet. Daten zu topographischen Inhalten können neben der teresstrischen Aufnahme auch durch Auswertungen von digitalen Orthofotos gewonnen werden.
+</gco:CharacterString>
+</gmd:description>
+</gmd:LI_ProcessStep>
+</gmd:processStep>
+</gmd:LI_Lineage>
+</gmd:lineage>
+</gmd:DQ_DataQuality>
+</gmd:dataQualityInfo>
+<gmd:portrayalCatalogueInfo>
+<gmd:MD_PortrayalCatalogueReference>
+<gmd:portrayalCatalogueCitation>
+<gmd:CI_Citation>
+<gmd:title>
+<gco:CharacterString>GeoInfoDok - ALKIS</gco:CharacterString>
+</gmd:title>
+<gmd:date>
+<gmd:CI_Date>
+<gmd:date>
+<gco:DateTime>2009-05-31T00:00:00.000+02:00</gco:DateTime>
+</gmd:date>
+<gmd:dateType>
+<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation"/>
+</gmd:dateType>
+</gmd:CI_Date>
+</gmd:date>
+<gmd:edition>
+<gco:CharacterString>6.0.1</gco:CharacterString>
+</gmd:edition>
+</gmd:CI_Citation>
+</gmd:portrayalCatalogueCitation>
+</gmd:MD_PortrayalCatalogueReference>
+</gmd:portrayalCatalogueInfo>
+</gmd:MD_Metadata>
+</csw:GetRecordByIdResponse>

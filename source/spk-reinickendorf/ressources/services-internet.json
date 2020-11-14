@@ -1,0 +1,158 @@
+﻿[
+	{
+    "id": "fis_k5_f",
+    "name": "Geobasiskarte farbig (K5 von Berlin)",
+    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_farbe",
+    "typ": "WMS",
+    "layers": "0",
+    "format": "image/png",
+    "version": "1.1.1",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 0,
+    "tilesize": "512",
+    "minScale": "0",
+    "maxScale": "2500000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "ignore",
+    "cache": true,
+    "featureCount": "1"
+	},
+	
+	{	
+	"id": "fis_k5_sw",
+    "name": "Geobasiskarte s/w (K5 von Berlin)",
+    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_sw",
+    "typ": "WMS",
+    "layers": "0",
+    "format": "image/png",
+    "version": "1.3.0",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 0,
+    "tilesize": "512",
+    "minScale": "0",
+    "maxScale": "250000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "ignore",
+    "cache": true,
+    "featureCount": "1"
+	},
+	
+	{
+    "id": "fis_webatlas_f",
+    "name": "WebAtlas Berlin (farbig)",
+    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_webatlasberlin",
+    "typ": "WMS",
+    "format": "image/png",
+		"layers": "0",
+    "version": "1.1.1",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 0,
+    "tilesize": "512",
+    "minScale": "10010",
+    "maxScale": "2500000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "ignore",
+    "cache": true,
+    "featureCount": "1"
+	},
+	
+	{
+    "id": "fis_webatlas_sw",
+    "name": "WebAtlas Berlin (s/w)",
+    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_webatlasberlin",
+    "typ": "WMS",
+    "format": "image/png",
+		"layers": "1",
+    "version": "1.1.1",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 0,
+    "tilesize": "512",
+    "minScale": "10010",
+    "maxScale": "2500000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "layerAttribution": "nicht vorhanden",
+    "legendURL": "ignore",
+    "cache": true,
+    "featureCount": "1"
+	},
+	
+	{
+    "id": "lor_plr",
+    "name": "Planungsregionen",
+    "url": "ressources/geojson/lor_plr.geojson",
+		"typ": "GeoJSON",
+		"visibility": true,
+		"gfiTheme": "default",
+		"gfiAttributes": {
+			"PLANUNGSRA": "Name: ",
+			"SCHLUESSEL": "LOR-ID: ",
+			"BEZIRKSREG": "Teil der Bezirksregion: ",
+			"FLAECHENGR": {
+					"name": "Flächengröße: ",
+					"suffix": "m&sup2"
+					},
+			"EW_ZAHL":	{
+					"name": "Einwohnerzahl: ",
+					"type": "double",
+					"format": "###.#"
+					},
+			"LINK_EXTERN": "Weitere Informationen: "
+			},
+		"layerAttribution": "Einwohnerzahl (Stand 31.12.2019), Quelle: Amt für Statistik Berlin-Brandenburg",
+    "cache": false,
+    
+    "datasets": [
+      {
+        "md_id": "source/spk-reinickendorf/ressources/geojson/meta.xml",
+        "rs_id": "source/spk-reinickendorf/ressources/geojson/meta.xml",
+        "md_name": "Internetstadtplan Hamburg",
+        "bbox": "461468.97,5916367.23,587010.91,5980347.76",
+        "kategorie_opendata": [
+          "Sonstiges"
+        ],
+        "kategorie_inspire": [
+          "nicht INSPIRE-identifiziert"
+        ],
+        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
+      }
+    ]
+    },
+
+	{
+    "id": "lor_bzr",
+    "name": "Bezirksregionen",
+    "url": "ressources/geojson/lor_plr.geojson",
+		"typ": "GeoJSON",
+		"gfiTheme": "default",
+		"gfiAttributes": {
+			"BEZIRKSREG": "Name: "
+			
+    },
+    "datasets": [
+      {
+        "md_id": "https://hackthecrisis.citylab-berlin.org",
+        "rs_id": "source/spk-reinickendorf/ressources/geojson/meta.xml",
+        "md_name": "Internetstadtplan Hamburg",
+        "bbox": "461468.97,5916367.23,587010.91,5980347.76",
+        "kategorie_opendata": [
+          "Sonstiges"
+        ],
+        "kategorie_inspire": [
+          "nicht INSPIRE-identifiziert"
+        ],
+        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
+      }
+    ]
+  }
+]

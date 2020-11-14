@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "CSW HMDK Summary",
+    "url": "",
+    "typ": "CSW"
+  },
+  {
+    "id": "3",
+    "name": "CSW HMDK Full",
+    "url": "",
+    "typ": "CSW"
+  },
+  {
+    "id" : "2",
+    "name" : "Metadaten-URL",
+    "url" : "",
+    "typ" : "URL"
+  },
+  {
+    "id" : "10",
+    "name" : "OSM Suche",
+    "url" : "https://nominatim.openstreetmap.org/search?",
+    "typ" : "WFS"
+  },
+  {
+    "id" : "80002",
+    "name" : "Email Service by PHP",
+    "url" : "https://geoportal-hamburg.de/smtp/sendmail.php",
+    "typ" : "EmailService"
+  },
+  {
+    "id" : "99999",
+    "name" : "Print Service",
+    "url" : "https://geoportal.metropolregion.hamburg.de/mapfish_print_2.0",
+    "typ" : "PrintService"
+  },
+  {
+    "id": "mapfish",
+    "name": "Print Service Prod",
+    "url": "https://geoportal.metropolregion.hamburg.de/mapfish_print/print/",
+    "typ": "Print"
+  }
+]

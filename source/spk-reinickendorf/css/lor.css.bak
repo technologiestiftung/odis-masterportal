@@ -1,0 +1,12 @@
+.list-group-item.disabled {
+	display: none!important;
+}
+
+.mouse-position {
+  background-color: #646262;
+}
+
+
+ul#tree.light {
+    overflow: visible;
+}

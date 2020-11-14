@@ -1,0 +1,152 @@
+[
+	{
+	"styleId": "lor_plr",
+	"rules": [
+		{
+		"style": {
+			 "polygonStrokeColor": [76, 169, 255, 1.8],
+			 "polygonStrokeWidth": 3,
+			 "polygonFillColor": [213, 53, 112, 0]
+			}
+		}
+	]
+	},
+	
+	{
+    "styleId": "lor_bzr",
+    "rules": [
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "MV 1 - Märkisches Viertel"
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [213, 53, 112, 0.5]
+			}
+		},
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "MV 2 - Rollbergesiedlung"
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [40, 109, 238, 0.5]
+			}
+		},
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "Nord 1 - Frohnau/Hermsdorf"
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [232, 189, 108, 0.5]
+			}
+		},
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "Nord 2 - Waidmannslust/Wittenau/Lübars"
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [210, 110, 92, 0.5]
+			}
+		},
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "Ost 1 - Reginhardstr."
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [136, 17, 204, 0.5]
+			}
+		},
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "Ost 2 Alt-Reinickendorf"
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [103, 222, 180, 0.5]
+			}
+		},
+		{	
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "West 1 Tegel-Süd/Flughafensee"
+				}
+		    },
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [191, 204, 114, 0.5]
+			}
+		},
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "West 2 - Heiligensee/Konradshöhe"
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [99, 207, 93, 0.5]
+			}
+		},
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "West 3 - Borsigwalde/Freie Scholle"
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [99, 213, 38, 0.5]
+			}
+		},
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "West 4 - Auguste-Viktoria-Allee"
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [77, 195, 215, 0.5]
+			}
+		},
+		{
+			"conditions": {
+				"properties": {
+				 "BEZIRKSREG": "West 5 - Tegel/Tegeler Forst"
+				}
+			},
+			"style": {
+				"polygonStrokeColor": [35, 35, 35, 0],
+				"polygonStrokeWidth": 0,
+				"polygonFillColor": [211, 36, 188, 0.5]
+			}
+		}
+    ]
+	}
+]	

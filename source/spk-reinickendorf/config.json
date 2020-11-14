@@ -1,0 +1,149 @@
+{
+	"Portalconfig": {
+	    "portalTitle":
+        {
+          "title": "Sozialraumorientierte Planungskoordination in Reinickendorf",
+          "logo": "../spk-reinickendorf/ressources/img/fuchs_logo.png",
+          "link": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/bezirksamt/wirtschaft-gesundheit-integration-und-soziales/sozialraumorientierte-planungskoordination/",
+          "tooltip": "Bezirksamt Reinickendorf, FB Vermessung"
+       },
+		"treeType": "light",
+		"searchBar": {
+			"osm": {
+				"minChars": 3,
+				"serviceId": "10",
+				"limit": 60,
+				"town": "Berlin",
+				"city": "Berlin",
+				"state": "Berlin,Frohnau,Hermsdorf,Heiligensee,Waidmannslust,Wittenau,Borsigwalde,Märkisches Viertel,Tegel,Reinickendorf,Lübars",
+				"classes": "place,highway,building,shop,historic,leisure,city,county"
+				},
+      "visibleVector": {
+				"minChars": 3,
+				"layerTypes": ["WFS", "GeoJSON"]
+				},
+      "tree": {},
+			"startoomLevel": 10,
+			"placeholder": "Suche nach: - Ortsteil, Straße Hs-Nr."
+		},
+		"mapView": {
+			"backgroundImage": "../spk-reinickendorf/ressources/img/backgroundCanvas.jpeg",
+			"startCenter": [384630, 5829290],
+			"extent": [370000, 5822000, 394000, 5840000],
+			"startZoomLevel": 2,
+			"epsg": "EPSG:25833"
+		},
+		"menu": {
+			"tree": {
+				"name": "Themen"
+			},
+			"tools": {
+				"name": "Werkzeuge",
+				"children": {
+					"gfi": {
+						"name": "Informationen abfragen",
+						"isActive": true
+					},
+					"searchByCoord": {
+						"name": "Koordinatensuche"
+					},
+					"coord": {
+						"name": "Koordinaten abfragen"
+					},
+					"measure": {
+						"name": "Strecke / Fläche messen"
+					}
+				}
+			},
+			"legend": {
+				"name": "Legende"
+			},
+			"info": {
+				"name": "Informationen",
+				"children": {
+					"staticlinks": [
+						{
+							"name": "SPK Berlin-Reinickendorf",
+							"url": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/bezirksamt/wirtschaft-gesundheit-integration-und-soziales/sozialraumorientierte-planungskoordination/team-1001879.php"
+						},
+						{
+							"name": "Masterportal",
+							"url": "https://masterportal.org"
+						}
+					]
+				}
+			}
+		},
+		"controls": {
+			"zoom": true,
+			"orientation": {
+				"zoomMode": "once"
+			},
+			"attributions": true,
+			"mousePosition": true
+		}
+	},
+	"Themenconfig": {
+		"Hintergrundkarten":
+		{
+		"Layer":
+		[
+			{
+				"id": "myId1",
+				"name": "Hintergrundkarte (farbig)",
+				"visibility": false,
+				"children":
+				[
+					{
+					"id": "fis_k5_f",
+					"minScale": "0",
+    				"maxScale": "5009"
+					},
+					{
+					"id": "fis_webatlas_f",
+					"minScale": "5010",
+    				"maxScale": "250000"
+					}
+				]
+			},
+			{
+					"id": "myId2",
+					"name": "Hintergrundkarte (schwarz/ weiß)",
+					"visibility": true,
+					"children":
+				[
+					{
+					"id": "fis_k5_sw",
+					"minScale": "0",
+    				"maxScale": "5009"
+					},
+					{
+					"id": "fis_webatlas_sw",
+					"minScale": "5010",
+    				"maxScale": "250000"
+					}
+				]
+				}
+			]
+		},
+		"Fachdaten": {
+			"Layer": [
+				{
+					"id": "lor_bzr",
+					"name": "Bezirksregion (BZR)",
+					"styleId": "lor_bzr",
+					"visibility": true
+				},
+				{
+					"id": "lor_plr",
+					"name": "Planungsraum (PLR)",
+					"metainfo": "Test!",
+					"styleId": "lor_plr",
+					"visibility": true,
+					"mouseHoverField": "PLANUNGSRA"
+				}
+
+			]
+		}
+	}
+}
