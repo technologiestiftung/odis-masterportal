@@ -13,9 +13,6 @@
 				"minChars": 3,
 				"serviceId": "10",
 				"limit": 60,
-				"town": "Berlin",
-				"city": "Berlin",
-				"state": "Berlin,Frohnau,Hermsdorf,Heiligensee,Waidmannslust,Wittenau,Borsigwalde,Märkisches Viertel,Tegel,Reinickendorf,Lübars",
 				"classes": "place,highway,building,shop,historic,leisure,city,county"
 				},
       "visibleVector": {
@@ -24,7 +21,7 @@
 				},
       "tree": {},
 			"startoomLevel": 10,
-			"placeholder": "Suche nach: - Ortsteil, Straße Hs-Nr."
+			"placeholder": "Suche nach: Straße, Haus-Nr."
 		},
 		"mapView": {
 			"backgroundImage": "../spk-reinickendorf/ressources/img/backgroundCanvas.jpeg",
@@ -65,10 +62,6 @@
 						{
 							"name": "SPK Berlin-Reinickendorf",
 							"url": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/bezirksamt/wirtschaft-gesundheit-integration-und-soziales/sozialraumorientierte-planungskoordination/team-1001879.php"
-						},
-						{
-							"name": "Masterportal",
-							"url": "https://masterportal.org"
 						}
 					]
 				}
@@ -127,21 +120,22 @@
 			]
 		},
 		"Fachdaten": {
+			"name": "Fachdaten",
 			"Layer": [
+				{
+					"id": "lor_plr",
+					"name": "Planungsraum (PLR)",
+					"styleId": "lor_plr",
+					"visibility": true,
+					"mouseHoverField": "PLANUNGSRA"
+				},
 				{
 					"id": "lor_bzr",
 					"name": "Bezirksregion (BZR)",
 					"styleId": "lor_bzr",
 					"visibility": true
-				},
-				{
-					"id": "lor_plr",
-					"name": "Planungsraum (PLR)",
-					"metainfo": "Test!",
-					"styleId": "lor_plr",
-					"visibility": true,
-					"mouseHoverField": "PLANUNGSRA"
 				}
+
 
 			]
 		}

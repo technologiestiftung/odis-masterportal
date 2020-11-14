@@ -41,7 +41,7 @@
     "legendURL": "ignore",
     "cache": true,
     "featureCount": "1"
-	},
+    },
 	
 	{
     "id": "fis_webatlas_f",
@@ -62,7 +62,22 @@
     "layerAttribution": "nicht vorhanden",
     "legendURL": "ignore",
     "cache": true,
-    "featureCount": "1"
+    "featureCount": "1",
+    "datasets": [
+      {
+        "md_id": "source/spk-reinickendorf/ressources/geojson/meta.xml",
+        "rs_id": "source/spk-reinickendorf/ressources/geojson/meta.xml",
+        "md_name": "Internetstadtplan Hamburg",
+        "bbox": "461468.97,5916367.23,587010.91,5980347.76",
+        "kategorie_opendata": [
+          "Sonstiges"
+        ],
+        "kategorie_inspire": [
+          "nicht INSPIRE-identifiziert"
+        ],
+        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
+      }
+    ]
 	},
 	
 	{
@@ -84,34 +99,7 @@
     "layerAttribution": "nicht vorhanden",
     "legendURL": "ignore",
     "cache": true,
-    "featureCount": "1"
-	},
-	
-	{
-    "id": "lor_plr",
-    "name": "Planungsregionen",
-    "url": "ressources/geojson/lor_plr.geojson",
-		"typ": "GeoJSON",
-		"visibility": true,
-		"gfiTheme": "default",
-		"gfiAttributes": {
-			"PLANUNGSRA": "Name: ",
-			"SCHLUESSEL": "LOR-ID: ",
-			"BEZIRKSREG": "Teil der Bezirksregion: ",
-			"FLAECHENGR": {
-					"name": "Flächengröße: ",
-					"suffix": "m&sup2"
-					},
-			"EW_ZAHL":	{
-					"name": "Einwohnerzahl: ",
-					"type": "double",
-					"format": "###.#"
-					},
-			"LINK_EXTERN": "Weitere Informationen: "
-			},
-		"layerAttribution": "Einwohnerzahl (Stand 31.12.2019), Quelle: Amt für Statistik Berlin-Brandenburg",
-    "cache": false,
-    
+    "featureCount": "1",
     "datasets": [
       {
         "md_id": "source/spk-reinickendorf/ressources/geojson/meta.xml",
@@ -139,6 +127,7 @@
 			"BEZIRKSREG": "Name: "
 			
     },
+    "layerAttribution": "Die Bezirksregion ist ein räumlich abgegrenztes Gebiet und umfasst durchschnittlich 27.000 Einwohner*innen.",
     "datasets": [
       {
         "md_id": "https://hackthecrisis.citylab-berlin.org",
@@ -154,5 +143,47 @@
         "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
       }
     ]
-  }
+  },
+	
+	{
+    "id": "lor_plr",
+    "name": "Planungsregionen",
+    "url": "ressources/geojson/lor_plr.geojson",
+		"typ": "GeoJSON",
+		"visibility": true,
+		"gfiTheme": "default",
+		"gfiAttributes": {
+			"PLANUNGSRA": "Name: ",
+			"SCHLUESSEL": "LOR-ID: ",
+			"BEZIRKSREG": "Teil der Bezirksregion: ",
+			"FLAECHENGR": {
+					"name": "Flächengröße: ",
+					"suffix": "m&sup2"
+					},
+			"EW_ZAHL":	{
+					"name": "Einwohnerzahl: ",
+					"type": "double",
+					"format": "###.#"
+					},
+			"LINK_EXTERN": "Weitere Informationen: "
+			},
+		"layerAttribution": "Der Planungsraum ist ein räumlich abgegrenztes Gebiet und umfasst zwischen 2.500 und 10.000 Einwohner*innen (geringe Abweichungen möglich). <br><br> <i>Stand: 31.12.2019</i> <br> <i>Quelle: Amt für Statistik Berlin-Brandenburg</i>",
+    "cache": false,
+    
+    "datasets": [
+      {
+        "md_id": "source/spk-reinickendorf/ressources/geojson/meta.xml",
+        "rs_id": "source/spk-reinickendorf/ressources/geojson/meta.xml",
+        "md_name": "Internetstadtplan Hamburg",
+        "bbox": "461468.97,5916367.23,587010.91,5980347.76",
+        "kategorie_opendata": [
+          "Sonstiges"
+        ],
+        "kategorie_inspire": [
+          "nicht INSPIRE-identifiziert"
+        ],
+        "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
+      }
+    ]
+    }
 ]

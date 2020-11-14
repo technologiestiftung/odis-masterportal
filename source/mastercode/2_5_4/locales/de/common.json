@@ -76,7 +76,7 @@
             "languageTitle": "Bitte wählen Sie eine Sprache aus"
         },
         "cswParser": {
-            "noMetadataMessage": "Keine Metadaten vorhanden."
+            "noMetadataMessage": ""
         },
         "layerInformation": {
             "noMetadataMessage": "$t(modules.cswParser.noMetadataMessage)"
