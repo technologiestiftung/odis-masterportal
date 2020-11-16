@@ -123,17 +123,17 @@
 			"name": "Fachdaten",
 			"Layer": [
 				{
+					"id": "lor_bzr",
+					"name": "Bezirksregion (BZR)",
+					"styleId": "lor_bzr",
+					"visibility": true
+				},
+				{
 					"id": "lor_plr",
 					"name": "Planungsraum (PLR)",
 					"styleId": "lor_plr",
 					"visibility": true,
 					"mouseHoverField": "PLANUNGSRA"
-				},
-				{
-					"id": "lor_bzr",
-					"name": "Bezirksregion (BZR)",
-					"styleId": "lor_bzr",
-					"visibility": true
 				}
 
 

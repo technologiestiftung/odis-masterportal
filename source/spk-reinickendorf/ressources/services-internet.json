@@ -96,6 +96,32 @@
       }
     ]
     },
+	
+    {
+      "id": "lor_plr",
+      "name": "Planungsregionen",
+      "url": "spk-reinickendorf/ressources/geojson/lor_plr.geojson",
+      "typ": "GeoJSON",
+      "visibility": true,
+      "gfiTheme": "default",
+      "gfiAttributes": {
+        "PLANUNGSRA": "Name: ",
+        "SCHLUESSEL": "LOR-ID: ",
+        "BEZIRKSREG": "Teil der Bezirksregion: ",
+        "FLAECHENGR": {
+            "name": "Flächengröße: ",
+            "suffix": "m&sup2"
+            },
+        "EW_ZAHL":	{
+            "name": "Einwohnerzahl: ",
+            "type": "double",
+            "format": "###.#"
+            },
+        "LINK_EXTERN": "Weitere Informationen: "
+        },
+      "layerAttribution": "Der Planungsraum ist ein räumlich abgegrenztes Gebiet und umfasst zwischen 2.500 und 10.000 Einwohner*innen (geringe Abweichungen möglich). <br><br> <i>Stand: 31.12.2019</i> <br> <i>Quelle: Amt für Statistik Berlin-Brandenburg</i>",
+      "cache": false
+      },
 
 	{
     "id": "lor_bzr",
@@ -108,31 +134,5 @@
 			
     },
     "layerAttribution": "Die Bezirksregion ist ein räumlich abgegrenztes Gebiet und umfasst durchschnittlich 27.000 Einwohner*innen."
-  },
-	
-	{
-    "id": "lor_plr",
-    "name": "Planungsregionen",
-    "url": "spk-reinickendorf/ressources/geojson/lor_plr.geojson",
-		"typ": "GeoJSON",
-		"visibility": true,
-		"gfiTheme": "default",
-		"gfiAttributes": {
-			"PLANUNGSRA": "Name: ",
-			"SCHLUESSEL": "LOR-ID: ",
-			"BEZIRKSREG": "Teil der Bezirksregion: ",
-			"FLAECHENGR": {
-					"name": "Flächengröße: ",
-					"suffix": "m&sup2"
-					},
-			"EW_ZAHL":	{
-					"name": "Einwohnerzahl: ",
-					"type": "double",
-					"format": "###.#"
-					},
-			"LINK_EXTERN": "Weitere Informationen: "
-			},
-		"layerAttribution": "Der Planungsraum ist ein räumlich abgegrenztes Gebiet und umfasst zwischen 2.500 und 10.000 Einwohner*innen (geringe Abweichungen möglich). <br><br> <i>Stand: 31.12.2019</i> <br> <i>Quelle: Amt für Statistik Berlin-Brandenburg</i>",
-    "cache": false
-    }
+  }
 ]
