@@ -58,7 +58,7 @@
     "minScale": "10010",
     "maxScale": "2500000",
     "gfiAttributes": "ignore",
-    "legendURL": "https://fbinter.stadt-berlin.de/fb_daten/legenden/leg_webatlas.png",
+    "legendURL": "ignore",
     "gfiTheme": "default",
     "layerAttribution": "nicht vorhanden",
     "cache": true,

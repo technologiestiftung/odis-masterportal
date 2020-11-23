@@ -13,7 +13,8 @@
 				"minChars": 3,
 				"serviceId": "10",
 				"limit": 60,
-				"classes": "place,highway,building,shop,historic,leisure,city,county"
+				"states": "Berlin",
+				"classes": "place,highway,building,shop,historic,leisure,city,county,amenity"
 				},
       "visibleVector": {
 				"minChars": 3,
