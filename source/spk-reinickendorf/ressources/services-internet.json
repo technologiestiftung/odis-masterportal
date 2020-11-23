@@ -100,7 +100,7 @@
     {
       "id": "lor_plr",
       "name": "Planungsregionen",
-      "url": "spk-reinickendorf/ressources/geojson/lor_plr.geojson",
+      "url": "/ressources/geojson/lor_plr.geojson",
       "typ": "GeoJSON",
       "visibility": true,
       "gfiTheme": "default",
@@ -126,13 +126,10 @@
 	{
     "id": "lor_bzr",
     "name": "Bezirksregionen",
-    "url": "spk-reinickendorf/ressources/geojson/lor_plr.geojson",
+    "url": "/ressources/geojson/lor_plr.geojson",
 		"typ": "GeoJSON",
-		"gfiTheme": "default",
-		"gfiAttributes": {
-			"BEZIRKSREG": "Name: "
-			
-    },
+		"gfiTheme": "none",
+		"gfiAttributes": "ignore",
     "layerAttribution": "Die Bezirksregion ist ein räumlich abgegrenztes Gebiet und umfasst durchschnittlich 27.000 Einwohner*innen. <br><br> <i>Stand: 31.12.2019</i> <br> <i>Quelle: Amt für Statistik Berlin-Brandenburg</i>"
   }
 ]
