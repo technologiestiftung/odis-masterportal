@@ -100,7 +100,7 @@
     {
       "id": "lor_plr",
       "name": "Planungsregionen",
-      "url": "/ressources/geojson/lor_plr.geojson",
+      "url": "ressources/geojson/lor_plr.geojson",
       "typ": "GeoJSON",
       "visibility": true,
       "gfiTheme": "default",
@@ -126,7 +126,7 @@
 	{
     "id": "lor_bzr",
     "name": "Bezirksregionen",
-    "url": "/ressources/geojson/lor_plr.geojson",
+    "url": "ressources/geojson/lor_plr.geojson",
 		"typ": "GeoJSON",
 		"gfiTheme": "none",
 		"gfiAttributes": "ignore",
