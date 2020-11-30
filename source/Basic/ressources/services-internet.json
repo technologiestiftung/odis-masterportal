@@ -77,7 +77,7 @@
 {
   "id" : "301",
   "name" : "Soziale Infrastruktur",
-  "url" : "/Basic/ressources/data/soz_inf_pankow.geojson",
+  "url" : "ressources/geojson/soz_inf_pankow.geojson",
   "typ" : "GeoJSON",
   "gfiAttributes" : {
     "BZR":"Bezirksregion",
