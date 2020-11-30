@@ -119,7 +119,6 @@
             },
         "LINK_EXTERN": "Weitere Informationen: "
         },
-      "layerAttribution": "Der Planungsraum ist ein räumlich abgegrenztes Gebiet und umfasst zwischen 2.500 und 10.000 Einwohner*innen (geringe Abweichungen möglich).",
       "cache": false
       },
 
@@ -130,6 +129,6 @@
 		"typ": "GeoJSON",
 		"gfiTheme": "none",
 		"gfiAttributes": "ignore",
-    "layerAttribution": "Die Bezirksregion ist ein räumlich abgegrenztes Gebiet und umfasst durchschnittlich 27.000 Einwohner*innen. <br><br> <i>Stand: 31.12.2019</i> <br> <i>Quelle: Amt für Statistik Berlin-Brandenburg</i>"
+    "layerAttribution": "<i>Einwohnerzahl (Stand 31.12.2019), Quelle: Amt für Statistik Berlin-Brandenburg</i>"
   }
 ]
