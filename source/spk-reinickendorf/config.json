@@ -21,15 +21,57 @@
 				"layerTypes": ["WFS", "GeoJSON"]
 				},
       "tree": {},
-			"startoomLevel": 10,
+			"startzoomLevel": 5,
 			"placeholder": "Suche nach: Straße, Haus-Nr."
 		},
 		"mapView": {
 			"backgroundImage": "../spk-reinickendorf/ressources/img/backgroundCanvas.jpeg",
 			"startCenter": [384630, 5829290],
-			"extent": [370000, 5822000, 394000, 5840000],
-			"startZoomLevel": 2,
-			"epsg": "EPSG:25833"
+			"extent": [378060, 5823230, 390910, 5835850],
+			"startZoomLevel": 0,
+			"epsg": "EPSG:25833",
+			"options": [
+				{
+				"resolution":15.874991427504629,
+				"scale":60000,
+				"zoomLevel":0
+				}, 
+				{
+				"resolution": 10.583327618336419,
+				"scale":40000,
+				"zoomLevel":1
+				}, 
+				{
+				"resolution":5.2916638091682096,
+				"scale":20000,
+				"zoomLevel":2
+				}, 
+				{
+				"resolution":2.6458319045841048,
+				"scale":10000,
+				"zoomLevel":3
+				}, 
+				{
+				"resolution":1.3229159522920524,
+				"scale":5000,
+				"zoomLevel":4
+				}, 
+				{
+				"resolution":0.6614579761460262,
+				"scale":2500,
+				"zoomLevel":5
+				}, 
+				{
+				"resolution":0.2645831904584105,
+				"scale": 1000,
+				"zoomLevel":6
+				}, 
+				{
+				"resolution":0.13229159522920521,
+				"scale":500,
+				"zoomLevel":7
+				}
+			]		
 		},
 		"menu": {
 			"tree": {
@@ -62,7 +104,7 @@
 					"staticlinks": [
 						{
 							"name": "SPK Berlin-Reinickendorf",
-							"url": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/bezirksamt/wirtschaft-gesundheit-integration-und-soziales/sozialraumorientierte-planungskoordination/team-1001879.php"
+							"url": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/bezirksamt/wirtschaft-gesundheit-integration-und-soziales/sozialraumorientierte-planungskoordination/"
 						}
 					]
 				}
