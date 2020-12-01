@@ -1,0 +1,19 @@
+[
+ {
+  "styleId": "301",
+  "rules": [
+    {
+      "conditions": {      
+      },
+      "style": {
+        "type": "icon",
+        "imageScale" : "0.8",
+        "imageWidth": 40,
+        "imageHeight": 40,
+        "clusterImageName": "schule.png",
+        "imageName" : "schule.png"
+      }
+    }
+  ]
+}
+]
