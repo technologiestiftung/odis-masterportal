@@ -1,10 +1,10 @@
 {
 	"Portalconfig": {
 		"portalTitle": {
-			"title": "Geodaten Pankow",
-			"logo": "./ressources/img/berlin_logo.png",
+			"title": "Charlottenburg-Wilmersdorf",
+			"logo": "./ressources/img/cw.png",
 			"link": "https://www.berlin.de/vermessungsaemter/",
-			"tooTtip": "Geodaten Pankow"
+			"tooTtip": "Charlottenburg-Wilmersdorf"
 		},
 		"treeType": "light",
 		"searchBar": {
@@ -110,16 +110,16 @@
 				"children": {
 					"staticlinks": [
 						{
-							"name": "Bezirksamt Pankow",
-							"url": "https://masterportal.org"
+							"name": "Bezirksamt Charlottenburg-Wilmersdorf",
+							"url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/"
 						},
 						{
-							"name": "Sozialraumorientierte Planungskoordination Pankow",
-							"url": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/service-und-organisationseinheiten/sozialraumorientierte-planungskoordination/"
+							"name": "Vermessungsamt Charlottenburg-Wilmersdorf",
+							"url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/stadtentwicklungsamt/"
 						},
 						{
-							"name": "Vermessungsamt Pankow",
-							"url": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/stadtentwicklungsamt/vermessung/artikel.220516.php"
+							"name": "Geodatenportal Berlin (FIS-Broker)",
+							"url": "https://www.stadtentwicklung.berlin.de/geoinformation/fis-broker/"
 						}
 					]
 				}
@@ -143,21 +143,21 @@
 				"visibility": false
 				},
 				{
-					"id": "myId1",
-					"name": "Hintergrundkarte (K5/ALKIS)",
-					"visibility": true,
-					"children":
+				"id": "myId1",
+				"name": "Hintergrundkarte (K5/ALKIS)",
+				"visibility": true,
+				"children":
 					[
-						{
-						"id": "fis_k5_f",
-						"minScale": "0",
-						"maxScale": "5009"
-						},
-						{
-						"id": "fis_webatlas_f",
-						"minScale": "5010",
-						"maxScale": "250000"
-						}
+					{
+					"id": "fis_k5_f",
+					"minScale": "0",
+					"maxScale": "5009"
+					},
+					{
+					"id": "fis_webatlas_f",
+					"minScale": "5010",
+					"maxScale": "250000"
+					}
 					]
 				}
 			]
@@ -172,19 +172,36 @@
 				"visibility": true,
 				"mouseHoverField": ["SubKat2"],
 				"searchField": ["SubKat1","SubKat2", "Strasse"]
-				}  ,
+				},
 				{
-					"id": "kitas",
-					"name": "Kitas",
-					"styleId": "kitas",
-					"visibility": true
+				"id": "kitas",
+				"name": "Kitas in Charlottenburg-Wilmersdorf",
+				"styleId": "kitas",
+				"visibility": true,
+				"clusterDistance": 40
 				} ,
 				{
-					"id": "schulen",
-					"name": "Kitas",
-					"styleId": "kitas",
-					"visibility": true
-				}    
+				"id": "schulen",
+				"name": "Schulen",
+				"styleId": "schulen",
+				"mouseHoverField": ["NAME"],
+				"searchField": ["NAME","SCHULTYP", "SCHULART","ADRESSE"],
+				"visibility": false
+				},
+				{
+				"id": "gruenanlagen",
+				"name": "Grünanlagen",
+				"styleId": "gruenanlagen",
+				"mouseHoverField": ["NAMEZUSATZ"],
+				"visibility": false
+				},
+				{
+				"id": "spielplaetze",
+				"name": "Spielplätze",
+				"styleId": "spielplaetze",
+				"mouseHoverField": ["NAMENR"],
+				"visibility": false
+				}  
 			]
 		}
 	}

@@ -1,253 +1,76 @@
 [
  {
-  "styleId": "301",
+  "styleId": "schulen",
   "rules": [
     {
       "conditions": {
         "properties": {
-          "SubKat1": "Seniorenfreizeit- und Begegnungsstätten"
+          "SCHULTYP": "Grundschule"
         }
       },
       "style": {
-        "type": "icon",
-        "imageScale" : "0.03",
-        "imageWidth": 40,
-        "imageHeight": 40,
-        "clusterImageName": "schule.png",
-        "imageName" : "haus1.png"
+        "circleRadius" : 6,
+        "circleFillColor" : [191, 4, 19, 1]
       }
     },
     {
       "conditions": {
         "properties": {
-          "SubKat1": "Soziale Organisationen, Verbände, Projekte"
+          "SCHULTYP": "Gymnasium"
         }
       },
       "style": {
-        "type": "icon",
-        "imageScale" : "0.03",
-        "imageWidth": 40,
-        "imageHeight": 40,
-        "clusterImageName": "schule.png",
-        "imageName" : "haus2.png"
+        "circleRadius" : 6,
+        "circleFillColor" : [237,229,223, 1]
       }
     },
     {
       "conditions": {
         "properties": {
-          "SubKat1": "Seniorenwohnhäuser \/ Seniorenwohnungen"
+          "SCHULTYP": "Integrierte Sekundarschule"
         }
       },
       "style": {
-        "type": "icon",
-        "imageScale" : "0.03",
-        "imageWidth": 40,
-        "imageHeight": 40,
-        "clusterImageName": "schule.png",
-        "imageName" : "haus3.png"
+        "circleRadius" : 6,
+        "circleFillColor" : [23, 79, 191, 1]
       }
     },
     {
       "conditions": {
         "properties": {
-          "SubKat1": "Beratungsangebote"
+          "SCHULTYP": "Berufliche Schule"
         }
       },
       "style": {
-        "type": "icon",
-        "imageScale" : "0.03",
-        "imageWidth": 40,
-        "imageHeight": 40,
-        "clusterImageName": "schule.png",
-        "imageName" : "haus4.png"
+        "circleRadius" : 6,
+        "circleFillColor" : [4, 191, 85, 1]
       }
     },
     {
       "conditions": {
         "properties": {
-          "SubKat1": "Teilstationäre Pflegeeinrichtungen"
+          "SCHULTYP": "Schule mit sonderpädagogischem Förderschwerpunkt"
         }
       },
       "style": {
-        "type": "icon",
-        "imageScale" : "0.03",
-        "imageWidth": 40,
-        "imageHeight": 40,
-        "clusterImageName": "schule.png",
-        "imageName" : "haus5.png"
+        "circleRadius" : 6,
+        "circleFillColor" : [242, 183, 5, 1]
       }
     },
     {
       "conditions": {
         "properties": {
-          "SubKat1": "Vollstationäre Pflegeeinrichtungen"
+          "SCHULTYP": "Andere Schule"
         }
       },
       "style": {
-        "type": "icon",
-        "imageScale" : "0.03",
-        "imageWidth": 40,
-        "imageHeight": 40,
-        "clusterImageName": "schule.png",
-        "imageName" : "haus6.png"
+        "circleRadius" : 6
       }
     }
   ]
 },
 
-  {
-    "styleId": "location_eventlotse",
-    "rules": [
-      {
-        "style": {
-          "type": "icon",
-          "imageScale" : "2",
-          "imageName": "location_eventlotse.svg",
-          "imageWidth": 24,
-          "imageHeight": 24,
-          "imageOffsetY": 24,
-          "imageOffsetYUnit": "pixels"
-        }
-      }
-    ]
-  },
-  {
-    "styleId": "1711",
-    "rules": [
-      {
-        "style": {
-          "type": "icon",
-          "clusterImageName": "krankenhaus.png",
-          "imageName": "krankenhaus.png",
-          "imageScale": 0.7
-        }
-      }
-    ]
-  },
-  {
-    "styleId": "8712",
-    "rules": [
-      {
-        "conditions": {
-          "properties": {
-            "kapitelbezeichnung": "Grundschulen"
-          }
-        },
-        "style": {
-          "type": "icon",
-          "imageScale" : "0.6",
-          "imageWidth": 40,
-          "imageHeight": 40,
-          "imageName" : "grundschulen.svg"
-        }
-      },
-      {
-        "conditions": {
-          "properties": {
-            "kapitelbezeichnung": "Gymnasien"
-          }
-        },
-        "style": {
-          "type": "icon",
-          "imageScale" : "0.6",
-          "imageWidth": 40,
-          "imageHeight": 40,
-          "imageName" : "gymnasien.svg"
-        }
-      },
-      {
-        "conditions": {
-          "properties": {
-            "kapitelbezeichnung": "Stadtteilschulen"
-          }
-        },
-        "style": {
-          "type": "icon",
-          "imageScale" : "0.6",
-          "imageWidth": 40,
-          "imageHeight": 40,
-          "imageName" : "stadtteilschulen.svg"
-        }
-      },
-      {
-        "conditions": {
-          "properties": {
-            "kapitelbezeichnung": "Sonderschulen"
-          }
-        },
-        "style": {
-          "type": "icon",
-          "imageScale" : "0.6",
-          "imageWidth": 40,
-          "imageHeight": 40,
-          "imageName" : "sonderschulen.svg"
-        }
-      },
-      {
-        "conditions": {
-          "properties": {
-            "kapitelbezeichnung": "Berufliche Schulen"
-          }
-        },
-        "style": {
-          "type": "icon",
-          "imageScale" : "0.6",
-          "imageWidth": 40,
-          "imageHeight": 40,
-          "imageName" : "berufliche_schulen.svg"
-        }
-      },
-      {
-        "conditions": {
-          "properties": {
-            "kapitelbezeichnung": "Langformschulen"
-          }
-        },
-        "style": {
-          "type": "icon",
-          "imageScale" : "0.6",
-          "imageWidth": 40,
-          "imageHeight": 40,
-          "imageName" : "langformschulen.svg"
-        }
-      }
-    ]
-  },
-  {
-    "styleId": "2128",
-    "rules": [
-      {
-        "style": {
-          "type": "icon",
-          "imageName" : "kamera.png",
-          "imageScale" : "0.3"
-        }
-      }
-    ]
-  },
-  {
-    "styleId": "2059",
-    "rules": [
-      {
-        "conditions": {
-          "properties": {
-            "kategorie": "Unsichtbares Objekt"
-          }
-        },
-        "style": {
-            "type": "icon",
-            "clusterCircleRadius" : 15,
-            "clusterCircleFillColor": [230, 230, 10, 1],
-            "clusterTextType": "counter",
-            "clusterTextOffsetY" : 2,
-            "clusterTextStrokeWidth" : 0,
-            "clusterTextFillColor": [0, 0, 0, 1],
-            "imageName" : "unsichtbares-objekt_10.png",
-            "imageScale" : "0.5"
-          }
-      }
-    ]
-  },
+
   {
     "styleId": "2003",
     "rules": [
@@ -607,9 +430,42 @@
 	"rules": [
 		{
 		"style": {
-			"circleRadius" : 10
-			}
-		}
+      "type": "icon",
+      "clusterType": "icon",
+      "clusterImageName": "haus1.png",
+      "clusterImageScale": 0.04,
+      "clusterTextOffsetY" : 2,
+      "clusterTextFillColor" : [0, 0, 0, 1],
+      "clusterTextStrokeColor" : [240, 240, 240, 1],
+      "clusterTextStrokeWidth" : 3,
+      "imageScale": 0.04,
+      "imageName" : "haus4.png"
+		  }
+	  }
 	]
-	}
+  },
+  {
+    "styleId": "spielplaetze",
+    "rules": [
+      {
+      "style": {
+      "polygonStrokeColor": [254, 0, 0, 1],
+      "polygonStrokeWidth": 2,
+      "polygonFillColor": [255, 252, 237, 0.8]
+     } 
+     }
+    ]
+  },
+  {
+    "styleId": "gruenanlagen",
+    "rules": [
+      {
+      "style": {
+      "polygonStrokeColor": [254, 0, 0, 1],
+      "polygonStrokeWidth": 2,
+      "polygonFillColor": [210, 232, 186, 0.8]
+     } 
+     }
+    ]
+  }
 ]

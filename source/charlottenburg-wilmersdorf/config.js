@@ -9,10 +9,10 @@ const Config = {
     footer: {
         urls: [
             {
-                "bezeichnung": "Geodaten Pankow",
-                "url": "https://www.berlin.de/ba-pankow/",
-                "alias": "Daten des Bezirksamts Pankow",
-                "alias_mobil": "Geodaten Pankow"
+                "bezeichnung": "Charlottenburg-Wilmersdorf",
+                "url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/",
+                "alias": "Daten des Bezirksamts Charlottenburg Wilmersdorf",
+                "alias_mobil": "Geodaten CW"
             }
         ],
         showVersion: true
