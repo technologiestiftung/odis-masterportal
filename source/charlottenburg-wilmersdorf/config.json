@@ -1,0 +1,191 @@
+{
+	"Portalconfig": {
+		"portalTitle": {
+			"title": "Geodaten Pankow",
+			"logo": "./ressources/img/berlin_logo.png",
+			"link": "https://www.berlin.de/vermessungsaemter/",
+			"tooTtip": "Geodaten Pankow"
+		},
+		"treeType": "light",
+		"searchBar": {
+			"osm": {
+				"minChars": 3,
+				"serviceId": "10",
+				"limit": 60,
+				"states": "Berlin",
+				"classes": "place,highway,building,shop,historic,leisure,city,county,amenity"
+			},
+      "visibleVector": {},
+      "tree": {},
+			"recommandedListLength": "10",
+			"zoomLevel": 10,
+			"placeholder": "Suche nach: - Adresse - Aktiven WFS"
+		},
+		"mapView": {
+			"backgroundImage": "./ressources/img/backgroundCanvas.jpeg",
+			"startCenter": [383566.7614,5818638.1058],
+			"epsg": "EPSG:25833",
+			"extent": [382519.8499,5818030.7951,384613.4080,5819245.5554],
+			"startZoomLevel": 2,
+			"options": [
+				{
+				"resolution":15.874991427504629,
+				"scale":60000,
+				"zoomLevel":0
+				}, 
+				{
+				"resolution": 10.583327618336419,
+				"scale":40000,
+				"zoomLevel":1
+				}, 
+				{
+				"resolution":5.2916638091682096,
+				"scale":20000,
+				"zoomLevel":2
+				}, 
+				{
+				"resolution":2.6458319045841048,
+				"scale":10000,
+				"zoomLevel":3
+				}, 
+				{
+				"resolution":1.3229159522920524,
+				"scale":5000,
+				"zoomLevel":4
+				}, 
+				{
+				"resolution":0.6614579761460262,
+				"scale":2500,
+				"zoomLevel":5
+				}, 
+				{
+				"resolution":0.2645831904584105,
+				"scale": 1000,
+				"zoomLevel":6
+				}, 
+				{
+				"resolution":0.13229159522920521,
+				"scale":500,
+				"zoomLevel":7
+				}
+			]	
+		},
+		"menu": {
+			"tree": {
+				"name": "Themen"
+			},
+			"tools": {
+				"name": "Werkzeuge",
+				"children": {
+					"gfi": {
+						"name": "Informationen abfragen",
+						"isActive": true
+					},
+					"searchByCoord": {
+						"name": "Koordinatensuche"
+					},
+					"coord": {
+						"name": "Koordinaten abfragen"
+					},
+					"measure": {
+						"name": "Strecke / Fläche messen"
+					},
+					"draw": {
+						"name": "Zeichnen / Schreiben",
+						"glyphicon": "glyphicon-pencil"
+					},
+					"kmlimport": {
+						"name": "KML Import"
+					},
+					"saveSelection": {
+						"name": "Auswahl speichern"
+					}
+				}
+			},
+			"legend": {
+				"name": "Legende"
+			},
+			"info": {
+				"name": "Informationen",
+				"children": {
+					"staticlinks": [
+						{
+							"name": "Bezirksamt Pankow",
+							"url": "https://masterportal.org"
+						},
+						{
+							"name": "Sozialraumorientierte Planungskoordination Pankow",
+							"url": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/service-und-organisationseinheiten/sozialraumorientierte-planungskoordination/"
+						},
+						{
+							"name": "Vermessungsamt Pankow",
+							"url": "https://www.berlin.de/ba-pankow/politik-und-verwaltung/aemter/stadtentwicklungsamt/vermessung/artikel.220516.php"
+						}
+					]
+				}
+			}
+		},
+		"controls": {
+			"zoom": true,
+			"orientation": {
+				"zoomMode": "once"
+			},
+			"attributions": true,
+			"mousePosition": true
+		}
+	},
+	"Themenconfig": {
+		"Hintergrundkarten": {
+			"Layer": [
+				{
+				"id": "102",
+				"name": "Digitale Orthophotos",
+				"visibility": false
+				},
+				{
+					"id": "myId1",
+					"name": "Hintergrundkarte (K5/ALKIS)",
+					"visibility": true,
+					"children":
+					[
+						{
+						"id": "fis_k5_f",
+						"minScale": "0",
+						"maxScale": "5009"
+						},
+						{
+						"id": "fis_webatlas_f",
+						"minScale": "5010",
+						"maxScale": "250000"
+						}
+					]
+				}
+			]
+		},
+		"Fachdaten": {
+			"Layer": [
+				{
+				"id": "301",
+				"name": "Soziale Infrastruktur",
+				"styleId": "301",
+				"layerAttribution": "<span>Sie sehen Einrichtungen der sozialen Infrastruktur in Pankow. Für mehr Informationen klicken Sie bitte das jeweile Objekt an.</span>",
+				"visibility": true,
+				"mouseHoverField": ["SubKat2"],
+				"searchField": ["SubKat1","SubKat2", "Strasse"]
+				}  ,
+				{
+					"id": "kitas",
+					"name": "Kitas",
+					"styleId": "kitas",
+					"visibility": true
+				} ,
+				{
+					"id": "schulen",
+					"name": "Kitas",
+					"styleId": "kitas",
+					"visibility": true
+				}    
+			]
+		}
+	}
+}
