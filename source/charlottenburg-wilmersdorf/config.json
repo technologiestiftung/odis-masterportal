@@ -25,7 +25,7 @@
 			"backgroundImage": "./ressources/img/backgroundCanvas.jpeg",
 			"startCenter": [383566.7614,5818638.1058],
 			"epsg": "EPSG:25833",
-			"extent": [382519.8499,5818030.7951,384613.4080,5819245.5554],
+			"extent": [380523.6861,5816191.7921,388021.3683,5821746.7067],
 			"startZoomLevel": 2,
 			"options": [
 				{
@@ -141,25 +141,7 @@
 				"id": "102",
 				"name": "Digitale Orthophotos",
 				"visibility": false
-				},
-				{
-				"id": "myId1",
-				"name": "Hintergrundkarte (K5/ALKIS)",
-				"visibility": true,
-				"children":
-					[
-					{
-					"id": "fis_k5_f",
-					"minScale": "0",
-					"maxScale": "5009"
-					},
-					{
-					"id": "fis_webatlas_f",
-					"minScale": "5010",
-					"maxScale": "250000"
-					}
-					]
-				},
+				},			
 				{
 					"id": "myId2",
 					"name": "Hintergrundkarte (schwarz/ weiß)",
@@ -177,7 +159,25 @@
     				"maxScale": "250000"
 				}
 			]
-			}
+			},
+				{
+				"id": "myId1",
+				"name": "Hintergrundkarte (K5/ALKIS)",
+				"visibility": true,
+				"children":
+					[
+					{
+					"id": "fis_k5_f",
+					"minScale": "0",
+					"maxScale": "5009"
+					},
+					{
+					"id": "fis_webatlas_f",
+					"minScale": "5010",
+					"maxScale": "250000"
+					}
+					]
+				}
 		]
 	},
 		"Fachdaten": {
@@ -196,14 +196,16 @@
 				"styleId": "schulen",
 				"mouseHoverField": ["NAME"],
 				"searchField": ["NAME","SCHULTYP", "SCHULART","ADRESSE"],
-				"visibility": false
+				"visibility": false,
+				"legendURL": ""
 				},
 				{
 				"id": "gruenanlagen",
 				"name": "Grünanlagen",
 				"styleId": "gruenanlagen",
 				"mouseHoverField": ["NAMENR"],
-				"visibility": false
+				"visibility": false,
+				"legendURL": ""
 				},
 				{
 				"id": "spielplaetze",
@@ -211,7 +213,7 @@
 				"styleId": "spielplaetze",
 				"mouseHoverField": ["NAMENR"],
 				"visibility": false,
-				"legend": true
+				"legendURL": ""
 				}  
 			]
 		}
