@@ -3,7 +3,7 @@
 		"portalTitle": {
 			"title": "Charlottenburg-Wilmersdorf",
 			"logo": "./ressources/img/cw.png",
-			"link": "https://www.berlin.de/vermessungsaemter/",
+			"link": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/",
 			"tooTtip": "Charlottenburg-Wilmersdorf"
 		},
 		"treeType": "light",
@@ -159,20 +159,30 @@
 					"maxScale": "250000"
 					}
 					]
+				},
+				{
+					"id": "myId2",
+					"name": "Hintergrundkarte (schwarz/ weiß)",
+					"visibility": false,
+					"children":
+				[
+					{
+					"id": "fis_k5_sw",
+					"minScale": "0",
+    				"maxScale": "5009"
+					},
+					{
+					"id": "fis_webatlas_sw",
+					"minScale": "5010",
+    				"maxScale": "250000"
 				}
 			]
-		},
+			}
+		]
+	},
 		"Fachdaten": {
+			"name": "Kinder und Freizeit",
 			"Layer": [
-				{
-				"id": "301",
-				"name": "Soziale Infrastruktur",
-				"styleId": "301",
-				"layerAttribution": "<span>Sie sehen Einrichtungen der sozialen Infrastruktur in Pankow. Für mehr Informationen klicken Sie bitte das jeweile Objekt an.</span>",
-				"visibility": true,
-				"mouseHoverField": ["SubKat2"],
-				"searchField": ["SubKat1","SubKat2", "Strasse"]
-				},
 				{
 				"id": "kitas",
 				"name": "Kitas in Charlottenburg-Wilmersdorf",
@@ -192,7 +202,7 @@
 				"id": "gruenanlagen",
 				"name": "Grünanlagen",
 				"styleId": "gruenanlagen",
-				"mouseHoverField": ["NAMEZUSATZ"],
+				"mouseHoverField": ["NAMENR"],
 				"visibility": false
 				},
 				{
@@ -200,7 +210,8 @@
 				"name": "Spielplätze",
 				"styleId": "spielplaetze",
 				"mouseHoverField": ["NAMENR"],
-				"visibility": false
+				"visibility": false,
+				"legend": true
 				}  
 			]
 		}
