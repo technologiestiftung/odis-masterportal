@@ -13,7 +13,7 @@
 				"serviceId": "10",
 				"limit": 60,
 				"states": "Berlin",
-				"classes": "place,highway,building,shop,historic,leisure,city,county,amenity"
+				"classes": "place,highway,building,shop,historic,leisure,city,county,amenity,road"
 			},
       "visibleVector": {},
       "tree": {},
@@ -115,7 +115,7 @@
 						},
 						{
 							"name": "Vermessungsamt Charlottenburg-Wilmersdorf",
-							"url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/stadtentwicklungsamt/"
+							"url": "https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/stadtentwicklungsamt/vermessung/"
 						},
 						{
 							"name": "Geodatenportal Berlin (FIS-Broker)",
@@ -187,8 +187,9 @@
 				"id": "kitas",
 				"name": "Kitas in Charlottenburg-Wilmersdorf",
 				"styleId": "kitas",
-				"visibility": true,
-				"clusterDistance": 40
+				"mouseHoverField": ["Name"],
+				"searchField": ["Name","PLZ", "Adresse"],
+				"visibility": true
 				} ,
 				{
 				"id": "schulen",

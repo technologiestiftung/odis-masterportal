@@ -83,7 +83,13 @@
     "url": "ressources/geojson/kitas.geojson",
     "typ": "GeoJSON",
     "gfiTheme": "default",
-    "gfiAttributes": "ignore"
+    "gfiAttributes": {
+      "Name":"Name",
+      "Adresse": "Adresse",
+      "PLZ": "Postleitzahl",
+      "Zeiten": "Betreuungszeiten",
+      "Alter": "Mindestalter"
+    }
   },
   {
     "id": "schulen",
