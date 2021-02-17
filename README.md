@@ -58,23 +58,23 @@ Inside ServicesBasic go to `resources/services-internet.json` and add (or modify
 
 ```json
 {
-    "id": "wfs_t_id",
-    "name": "WFS-T Test",
-    "url": "https://tsb-tinyows.onrender.com",
-    "typ": "WFS",
-    "format":"image/png",
-    "featurePrefix":"tows",
-    "featureType": "tows:test_points",
-    "version": "1.1.0",
-    "featureNS": "http://www.mapserver.org/tinyows/",
-    "outputFormat": "XML",
-    "gfiAttributes": {
-      "name":"name"
-    },
-    "layerAttribution": "nicht vorhanden",
-    "legend": true,
-    "datasets": []
-  }
+  "id": "wfs_t_id",
+  "name": "WFS-T Test",
+  "url": "https://tsb-tinyows.onrender.com",
+  "typ": "WFS",
+  "format":"image/png",
+  "featurePrefix":"tows",
+  "featureType": "tows:test_points",
+  "version": "1.1.0",
+  "featureNS": "http://www.mapserver.org/tinyows/",
+  "outputFormat": "XML",
+  "gfiAttributes": {
+    "name":"name"
+  },
+  "layerAttribution": "nicht vorhanden",
+  "legend": true,
+  "datasets": []
+}
 ```
 
 Most importantly:
