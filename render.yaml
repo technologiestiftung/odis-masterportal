@@ -10,14 +10,17 @@ services:
     name: tinyows
     env: docker
     repo: https://github.com/technologiestiftung/tinyows.git
-    plan: starter
+    plan: standard
+    region: frankfurt
+
   - type: web
     name: mapfish-print
     env: docker
     repo: https://github.com/technologiestiftung/mapfish-print.git
     plan: starter
-
+    region: frankfurt
 databases:
   - name: tinyows
     databaseName: tinyows
     plan: starter
+    region: frankfurt
