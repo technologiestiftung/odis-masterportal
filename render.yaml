@@ -4,3 +4,20 @@ services:
     env: docker
     region: frankfurt
     healthCheckPath: /
+    plan: starter
+
+  - type: web
+    name: tinyows
+    env: docker
+    repo: https://github.com/technologiestiftung/tinyows.git
+    plan: starter
+  - type: web
+    name: mapfish-print
+    env: docker
+    repo: https://github.com/technologiestiftung/mapfish-print.git
+    plan: starter
+
+databases:
+  - name: tinyows
+    databaseName: tinyows
+    plan: starter
