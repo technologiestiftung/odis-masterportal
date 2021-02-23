@@ -6,14 +6,14 @@ services:
     healthCheckPath: /
     plan: starter
 
-  - type: web
+  - type: pserv
     name: tinyows
     env: docker
     repo: https://github.com/technologiestiftung/tinyows.git
     plan: standard
     region: frankfurt
 
-  - type: web
+  - type: pserv
     name: mapfish-print
     env: docker
     repo: https://github.com/technologiestiftung/mapfish-print.git
