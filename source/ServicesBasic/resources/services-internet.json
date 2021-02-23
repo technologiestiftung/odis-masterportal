@@ -1058,7 +1058,7 @@
     {
       "id": "wfs_t_id",
       "name": "WFS-T Test",
-      "url": "https://tsb-tinyows.onrender.com",
+      "url": "https://tinyows.onrender.com",
       "typ": "WFS",
       "format":"image/png",
       "featurePrefix":"tows",
