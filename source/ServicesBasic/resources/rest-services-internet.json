@@ -38,7 +38,7 @@
   {
     "id": "mapfish",
     "name": "Print Service Prod",
-    "url": "mapfish-print-v7ht:8080",
+    "url": "https://mapfish-print-v7ht:8080",
     "typ": "Print"
   }
 ]
