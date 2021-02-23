@@ -38,7 +38,7 @@
   {
     "id": "mapfish",
     "name": "Print Service Prod",
-    "url": "https://mapfish-print.onrender.com/print/",
+    "url": "mapfish-print-v7ht:8080"
     "typ": "Print"
   }
 ]
