@@ -5,3 +5,5 @@ services:
     build: .
     ports:
       - 8080:80
+    environment:
+      X_Environment: ${X_Environment}
