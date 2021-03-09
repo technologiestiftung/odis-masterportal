@@ -24,6 +24,18 @@
     "typ" : "WFS"
   },
   {
+    "id" : "4",
+    "name" : "BKG Suggest",
+    "url" : "/bkg_suggest",
+    "typ" : "WFS"
+  },
+  {
+    "id" : "5",
+    "name" : "BKG Service",
+    "url" : "/bkg_geosearch",
+    "typ" : "WFS"
+  },
+  {
     "id" : "80002",
     "name" : "Email Service by PHP",
     "url" : "https://geoportal-hamburg.de/smtp/sendmail.php",
