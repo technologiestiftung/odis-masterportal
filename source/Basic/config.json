@@ -8,12 +8,18 @@
 		},
 		"treeType": "light",
 		"searchBar": {
-			"osm": {
-				"minChars": 3,
-				"serviceId": "10",
-				"limit": 60,
-				"city": "Berlin",
-				"classes": "place,highway,building,shop,historic,leisure,city,county"
+			"bkg": {
+				"minCharacters": 3,
+				"suggestServiceId": "4",
+				"geosearchServiceId": "5",
+				"extent": [369097.85,5799298.14,416865.04,5838236.21],
+				"suggestCount": 10,
+				"epsg": "EPSG:25833",
+				"filter": "filter=(typ:*)",
+				"score": 0.6,
+				"zoomToResultOnHover": false,
+				"zoomToResultOnClick": true,
+				"zoomLevel": 10
 			},
       "visibleVector": {},
       "tree": {},

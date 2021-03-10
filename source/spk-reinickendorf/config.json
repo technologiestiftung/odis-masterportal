@@ -9,13 +9,19 @@
        },
 		"treeType": "light",
 		"searchBar": {
-			"osm": {
-				"minChars": 3,
-				"serviceId": "10",
-				"limit": 60,
-				"states": "Berlin",
-				"classes": "place,highway,building,shop,historic,leisure,city,county,amenity"
-				},
+			"bkg": {
+				"minCharacters": 3,
+				"suggestServiceId": "4",
+				"geosearchServiceId": "5",
+				"extent": [378060, 5823230, 390910, 5835850],
+				"suggestCount": 10,
+				"epsg": "EPSG:25833",
+				"filter": "filter=(typ:*)",
+				"score": 0.6,
+				"zoomToResultOnHover": false,
+				"zoomToResultOnClick": true,
+				"zoomLevel": 6
+			},
       "visibleVector": {
 				"minChars": 3,
 				"layerTypes": ["WFS", "GeoJSON"]
