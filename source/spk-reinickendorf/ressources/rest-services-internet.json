@@ -18,6 +18,18 @@
     "typ" : "URL"
   },
   {
+    "id" : "4",
+    "name" : "BKG Suggest",
+    "url" : "/bkg_suggest",
+    "typ" : "WFS"
+  },
+  {
+    "id" : "5",
+    "name" : "BKG Service",
+    "url" : "/bkg_geosearch",
+    "typ" : "WFS"
+  },
+  {
     "id" : "10",
     "name" : "OSM Suche",
     "url" : "https://nominatim.openstreetmap.org/search?",
