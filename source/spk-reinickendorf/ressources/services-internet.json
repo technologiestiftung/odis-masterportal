@@ -1,134 +1,226 @@
 ﻿[
-	{
-    "id": "fis_k5_f",
-    "name": "Geobasiskarte farbig (K5 von Berlin)",
-    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_farbe",
-    "typ": "WMS",
-    "layers": "0",
-    "format": "image/png",
-    "version": "1.1.1",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "tilesize": "512",
-    "minScale": "0",
-    "maxScale": "2500000",
-    "gfiAttributes": "ignore",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "ignore",
-    "cache": true,
-    "featureCount": "1"
-	},
-	
-	{	
-	"id": "fis_k5_sw",
-    "name": "Geobasiskarte s/w (K5 von Berlin)",
-    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_sw",
-    "typ": "WMS",
-    "layers": "0",
-    "format": "image/png",
-    "version": "1.3.0",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "tilesize": "512",
-    "minScale": "0",
-    "maxScale": "250000",
-    "gfiAttributes": "ignore",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "legendURL": "ignore",
-    "cache": true,
-    "featureCount": "1"
-    },
-	
-	{
-    "id": "fis_webatlas_f",
-    "name": "WebAtlas Berlin (farbig)",
-    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_webatlasberlin",
-    "typ": "WMS",
-    "format": "image/png",
-		"layers": "0",
-    "version": "1.1.1",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "tilesize": "512",
-    "minScale": "10010",
-    "maxScale": "2500000",
-    "gfiAttributes": "ignore",
-    "legendURL": "ignore",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "cache": true,
-    "featureCount": "1",
-    "datasets": [
-      {
-        "md_id": "https://fbinter.stadt-berlin.de/fb/berlin/service_intern.jsp?id=k_webatlasberlin@senstadt&type=WMS"
-      }
-    ]
-	},
-	
-	{
-    "id": "fis_webatlas_sw",
-    "name": "WebAtlas Berlin (s/w)",
-    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_webatlasberlin",
-    "typ": "WMS",
-    "format": "image/png",
-		"layers": "1",
-    "version": "1.1.1",
-    "singleTile": false,
-    "transparent": true,
-    "transparency": 0,
-    "tilesize": "512",
-    "minScale": "10010",
-    "maxScale": "2500000",
-    "gfiAttributes": "ignore",
-    "legendURL": "ignore",
-    "gfiTheme": "default",
-    "layerAttribution": "nicht vorhanden",
-    "cache": true,
-    "featureCount": "1",
-    "datasets": [
-      {
-        "md_id": "https://fbinter.stadt-berlin.de/fb/berlin/service_intern.jsp?id=k_webatlasberlin@senstadt&type=WMS"
-      }
-    ]
-    },
-	
-    {
-      "id": "lor_plr",
-      "name": "Planungsregionen",
-      "url": "ressources/geojson/lor_plr.geojson",
-      "typ": "GeoJSON",
-      "visibility": true,
-      "gfiTheme": "default",
-      "gfiAttributes": {
-        "PLANUNGSRA": "Name: ",
-        "SCHLUESSEL": "LOR-ID: ",
-        "BEZIRKSREG": "Teil der Bezirksregion: ",
-        "FLAECHENGR": {
-            "name": "Flächengröße: ",
-            "suffix": "m&sup2"
-            },
-        "EW_ZAHL":	{
-            "name": "Einwohnerzahl: ",
-            "type": "double",
-            "format": "###.#"
-            },
-        "LINK_EXTERN": "Weitere Informationen: "
-        },
-      "cache": false
-      },
+{
+"id": "fis_k5_f",
+"name": "Geobasiskarte farbig (K5 von Berlin)",
+"url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_farbe",
+"typ": "WMS",
+"layers": "0",
+"format": "image/png",
+"version": "1.1.1",
+"singleTile": false,
+"transparent": true,
+"transparency": 0,
+"tilesize": "512",
+"minScale": "0",
+"maxScale": "2500000",
+"gfiAttributes": "ignore",
+"gfiTheme": "default",
+"legendURL": "ignore",
+"cache": true,
+"featureCount": "1"
+},
 
-	{
-    "id": "lor_bzr",
-    "name": "Bezirksregionen",
-    "url": "ressources/geojson/lor_plr.geojson",
-		"typ": "GeoJSON",
-		"gfiTheme": "none",
-		"gfiAttributes": "ignore",
-    "layerAttribution": "<i>Einwohnerzahl (Stand 31.12.2019), Quelle: Amt für Statistik Berlin-Brandenburg</i>"
-  }
+{
+"id": "fis_k5_sw",
+"name": "Geobasiskarte s/w (K5 von Berlin)",
+"url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k5_sw",
+"typ": "WMS",
+"layers": "0",
+"format": "image/png",
+"version": "1.3.0",
+"singleTile": false,
+"transparent": true,
+"transparency": 0,
+"tilesize": "512",
+"minScale": "0",
+"maxScale": "250000",
+"gfiAttributes": "ignore",
+"gfiTheme": "default",
+"legendURL": "ignore",
+"cache": true,
+"featureCount": "1"
+},
+
+{
+"id": "fis_webatlas_f",
+"name": "WebAtlas Berlin (farbig)",
+"url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_webatlasberlin",
+"typ": "WMS",
+"format": "image/png",
+"layers": "0",
+"version": "1.1.1",
+"singleTile": false,
+"transparent": true,
+"transparency": 0,
+"tilesize": "512",
+"minScale": "10010",
+"maxScale": "2500000",
+"gfiAttributes": "ignore",
+"legendURL": "ignore",
+"gfiTheme": "default",
+"cache": true,
+"featureCount": "1"
+},
+
+{
+"id": "fis_webatlas_sw",
+"name": "WebAtlas Berlin (s/w)",
+"url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_webatlasberlin",
+"typ": "WMS",
+"format": "image/png",
+"layers": "1",
+"version": "1.1.1",
+"singleTile": false,
+"transparent": true,
+"transparency": 0,
+"tilesize": "512",
+"minScale": "10010",
+"maxScale": "2500000",
+"gfiAttributes": "ignore",
+"legendURL": "ignore",
+"gfiTheme": "default",
+"cache": true,
+"featureCount": "1"
+},
+
+{
+"id": "lor_plr",
+"name": "Planungsregionen",
+"url": "ressources/geojson/lor_plr.geojson",
+"typ": "GeoJSON",
+"infoFormat": "text/html",
+"gfiTheme": "default",
+"gfiAttributes": {
+    "PLANUNGSRA": "Name",
+    "SCHLUESSEL": "LOR-ID",
+    "BEZIRKSREG": "Teil der Bezirksregion",
+    "FLAECHENGR": {
+        "name": "Flächengröße",
+        "suffix": "m²"
+        },
+    "EW_ZAHL": {
+        "name": "Einwohnerzahl (Quelle AfS)",
+				"suffix": "(Stand 31.12.2020)"
+        },
+    "LINK_EXTERN": "Weitere Informationen"
+    },
+"cache": false
+},
+{
+"id": "lor_bzr",
+"name": "Bezirksregionen",
+"url": "ressources/geojson/lor_plr.geojson",
+"typ": "GeoJSON",
+"gfiTheme": "none",
+"gfiAttributes": "ignore"
+},
+
+{
+"id": "sfs_i",
+"name": "Seniorenfreizeitstätte",
+"url": "ressources/geojson/SFS_i.geojson",
+"typ": "GeoJSON",
+"gfiTheme": "default",
+"gfiAttributes": {
+    "EB_Name": "Name",
+    "EB_Lage": "Adresse",
+    "EB_PLZ": {
+        "name": "PLZ & Ort",
+        "suffix": "Berlin"
+        },
+    "EB_Mail": "Email",
+    "EB_WWW": "weitere Informationen"
+    },
+"cache": false
+},
+
+{
+"id": "Spielplatz_i",
+"name": "öffentlicher Spielplatz",
+"url": "ressources/geojson/Spielplatz_i.geojson",
+"typ": "GeoJSON",
+"gfiTheme": "default",
+"gfiAttributes": {
+    "NAMENR": "Ort",
+    "Art": "Typ"
+    },
+"cache": false
+},
+
+{
+"id": "Schule_i",
+"name": "öffentliche Schule",
+"url": "ressources/geojson/Schule_i.geojson",
+"typ": "GeoJSON",
+"gfiTheme": "default",
+"gfiAttributes": {
+    "Name": "Name",
+    "Schulart": "Schulart",
+    "Adresse": "Adresse",
+    "PLZ": {
+        "name": "PLZ & Ort",
+        "suffix": "Berlin"
+        },
+    "Telefon": "Telefon",
+    "EMAIL": "Email",
+    "Portraet": "Schulporträt",
+    "Internet": "weitere Informationen"
+    },
+"cache": false
+},
+
+{
+"id": "Musikschule_i",
+"name": "öffentliche Musikschule",
+"url": "ressources/geojson/Musikschule_i.geojson",
+"typ": "GeoJSON",
+"gfiTheme": "default",
+"gfiAttributes": {
+    "EB_Name": "Name",
+    "EB_Lage": "Adresse",
+    "EB_PLZ": {
+        "name": "PLZ & Ort",
+        "suffix": "Berlin"
+        },
+    "WWW": "weitere Informationen"
+    },
+"cache": false
+},
+
+{
+"id": "Bibliothek_i",
+"name": "öffentliche Bibliothek",
+"url": "ressources/geojson/Bibliothek_i.geojson",
+"typ": "GeoJSON",
+"gfiTheme": "default",
+"gfiAttributes": {
+    "EB_Name": "Name",
+    "EB_Lage": "Adresse",
+    "EB_PLZ": {
+        "name": "PLZ & Ort",
+        "suffix": "Berlin"
+        },
+    "EB_WWW": "weitere Informationen"
+    },
+"cache": false
+},
+
+{
+"id": "Kita_i",
+"name": "Kindertagesstätten",
+"url": "ressources/geojson/Kita_i.geojson",
+"typ": "GeoJSON",
+"gfiTheme": "default",
+"gfiAttributes": {
+    "Einricht_1": "Name",
+    "Adresse": "Adresse",
+    "PLZ": {
+        "name": "PLZ & Ort",
+        "suffix": "Berlin"
+        },
+    "email": "Email",
+    "internet": "weitere Informationen"
+    },
+"cache": false
+}
 ]
