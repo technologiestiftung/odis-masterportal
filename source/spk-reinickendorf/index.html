@@ -7,53 +7,38 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
 
-    <title>Karten und Geoinformationen Reinickendorf</title>
-    <link rel="stylesheet" href="../mastercode/2_5_4/css/masterportal.css">
-    <link rel="stylesheet" href="css/lor.css">
+    <title>Geodaten Reinickendorf</title> <!-- enter your own Portal Title for the website at this -->
+    <link rel="stylesheet" href="../mastercode/2_6_1/css/masterportal.css">
+    <link rel="stylesheet" href="css/lor.css"> <!-- Here you can configure your own fonts -->
 
     <style>
-				#portal-text {
-            display: none;
-				}
-
-				#dpidiv {
-            height: 1in;
-            left: -100%;
-            position: absolute;
-            top: -100%;
-            width: 1in;
-        }
+            #portal-text {
+                         display: none;
+                         }
+            #dpidiv      {
+                         height: 1in;
+                         left: -100%;
+                         position: absolute;
+                         top: -100%;
+                         width: 1in;
+                         }
     </style>
 </head>
 <body>
-    <div class="masterportal-container">
-        <div class="loading">
-            <img id="portal-logo" src="../spk-reinickendorf/ressources/img/logo_geoportal_loader.png" width="40px">
-            <div id="portal-text">Geoportal Reinickendorf</div>
-            <div id="init-loader"><img src="../mastercode/2_5_4/img/ajax-loader.gif"></div>
-        </div>
-        <div id="loader" style="display: none;"><img src="../mastercode/2_5_4/img/ajax-loader.gif"></div>
-        <div id='dpidiv'></div>
-        <div id="popup"></div>
-        <nav id="main-nav" class="navbar navbar-default" role="navigation">
-            <div id="navbarRow">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Navigation ein-/ausblenden</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav-menu" id="root">
-                    </ul>
-                </div>
+    <div id="masterportal-root"></div>
+
+    <div id="loader" class="centered-box-wrapper loader-is-loading loader-is-initially-loading">
+        <div class="centered-box-content">
+            <!-- Here you can configure the start screen -->
+            <div id="portal-logo-box">
+                <img id="portal-logo" src="../spk-reinickendorf/ressources/img/logo_geoportal_loader.png" /><!-- Here an own logo can be integrated -->
+                <div id="portal-logo-main-title">Geodatenportal Reinickendorf</div><!-- Here you can enter your own logo text -->
+                <div id="portal-logo-sub-title">Sozialraumorientierte Planungskoordination</div><!-- Here you can enter your own Portal Title -->
             </div>
-        </nav>
-        <div id="map"></div>
-        <script type="text/javascript" src="../mastercode/2_5_4/js/masterportal.js"></script>
-<!--    		<link rel="stylesheet" href="css/lor.css"> ->
+            <div id="loader-spinner-itself" class="default"></div>
+        </div>
+        <div id="generic-masterportal-logo"><img src="../mastercode/2_6_1/img/Logo_Masterportal.svg"><!-- This logo should not be changed, as it is a central part of the Masterportal --></div>
     </div>
+    <script type="text/javascript" src="../mastercode/2_6_1/js/masterportal.js"></script>
 </body>
 </html>
