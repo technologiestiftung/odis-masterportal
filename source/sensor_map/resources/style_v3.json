@@ -5,49 +5,49 @@
       {
         "conditions": {
           "properties": {
-            "name": "Partylärm"
+            "Status": "gesetzt"
           }
         },
         "style": {
             "type": "circle",
             "circleRadius": 20,
-            "circleFillColor": [255, 0, 0, 1]
+            "circleFillColor": [127, 255, 0, 1]
           }
       },
       {
         "conditions": {
           "properties": {
-            "name": "Baulärm"
+            "Status": "genauer Vorschlag"
           }
         },
         "style": {
             "type": "circle",
             "circleRadius": 20,
-            "circleFillColor": [255, 255, 0, 1]
+            "circleFillColor": [255, 165, 0, 1]
           }
       },
       {
         "conditions": {
           "properties": {
-            "name": "Verkehrslärm"
+            "Status": "grober Vorschlag"
           }
         },
         "style": {
             "type": "circle",
             "circleRadius": 20,
-            "circleFillColor": [255, 255, 255, 1]
+            "circleFillColor": [255, 17, 0, 1]
           }
       },
       {
         "conditions": {
           "properties": {
-            "name": "Sonstiges"
+            "Status": "bestätigter Kontakt"
           }
         },
         "style": {
             "type": "circle",
             "circleRadius": 20,
-            "circleFillColor": [255, 155, 55, 1]
+            "circleFillColor": [0, 136, 0, 1]
           }
       },
         {"style": {
