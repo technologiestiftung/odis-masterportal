@@ -101,10 +101,10 @@
 					"id": "wfs_t_id",
 					"name": "Vorschläge für Sensor-Standorte",
 					"styleId": "wfs_t_id",
-					"layerAttribution": "Keine Attribution",
 					"visibility": true,
 					"mouseHoverField": ["name"],
-					"searchField": ["Art"]
+					"searchField": ["Art"],
+					"layerAttribution": "Für Status bitte eine dieser Ausprägungen eintragen:<br>grober Vorschlag, genauer Vorschlag, bestätigter Kontakt, gesetzt"
 				},
 				{
 					"id": "kiez",

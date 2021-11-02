@@ -1057,7 +1057,6 @@
         "Kontaktperson/gemeldet durch":"Sensor-Pate",
         "name":"Art"
       },
-      "layerAttribution": "Für Status bitte eine dieser Ausprägungen eintragen:<br>grober Vorschlag, genauer Vorschlag, bestätigter Kontakt, gesetzt",
       "legend": true,
       "datasets": []
     },
