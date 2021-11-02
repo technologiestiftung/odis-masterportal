@@ -7,10 +7,10 @@ const Config = {
     footer: {
         urls: [
             {
-                "bezeichnung": "Geodaten Pankow",
-                "url": "https://www.berlin.de/ba-pankow/",
-                "alias": "Daten des Bezirksamts Pankow",
-                "alias_mobil": "Geodaten Pankow"
+                "bezeichnung": "",
+                "url": "",
+                "alias": "",
+                "alias_mobil": ""
             }
         ],
         showVersion: true
