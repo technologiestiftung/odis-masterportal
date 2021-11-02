@@ -1066,9 +1066,7 @@
       "version": "1.1.0",
       "featureNS": "http://www.mapserver.org/tinyows/",
       "outputFormat": "XML",
-      "gfiAttributes": {
-        "name":"name"
-      },
+      "gfiAttributes": "showAll",
       "layerAttribution": "nicht vorhanden",
       "legend": true,
       "datasets": []
