@@ -16,7 +16,7 @@
 		},
 		"mapView": {
 			"backgroundImage": "./resources/img/backgroundCanvas.jpeg",
-			"startCenter": [394225.65,5823359.81],
+			"startCenter": [394279.06,5817613.92],
 			"epsg": "EPSG:25833",
 			"extent": [369097.85,5799298.14,416865.04,5838236.21],
 			"startZoomLevel": 4
@@ -45,56 +45,23 @@
 						"edit": "Edit",
 						"delete": true
 					},
-					"print": {
-						"name": "translate#common:menu.tools.print",
-						"glyphicon": "glyphicon-print",
-						"mapfishServiceId": "mapfish",
-						"printAppId": "master",
-						"filename": "Ausdruck",
-						"title": "Mein Titel",
-						"version": "mapfish_print_3"
-					},
-					"gfi": {
-            "name": "Informationen abfragen",
-            "glyphicon": "glyphicon-info-sign",
-						"active": true
-					},
-					"searchByCoord": {
-						"name": "Koordinatensuche"
-					},
-					"supplyCoord": {
-						"name": "Koordinaten abfragen",
-						"glyphicon": "glyphicon-screenshot"
-					},
-					"measure": {
-						"name": "Strecke / Fläche messen"
-					},
-					"draw": {
-						"name": "Zeichnen / Schreiben",
-            "glyphicon": "glyphicon-pencil"
-					},
-					"fileImport": {
-            "name": "Datei Import",
-            "glyphicon": "glyphicon-import"
-					},
+					
 					"saveSelection": {
 						"name": "Auswahl speichern"
-					}
+					},
+					"gfi": {
+						"name": "Informationen abfragen",
+						"glyphicon": "glyphicon-info-sign",
+									"active": true
+								},
+								"supplyCoord": {
+									"name": "Koordinaten abfragen",
+									"glyphicon": "glyphicon-screenshot"
+								}
 				}
 			},
 			"legend": {
 				"name": "Legende"
-			},
-			"info": {
-				"name": "Informationen",
-				"children": {
-					"staticlinks": [
-						{
-							"name": "Masterportal",
-							"url": "https://masterportal.org"
-						}
-					]
-				}
 			}
 		},
 		"controls": {
@@ -109,6 +76,12 @@
 	"Themenconfig": {
 		"Hintergrundkarten": {
 			"Layer": [
+				{
+					"id": "laerm_gesamt",
+					"name": "Strategische Lärmkarte (2017)",
+					"visibility": true,
+					"transparency": "30"
+				},
         {
 					"id": "102",
 					"name": "Luftbilder",
@@ -119,6 +92,7 @@
           "name": "Stadtplan",
 				  "visibility": true
 				}
+				
 			]
 		},
 		"Fachdaten": {
@@ -129,8 +103,14 @@
 					"styleId": "wfs_t_id",
 					"layerAttribution": "Keine Attribution",
 					"visibility": true,
-					"mouseHoverField": ["Ort"],
-					"searchField": ["Ort"]
+					"mouseHoverField": ["name"],
+					"searchField": ["Art"]
+				},
+				{
+					"id": "kiez",
+					"name": "Wrangelkiez",
+					"styleId":"lor",
+					"visibility": true
 				}
 			]
 		}

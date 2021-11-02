@@ -1019,46 +1019,30 @@
       ]
     },
     {
-      "id": "13716",
-      "name": "M2500 N",
-      "url": "https://geodienste.hamburg.de/HH_WMS_Geobasiskarten",
+      "id": "laerm_gesamt",
+      "name": "laerm_gesamt",
+      "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/wmsk_07_05_14verkehr_gesDEN2016",
       "typ": "WMS",
-      "layers": "30",
+      "layers": "2",
+      "coordinateSystem": "EPSG:25833",
       "format": "image/png",
       "version": "1.3.0",
       "singleTile": false,
       "transparent": true,
       "transparency": 0,
       "tilesize": "512",
-      "gutter": "0",
-      "minScale": "0",
-      "maxScale": "2509",
-      "gfiAttributes": "ignore",
+      "gutter": "5",
+      "gfiAttributes": "showAll",
       "gfiTheme": "default",
       "layerAttribution": "nicht vorhanden",
-      "legendURL": "ignore",
+      "legendURL": "",
       "cache": false,
-      "featureCount": "1",
-      "datasets": [
-        {
-          "md_id": "B6A59A2B-2D40-4676-9094-0EB73039ED34",
-          "rs_id": "https://registry.gdi-de.org/id/de.hh/001719df-6619-40b7-aefe-32e8aaf49337",
-          "md_name": "GeoBasisKarten Hamburg",
-          "bbox": "466251.43,5844577.89,661887.13,6042030.31",
-          "kategorie_opendata": [
-            "Sonstiges"
-          ],
-          "kategorie_inspire": [
-            "nicht INSPIRE-identifiziert"
-          ],
-          "kategorie_organisation": "Landesbetrieb Geoinformation und Vermessung"
-        }
-      ]
+      "featureCount": "1"
     },
     {
       "id": "wfs_t_id",
       "name": "WFS-T Test",
-      "url": "tinyows",
+      "url": "https://masterportal.onrender.com/ServicesBasic/tinyows",
       "typ": "WFS",
       "format":"image/png",
       "featurePrefix":"tows",
@@ -1066,9 +1050,27 @@
       "version": "1.1.0",
       "featureNS": "http://www.mapserver.org/tinyows/",
       "outputFormat": "XML",
-      "gfiAttributes": "showAll",
+      "gfiAttributes": {
+        "Ort":"Ort",
+        "Bemerkung":"Bemerkung",
+        "Status":"Status",
+        "Sensor_Pate":"Sensor-Pate",
+        "name":"Art"
+      },
       "layerAttribution": "nicht vorhanden",
       "legend": true,
       "datasets": []
+    },
+    {
+      "id" : "kiez",
+      "name" : "Wrangelkiez",
+      "url" : "resources/geojson/Wrangelkiez.geojson",
+      "typ" : "GeoJSON",
+      "gfiAttributes" : {
+        "planungsraum":"Planungsraum"
+        
+      },
+      "layerAttribution" : "nicht vorhanden",
+      "legendURL" : ""
     }
 ]

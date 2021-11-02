@@ -3,12 +3,59 @@
     "styleId": "wfs_t_id",
     "rules": [
       {
+        "conditions": {
+          "properties": {
+            "name": "Partylärm"
+          }
+        },
         "style": {
             "type": "circle",
             "circleRadius": 20,
             "circleFillColor": [255, 0, 0, 1]
           }
-      }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "name": "Baulärm"
+          }
+        },
+        "style": {
+            "type": "circle",
+            "circleRadius": 20,
+            "circleFillColor": [255, 255, 0, 1]
+          }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "name": "Verkehrslärm"
+          }
+        },
+        "style": {
+            "type": "circle",
+            "circleRadius": 20,
+            "circleFillColor": [255, 255, 255, 1]
+          }
+      },
+      {
+        "conditions": {
+          "properties": {
+            "name": "Sonstiges"
+          }
+        },
+        "style": {
+            "type": "circle",
+            "circleRadius": 20,
+            "circleFillColor": [255, 155, 55, 1]
+          }
+      },
+        {"style": {
+            "type": "circle",
+            "circleRadius": 20,
+            "circleFillColor": [55, 55, 55, 1]
+          }
+        }
     ]
   },
   {
@@ -18,7 +65,7 @@
         "style": {
             "type": "polygon  ",
             "polygonStrokeWidth":5,
-            "polygonStrokeColor": [255, 0, 0, 1],
+            "polygonStrokeColor": [0, 0, 0, 1],
             "polygonFillColor": [0, 255, 0, 0.001]
           }
       }
@@ -31,7 +78,7 @@
         "style": {
             "type": "polygon  ",
             "polygonStrokeColor": [0, 0, 0, 1],
-            "polygonFillColor": [0, 255, 0, 0.5]
+            "polygonFillColor": [255, 255, 255, 0.5]
           }
       }
     ]
