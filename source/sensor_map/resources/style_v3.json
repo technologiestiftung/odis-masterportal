@@ -5,7 +5,7 @@
       {
         "conditions": {
           "properties": {
-            "Status": "gesetzt"
+            "Status": "angebracht"
           }
         },
         "style": {
@@ -17,7 +17,7 @@
       {
         "conditions": {
           "properties": {
-            "Status": "genauer Vorschlag"
+            "Status": "geplant"
           }
         },
         "style": {
@@ -29,7 +29,7 @@
       {
         "conditions": {
           "properties": {
-            "Status": "grober Vorschlag"
+            "Status": "zusätzliche"
           }
         },
         "style": {
@@ -41,7 +41,7 @@
       {
         "conditions": {
           "properties": {
-            "Status": "bestätigter Kontakt"
+            "Status": "backup"
           }
         },
         "style": {

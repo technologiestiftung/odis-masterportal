@@ -104,7 +104,7 @@
 					"visibility": true,
 					"mouseHoverField": ["name"],
 					"searchField": ["Art"],
-					"layerAttribution": "Für Status bitte eine dieser Ausprägungen eintragen:<br>grober Vorschlag, genauer Vorschlag, bestätigter Kontakt, gesetzt"
+					"layerAttribution": "Für Status bitte eine dieser Ausprägungen eintragen:<br> ‘angebracht, geplant, zusätzliche, backup’"
 				},
 				{
 					"id": "kiez",
