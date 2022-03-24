@@ -1,4 +1,6 @@
-# odis-masterportal
+![](https://img.shields.io/badge/Build%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiesitftung%20Berlin-blue)
+
+# ODIS Masterportal
 Dockerized version of the masterportal.org  for exploration. Original source can be found under https://bitbucket.org/geowerkstatt-hamburg/masterportal/src/dev/
 Based on Masterportal Version 2.5.4
 
