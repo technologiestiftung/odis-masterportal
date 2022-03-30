@@ -153,7 +153,14 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 <table>
   <tr>
     <td>
-      <a src="https://citylab-berlin.org/en/start/">
+      <a src="https://odis-berlin.de">
+        <br />
+        <br />
+        <img width="200" src="https://logos.citylab-berlin.org/logo-odis-berlin.svg" />
+      </a>
+    </td>
+    <td>
+      Together with: <a src="https://citylab-berlin.org/en/start/">
         <br />
         <br />
         <img width="200" src="https://logos.citylab-berlin.org/logo-citylab-berlin.svg" />
@@ -167,10 +174,12 @@ This project follows the [all-contributors](https://github.com/all-contributors/
       </a>
     </td>
     <td>
-      Supported by:
-      <br />
-      <br />
-      <img width="120" src="https://logos.citylab-berlin.org/logo-berlin.svg" />
+      Supported by: <a src="https://www.berlin.de/rbmskzl/en/">
+        <br />
+        <br />
+        <img width="80" src="https://logos.citylab-berlin.org/logo-berlin-senweb-en.svg" />
+      </a>
     </td>
   </tr>
 </table>
+
