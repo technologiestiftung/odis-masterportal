@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   width="23.000002"
+   height="23"
+   viewBox="0 0 23.000002 23"
+   enable-background="new 0 0 100 100"
+   xml:space="preserve"
+   sodipodi:docname="Seniorenfreizeitstaetten.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs31464">
+	
+	
+</defs><sodipodi:namedview
+   id="namedview31462"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="8.32"
+   inkscape:cx="23.978365"
+   inkscape:cy="25.300481"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Ebene_1"
+   inkscape:showpageshadow="2"
+   inkscape:deskcolor="#d1d1d1" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="26.502899"
+   y1="52.998001"
+   x2="77.503899"
+   y2="52.998001">
+	<stop
+   offset="1"
+   style="stop-color:#FFFFFF"
+   id="stop31442" />
+	<stop
+   offset="1"
+   style="stop-color:#000000"
+   id="stop31444" />
+</linearGradient>
+<ellipse
+   fill="url(#SVGID_1_)"
+   stroke-width="1.67273"
+   stroke-miterlimit="10"
+   cx="11.500001"
+   cy="11.5"
+   id="circle31447"
+   style="fill:#ffffff;fill-opacity:1;stroke:#216778;stroke-opacity:1"
+   rx="10.663636"
+   ry="10.663635" />
+
+<g
+   id="g31455"
+   transform="translate(-24.502997,-25.497999)">
+</g>
+
+<g
+   id="g835"
+   transform="matrix(0.40758254,0,0,0.40758254,0.23470058,0.15447547)"><g
+     id="g3155"
+     transform="matrix(1.0788518,0,0,1.0788518,-2.8941566,-0.579152)"><circle
+       style="fill:#216778;fill-opacity:1;stroke:#216778;stroke-width:1.07412;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1415"
+       cx="29.959654"
+       cy="19.317671"
+       r="3.5814233" /><path
+       id="rect1605"
+       style="fill:#216778;fill-opacity:1;stroke:#216778;stroke-width:1.28942;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 26.618854,24.193778 -5.035372,4.941824 c -0.378229,0.371255 -0.407129,0.963497 -0.06499,1.326787 0.342147,0.36329 0.921435,0.356309 1.299665,-0.01495 l 3.710713,-2.810638 v 8.561156 l 0.01,7.248343 c 0,0.555624 0.62001,1.027886 1.104716,1.027886 0.484707,0 1.131375,-0.447353 1.131375,-1.002979 v -6.383475 h 2.40105 v 6.383475 c 0,0.555626 0.620008,1.002979 1.104715,1.002979 0.484707,0 1.106381,-0.447353 1.106381,-1.002979 l 0.01166,-7.27325 v -8.625111 l 3.702381,2.874594 c 0.378229,0.371255 0.957518,0.378236 1.299665,0.01494 0.342148,-0.363289 0.313248,-0.955531 -0.06499,-1.326786 l -5.053497,-4.887631 -6.663489,-0.0542 z"
+       sodipodi:nodetypes="ccsccccssccssccccscccc" /><path
+       style="fill:none;stroke:#216778;stroke-width:2.96419;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 15.425504,33.727516 c 0,-3.16643 4.918323,-2.635966 4.918323,0 0,1.773282 0,10.009287 0,10.009287"
+       id="path21644"
+       sodipodi:nodetypes="csc" /></g><path
+     id="path1307"
+     style="fill:none;stroke:#216778;stroke-width:3.22514;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:transform-center-y="-1.9762729"
+     d="m 8.295543,20.334624 8.288186,-4.636071 10.796079,-5.9507331 10.79608,5.9507331 8.288185,4.636071" /></g></svg>

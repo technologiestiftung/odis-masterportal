@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   width="23.000002"
+   height="23"
+   viewBox="0 0 23.000002 23"
+   enable-background="new 0 0 100 100"
+   xml:space="preserve"
+   sodipodi:docname="Hundefreilaufflaeche.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs18" /><sodipodi:namedview
+   id="namedview16"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="8.32"
+   inkscape:cx="15.324519"
+   inkscape:cy="18.689904"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Ebene_1"
+   inkscape:showpageshadow="2"
+   inkscape:deskcolor="#d1d1d1" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="26.835899"
+   y1="49.977501"
+   x2="77.836899"
+   y2="49.977501"
+   gradientTransform="matrix(0.41818186,0,0,0.41818178,-10.385964,-9.3998888)">
+	<stop
+   offset="1"
+   style="stop-color:#FFFFFF"
+   id="stop2" />
+	<stop
+   offset="1"
+   style="stop-color:#000000"
+   id="stop4" />
+</linearGradient>
+<ellipse
+   stroke-width="1.67273"
+   stroke-miterlimit="10"
+   cx="11.500001"
+   cy="11.5"
+   id="circle7"
+   style="fill:url(#SVGID_1_);stroke:#206631;stroke-opacity:1"
+   rx="10.663636"
+   ry="10.663635" />
+
+<g
+   id="g834"
+   transform="matrix(0.41172561,0,0,0.41172561,0.13718021,-0.54898842)"><rect
+     style="fill:#206631;fill-opacity:1;stroke:#206631;stroke-width:1.99462;stroke-linecap:round;stroke-opacity:1"
+     id="rect1089"
+     width="20.643774"
+     height="8.6209946"
+     x="14.330326"
+     y="27.197365"
+     ry="1.115096"
+     transform="matrix(0.99994872,0.01012715,-0.0065187,0.99997875,0,0)" /><rect
+     style="fill:#206631;fill-opacity:1;stroke:#206631;stroke-width:2.75004;stroke-linecap:round;stroke-opacity:1"
+     id="rect1193"
+     width="1.0818957"
+     height="9.7949266"
+     x="24.746832"
+     y="25.814581"
+     ry="0.30996603"
+     transform="matrix(0.93981402,0.34168642,-0.31417176,0.94936616,0,0)" /><rect
+     style="fill:#206631;fill-opacity:1;stroke:#206631;stroke-width:2.59754;stroke-linecap:round;stroke-opacity:1"
+     id="rect1193-6"
+     width="0.97930217"
+     height="9.6542053"
+     x="20.02503"
+     y="-54.608856"
+     ry="0.30551282"
+     transform="matrix(0.90112631,-0.43355666,-0.32884865,-0.94438264,0,0)" /><path
+     style="fill:#206631;fill-opacity:1;stroke:none;stroke-width:1.18306px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 14.630344,29.889797 10.64305,27.565552 c -2.587965,-1.508558 -1.554692,-4.889064 -0.512324,-4.458327 4.523674,1.869316 4.693886,2.892044 5.249555,3.622988 1.426817,1.876877 0.929922,3.159584 0.929922,3.159584 z"
+     id="path1692"
+     sodipodi:nodetypes="cssscc" /><path
+     style="fill:#206631;fill-opacity:1;stroke:none;stroke-width:1.20896px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 28.716647,26.720063 -0.07516,-15.169867 c 0,0 1.791112,-1.159543 2.233005,0.813581 0.610654,2.726662 3.417529,4.229035 3.417529,4.229035 0,0 8.681883,1.438571 13.502782,4.807082 2.492964,1.741912 -6.074096,7.700103 -7.481533,7.572417 z"
+     id="path2700"
+     sodipodi:nodetypes="ccscssc" /></g></svg>

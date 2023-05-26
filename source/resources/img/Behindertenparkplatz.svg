@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   width="23.000002"
+   height="23"
+   viewBox="0 0 23.000002 23"
+   enable-background="new 0 0 100 100"
+   xml:space="preserve"
+   sodipodi:docname="Behindertenparkplatz.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs26" /><sodipodi:namedview
+   id="namedview24"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="8.32"
+   inkscape:cx="23.978365"
+   inkscape:cy="27.704327"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Ebene_1"
+   inkscape:showpageshadow="2"
+   inkscape:deskcolor="#d1d1d1" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="28.085899"
+   y1="49.806599"
+   x2="79.086899"
+   y2="49.806599"
+   gradientTransform="matrix(0.41818186,0,0,0.41818178,-10.908691,-9.3283785)">
+	<stop
+   offset="1"
+   style="stop-color:#FFFFFF"
+   id="stop2" />
+	<stop
+   offset="1"
+   style="stop-color:#000000"
+   id="stop4" />
+</linearGradient>
+<ellipse
+   fill="url(#SVGID_1_)"
+   stroke="#2764ae"
+   stroke-width="1.67273"
+   stroke-miterlimit="10"
+   cx="11.500001"
+   cy="11.5"
+   id="circle7"
+   style="fill:url(#SVGID_1_)"
+   rx="10.663636"
+   ry="10.663635" />
+<g
+   id="g21"
+   transform="matrix(0.42740637,0,0,0.42740637,-11.705863,-9.9297223)">
+	<path
+   fill="none"
+   stroke="#2764ae"
+   stroke-width="3"
+   stroke-miterlimit="10"
+   d="m 61.279,56.709 c 0,5.668 -4.594,10.449 -10.264,10.449 -5.667,0 -10.263,-4.594 -10.263,-10.264 0,-5.668 4.595,-10.263 10.263,-10.263"
+   id="path9" />
+	<path
+   fill="#2764ae"
+   d="m 55.168,53.688 c 0,1.383 -1.598,2.506 -3.566,2.506 v 0 c -1.971,0 -3.568,-1.123 -3.568,-2.506 V 42.354 c 0,-1.384 1.597,-2.506 3.568,-2.506 v 0 c 1.969,0 3.566,1.122 3.566,2.506 z"
+   id="path11" />
+	<path
+   fill="#2764ae"
+   d="m 62.303,53.447 c 0,1.904 -1.16,3.447 -2.595,3.447 h -9.08 c -1.433,0 -2.596,-1.543 -2.596,-3.447 v 0 C 48.032,51.543 49.195,50 50.628,50 h 9.08 c 1.435,0 2.595,1.543 2.595,3.447 z"
+   id="path13" />
+	<path
+   fill="#2764ae"
+   d="m 69.008,59.616 c 1.08,1.48 0.925,2.781 -0.098,3.48 l -0.671,0.43 c -1.022,0.699 -2.698,0.297 -3.777,-1.186 l -5.866,-8.042 c -1.08,-1.481 -1.127,-3.247 -0.104,-3.946 v 0 c 1.023,-0.7 3.233,-0.368 4.313,1.11 z"
+   id="path15" />
+	<path
+   fill="#2764ae"
+   d="m 61.279,45.508 c 0,1.11 -0.637,2.008 -1.427,2.008 h -6.714 c -0.788,0 -1.425,-0.898 -1.425,-2.008 v 0 c 0,-1.11 0.638,-2.008 1.425,-2.008 h 6.714 c 0.791,0 1.427,0.898 1.427,2.008 z"
+   id="path17" />
+	<circle
+   fill="#2764ae"
+   cx="51.602001"
+   cy="35.410999"
+   r="5.0009999"
+   id="circle19" />
+</g>
+</svg>

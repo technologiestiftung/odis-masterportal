@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "fisintra_jugendks2021",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "ES_ID": "JKS_12.01", "EB_ETO": "Öff. und öff. geförderte Kultur- und weitere Bildungseinrichtungen", "EB_ETO_ID": "03", "EB_ET": "Jugendkunstschule", "EB_ET_ID": "03.J", "EB_Name": "JKS \"Atrium\"", "ES_Name_kurz": null, "EB_Lage": "Senftenberger Ring 97", "EB_PLZ": "13435", "EB_Ort": "Berlin", "EL_Bez_ID": "12", "EB_WWW": "https://www.atrium-berlin.de/", "Stand": "2021-12-31T00:00:00", "ES_Anm": null }, "geometry": { "type": "Point", "coordinates": [ 388487.207712307863403, 5829236.527988753281534 ] } }
+]
+}

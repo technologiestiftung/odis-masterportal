@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Volkshochschule.svg"
+   xml:space="preserve"
+   enable-background="new 0 0 100 100"
+   viewBox="0 0 23.000002 23"
+   height="23"
+   width="23.000002"
+   y="0px"
+   x="0px"
+   id="Ebene_1"
+   version="1.1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><metadata
+   id="metadata15"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs31464">
+	
+	
+</defs><sodipodi:namedview
+   inkscape:document-rotation="0"
+   inkscape:current-layer="Ebene_1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-8"
+   inkscape:window-x="-8"
+   inkscape:window-height="1017"
+   inkscape:window-width="1920"
+   inkscape:cy="15.446714"
+   inkscape:cx="12.047162"
+   inkscape:zoom="23.532514"
+   showgrid="false"
+   inkscape:pagecheckerboard="0"
+   inkscape:pageopacity="0.0"
+   inkscape:pageshadow="2"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="namedview31462"
+   inkscape:showpageshadow="2"
+   inkscape:deskcolor="#d1d1d1" />
+<linearGradient
+   y2="52.998001"
+   x2="77.503899"
+   y1="52.998001"
+   x1="26.502899"
+   gradientUnits="userSpaceOnUse"
+   id="SVGID_1_">
+	<stop
+   id="stop31442"
+   style="stop-color:#FFFFFF"
+   offset="1" />
+	<stop
+   id="stop31444"
+   style="stop-color:#000000"
+   offset="1" />
+</linearGradient>
+<ellipse
+   style="fill:#ffffff;fill-opacity:1;stroke:#577534;stroke-opacity:1"
+   id="circle31447"
+   cy="11.5"
+   cx="11.500001"
+   stroke-miterlimit="10"
+   stroke-width="1.67273"
+   stroke="#577534"
+   fill="url(#SVGID_1_)"
+   rx="10.663636"
+   ry="10.663635" />
+
+<g
+   transform="translate(-24.502997,-25.497999)"
+   id="g31455">
+</g>
+
+<path
+   id="path1307"
+   style="fill:none;stroke:#577534;stroke-width:1.54418;stroke-dasharray:none;stroke-opacity:1"
+   inkscape:transform-center-y="-2.2253537"
+   d="m 2.4132244,9.5833769 3.9003994,-2.258379 5.0806082,-2.8987938 5.080609,2.8987938 3.900399,2.258379" /><text
+   transform="scale(0.97198524,1.0288222)"
+   id="text32498"
+   y="16.742098"
+   x="3.2478147"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6454px;line-height:1.45;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';letter-spacing:-0.237934px;word-spacing:0px;fill:#577534;fill-opacity:1;stroke:none;stroke-width:0.510979;stroke-miterlimit:10;stroke-dasharray:none"
+   xml:space="preserve"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6454px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold';fill:#577534;fill-opacity:1;stroke-width:0.510979;stroke-miterlimit:10;stroke-dasharray:none"
+     y="16.742098"
+     x="3.2478147"
+     id="tspan32496"
+     sodipodi:role="line"
+     dx="0"
+     dy="0"
+     rotate="0 0 0 0">VHS</tspan></text></svg>

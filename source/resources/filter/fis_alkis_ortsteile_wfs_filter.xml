@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:GetFeature service="WFS" version="1.1.0" xmlns:fis="http://www.berlin.de/broker" xmlns:wfs="http://www.opengis.net/wfs" xmlns:ogc="http://www.opengis.net/ogc">
+    <wfs:Query typeName="fis:s_wfs_alkis_ortsteile">
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsBetween>
+                    <ogc:PropertyName>sch</ogc:PropertyName>
+										<ogc:LowerBoundary>
+                			<ogc:Literal>110000120000</ogc:Literal>
+              			</ogc:LowerBoundary>
+              			<ogc:UpperBoundary>
+                			<ogc:Literal>110000129999</ogc:Literal>
+              			</ogc:UpperBoundary>
+                </ogc:PropertyIsBetween>
+            </ogc:And>
+        </ogc:Filter>
+    </wfs:Query>
+</wfs:GetFeature>

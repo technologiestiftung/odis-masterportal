@@ -1,0 +1,511 @@
+/*Titel des Geoportals*/
+    #title-text {
+        font-size: 18px;
+        color: #666;
+        font-weight: bold;
+    }
+
+/*Startlogo Masterportal*/
+    #portal-logo-box {
+        font-size: 23px;
+        font-weight: bold;
+        color: #666;
+        width: 320px;
+        height: 320px;
+        padding: 70px 10px 30px 10px;
+        border-radius: 200px;
+    }
+
+    #portal-logo-box img {
+        width: 110px;
+        height: auto;
+        margin-bottom: 10px;
+        margin-top: -40px;
+    }
+
+    .table-tools{
+        font-size:40px;
+    }
+
+/*Hauptnavigation ohne Ordner-Icons*/
+    .bi-folder2-open::before {
+        content: "";
+        display: none;
+    }
+
+    .bi-lightbulb::before {
+        content: "";
+        display: none;
+    }
+
+/*Schriftanpassung gesamtes Portal*/
+    :root {
+    --rdf-font-family: 'Berlin Type Office','Arial Narrow',Arial,sans-serif;
+    }
+
+    .portal-title a h1[data-v-4eba1fbe],
+    .tool-window-heading[data-v-ffa49d52],
+    .tool-window-heading .heading-element>h2[data-v-ffa49d52],
+    #legend .legend-title .title[data-v-6a497cb5],
+    .attributions-wrapper .attributions-view dt[data-v-7ae27c96],
+    .win-heading[data-v-d9078ef6],
+    .win-heading .heading-element.flex-grow>.title[data-v-d9078ef6],
+    .win-heading .heading-element>.title[data-v-d9078ef6],
+    table[data-v-4cca569c],
+    #tool-compareFeatures-select[data-v-77873f8d],
+    .drop-area-fake p.caption[data-v-da454b24],
+    .table>tbody>tr>td.bold[data-v-52f59864],
+    .gfi-header h5[data-v-eb142e1c],
+    .drop-area-fake p.caption[data-v-1b3da84d],
+    #portal-footer[data-v-0e42ec5a],
+    #masterportal-container[data-v-2312226a],
+    .font-bold,
+    #portal-logo-box,
+    .button3D>.bootstrap-icon,
+    ul#tree,
+    .navbar,
+    .tool-window>.header,
+    .title-move{
+        font-family: var(--rdf-font-family);
+        }
+
+/*Menüleiste */
+    #root .tabable,
+    ul#tree .tabable,
+    ul#legend-menu .tabable,
+    .portal-title .tabable {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    #root .tabable:hover,
+    ul#tree .tabable:hover,
+    ul#legend-menu .tabable:hover,
+    .portal-title .tabable:hover {
+        opacity: 0.5;
+        background-color: unset;
+        color: unset;
+    }
+
+    #root .tabable:hover.btn-select,
+    ul#tree .tabable:hover.btn-select,
+    ul#legend-menu .tabable:hover.btn-select,
+    .portal-title .tabable:hover.btn-select,
+    #root .tabable:hover:active,
+    ul#tree .tabable:hover:active,
+    ul#legend-menu .tabable:hover:active,
+    .portal-title .tabable:hover:active,
+    #root .tabable:hover.active,
+    ul#tree .tabable:hover.active,
+    ul#legend-menu .tabable:hover.active,
+    .portal-title .tabable:hover.active,
+    #root .tabable:hover:checked,
+    ul#tree .tabable:hover:checked,
+    ul#legend-menu .tabable:hover:checked,
+    .portal-title .tabable:hover:checked,
+    #root .tabable:hover::selection,
+    ul#tree .tabable:hover::selection,
+    ul#legend-menu .tabable:hover::selection,
+    .portal-title .tabable:hover::selection,
+    #root .tabable:hover.open,
+    ul#tree .tabable:hover.open,
+    ul#legend-menu .tabable:hover.open,
+    .portal-title .tabable:hover.open,
+    #root .tabable:hover[aria-expanded="true"],
+    ul#tree .tabable:hover[aria-expanded="true"],
+    ul#legend-menu .tabable:hover[aria-expanded="true"],
+    .portal-title .tabable:hover[aria-expanded="true"] {
+        background-color: unset;
+    }
+
+/*blaue Umrandung in der Navigationsleiste*/
+    #root .tabable:focus,
+    ul#tree .tabable:focus,
+    ul#legend-menu .tabable:focus,
+    .portal-title .tabable:focus {
+        outline: none;
+        outline: none;
+        outline: none;
+    }
+
+/*Klick auf Navigationsleiste */
+    .navbar .navbar-nav>li>a:focus{
+        color: #e40421;
+        background-color: white;
+    }
+
+/*Berlin Logo Platzierung*/
+    .portal-title a img[data-v-4eba1fbe]{
+        margin-top: -5px;
+    }
+
+/*Themenauswahl im Themenbaum*/
+    ul#tree .checked {
+        color: #e40421;
+    }
+
+/*Themenbaum Breite*/
+    ul#tree {
+        min-width: 452px;
+    }
+
+/*Transparenz Einstellung im Themenbaum*/
+    .badge {
+        padding:7px 7px;
+        font-size: 11px;
+    }
+
+    ul#tree .bootstrap-icon:hover i {
+        color:darkgray;
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-link-active-color: darkgray;
+    }
+
+
+/*Farbänderung Controlbuttons (Zoom, Info, Koordinatenabfrage)*/
+    .control-icon[data-v-6292fa01] {
+        background-color: #1d1d1c;
+    }
+
+    .control-icon[data-v-6292fa01]:hover {
+        background-color: #e40421;
+    }
+
+    .control-icon[data-v-6292fa01]:focus {
+        background-color: #e40421;
+    }
+
+    .control-icon[data-v-6292fa01]:active {
+        background-color: #e40421;
+    }
+
+    .control-icon[data-v-6292fa01]:focus {
+        outline: none;
+    }
+
+    .control-icon[data-v-6292fa01]:disabled {
+        background-color: #808080;
+    }
+
+    .mouse-position[data-v-16212ecb] {
+        background-color: #e40421;
+    }
+
+
+/*Hilfe Icon*/
+    .bi-question-circle-fill:hover {
+        color: darkgray;
+    }
+
+    .bi-question-circle-fill:focus {
+        color: #e40421;
+    }
+
+    .btn-search-question > .bootstrap-icon:hover {
+        background-color: white;
+        color: darkgray;
+    }
+
+.btn-search-question {
+    background-color: white;
+}
+
+/*Überschrift bei Hilfe Suchfunktion und Attributfenster + Close-Button*/
+    .tool-window-heading .heading-element > h2[data-v-ffa49d52]:hover:not(.win-icon){
+        background-color: white;
+        color: #1d1d1c;
+    }
+
+    .tool-window-heading .heading-element > h2[data-v-ffa49d52]:hover:not(.win-icon):active{
+        background-color: white;
+        color: #1d1d1c;
+    }
+
+    .tool-window-heading .heading-element > h2[data-v-ffa49d52] {
+        font-weight: bold;
+        margin-left: -10px;
+    }
+
+    .tool-window-heading .heading-element .bootstrap-icon[data-v-ffa49d52]:hover {
+        background-color: #e40421;
+    }
+
+    .tool-window-heading .heading-element .bootstrap-icon[data-v-ffa49d52]:hover:active{
+        background-color: #e40421;
+        outline: none;
+    }
+
+    .tool-window-heading .heading-element .bootstrap-icon[data-v-ffa49d52]:focus{
+        outline: none;
+    }
+
+/*Hilfe Suchfunktion Buttons*/
+    .table-of-contents>a[data-v-636a887a] {
+        margin-left: -3px;
+    }
+
+    .table-of-contents>a[data-v-636a887a]:hover,
+    .table-of-contents a[data-v-636a887a]:focus{
+        background-color: #e40421;
+    }
+
+/*Suchleiste*/
+    .btn-search:hover {
+        background-color: #e40421;
+        
+    }
+
+    .dropdown-menu-search li:hover span, .dropdown-menu-search li:hover {
+        color: #F3F3F3;
+    }
+
+    .btn-search:focus {
+        --bs-btn-focus-shadow-rgb: none;
+    }
+
+    input#searchInput.form-control:focus {
+        border-color: #003063;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+    }
+
+    .dropdown-menu-search li:hover {
+        background-color: #e40421;
+    }
+
+    .results { 
+        background-color: #e40421;
+    }
+
+
+/*Legende Überschrift + Close-Button*/
+    #legend .legend-title .title[data-v-6a497cb5] {
+        font-weight: bold; 
+        margin-left: -25px;
+    }
+
+    #legend .legend-title .close-legend[data-v-6a497cb5] {
+            margin-right: -25px;
+    }
+
+    #legend .legend-title .close-legend[data-v-6a497cb5]:hover {
+        background-color: #e40421;
+    }
+
+    #legend .legend-title .close-legend[data-v-6a497cb5]:focus {
+        outline: 0px;
+    }
+
+    #legend .legend-title .close-legend[data-v-6a497cb5]:hover:active {
+        background-color: #e40421;
+        outline: none;
+    }
+
+/*Layer-Attributions-Infofenster*/
+    .attributions-wrapper .attributions-view dt[data-v-7ae27c96] {
+        font-size: 11px;
+        font-weight: bold;
+        color: #e40421;
+    }
+
+    .attributions-wrapper .attributions-view dd[data-v-7ae27c96] {
+        font-size: 11px;
+    }
+
+/*Werkzeuge - Aktive Informationsabfrage Button*/
+    li.dropdown.submenu-style.active a.tabable {
+        background-color: #e40421;
+    }
+
+/*Werkzeuge - Koordinatensuche und Allgemeines*/
+    .win-heading .heading-element.flex-grow > .title[data-v-d9078ef6] {
+        font-weight: bold;
+    }
+
+    .win-heading .heading-element > .bootstrap-icon[data-v-d9078ef6] {
+        margin-top:3px;
+    }
+
+    .win-heading .heading-element>span[data-v-d9078ef6]:hover:not(.win-icon) {
+        background-color: #e40421;
+    }
+
+    .win-heading .heading-element>span[data-v-d9078ef6]:hover:not(.win-icon):active {
+        background-color: white;
+        color: darkgray;
+        outline: none;
+    }
+
+    .win-heading .heading-element>.bootstrap-icon[data-v-d9078ef6]:focus {
+        outline: 0px;
+    }
+
+    .col-md-7 [data-v-d9078ef6]:focus {
+        border-color: #003063;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+    }
+
+    .btn-primary, .btn[disabled], .btn-primary[disabled]:hover {
+        background-color: #e40421;
+        outline: none;
+        border: none;
+        --bs-btn-focus-shadow-rgb: none;
+    }
+
+    .btn[disabled] {
+        background-color: darkgray;
+    }
+
+    button[data-v-23606527] {
+        background-color: #e40421;
+        color: white;
+    }
+
+    .btn-primary:hover {
+        background-color: #444;
+    }
+
+    .btn-primary:focus {
+        background-color:#e40421;
+    }
+
+    .tool-window-vue.is-minified .win-heading[data-v-d9078ef6] {
+        background-color: #e40421;
+    }
+
+
+    .tool-window-heading .heading-element .bootstrap-icon[data-v-ffa49d52]:focus{
+        outline: none;
+    }
+
+
+/*Werkzeuge - Koordinatenabfrage*/
+    #modal-1-container .bootstrap-icon[data-v-615c331e]:focus {
+        outline: none;
+        outline: none;
+        outline: none;
+    }
+
+    #modal-1-container .bootstrap-icon[data-v-615c331e]:hover {
+        background-color: #e40421;
+    }
+
+    #modal-1-container .bootstrap-icon[data-v-615c331e]:hover:active {
+        background-color: #e40421;
+    }
+
+
+/*Werkzeuge - Datei Import*/
+
+    .drop-area-fake[data-v-da454b24]{
+        border:2px dashed #e40421;
+    }
+
+   .drop-area-fake.dzReady[data-v-da454b24]{
+        background-color:#333;
+    }
+
+    .drop-area-fake p.caption[data-v-da454b24] {
+        color:#e40421;
+    }
+
+    .upload-button-wrapper[data-v-da454b24] {
+        background-color:#e40421;
+    }
+
+    .upload-button-wrapper[data-v-da454b24]:focus {
+        outline: none;
+    }
+
+    .upload-button-wrapper[data-v-da454b24]:hover{
+        background-color:#333;
+    }
+
+    .upload-button-wrapper[data-v-da454b24]:hover:active{
+        background-color:#333;
+    }
+
+
+/*Werkzeuge - Zeichnen und Schreiben*/
+    .btn.disabled {
+        background-color: darkgray;
+    }
+
+    .btn[disabled]{
+        background-color: #e40421;
+        color: white;
+    }
+
+    .btn-secondary {
+        background-color: white;
+    }
+
+    .form-check-input:checked {
+        background-color: #444;
+    }
+
+    .form-select:focus {
+        border-color: #003063;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+    }
+
+    .form-control-sm:focus,
+    .form-control-sm:focus{
+        border-color: #003063;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+    }
+
+
+/*Werkzeuge - Auswahl speichern*/
+
+    #tool-saveSelection-input-url.form-control.form-control-sm:focus {
+        border-color: #003063;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0,0,0, 0.6);
+    }
+
+
+/*Footer Verlinkung*/
+    #portal-footer[data-v-0e42ec5a]{
+        color: #444;
+        font-size: 11px;
+    }
+
+    #portal-footer a[target="_blank"][data-v-0e42ec5a]:hover{
+        background-color: white;
+        color: #e40421;
+    }
+
+    #portal-footer a[target="_blank"]:hover.btn-select[data-v-0e42ec5a], #portal-footer a[target="_blank"][data-v-0e42ec5a]:hover:active, #portal-footer a[target="_blank"]:hover.active[data-v-0e42ec5a], #portal-footer a[target="_blank"][data-v-0e42ec5a]:hover:checked, #portal-footer a[target="_blank"][data-v-0e42ec5a]:hover::selection, #portal-footer a[target="_blank"]:hover.show[data-v-0e42ec5a], #portal-footer a[target="_blank"]:hover[aria-expanded="true"][data-v-0e42ec5a] {
+        background-color: white;
+    }
+
+
+/*Maus-Hover bei Icons*/
+    .mouseHover[data-v-5fb1e978]{
+        opacity: 90%;
+        line-height: 10px;   
+    }
+
+    .mouseHover .title[data-v-5fb1e978] {
+        font-size:13px;
+        font-weight:bold;
+        color: #737373;
+        margin: 0px;
+    }
+
+    .mouseHover .info[data-v-5fb1e978] {
+        color: #8c8c8c;
+        font-size:13px;
+    }
+

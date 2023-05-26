@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:GetFeature service="WFS" version="1.1.0" xmlns:fis="http://www.berlin.de/broker" xmlns:wfs="http://www.opengis.net/wfs" xmlns:ogc="http://www.opengis.net/ogc">
+	<wfs:Query typeName="fis:sach_kleing">
+		<ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>Zwischenpaechter</ogc:PropertyName>
+                    <ogc:Literal>BV Reinickendorf</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+    </wfs:Query>
+</wfs:GetFeature>

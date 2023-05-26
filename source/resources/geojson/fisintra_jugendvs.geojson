@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "fisintra_jugendvs",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "ES_ID": "JVS_12.01", "EB_ETO": "Öff. und öff. geförderte Kultur- und weitere Bildungseinrichtungen", "EB_ETO_ID": "03", "EB_ET": "Jugendverkehrsschule", "EB_ET_ID": "03.S", "EB_Name": "JVS Reinickendorf I", "EB_Lage": "Aroser Allee 195", "EB_PLZ": "13407", "EB_Ort": "Berlin", "EL_Bez_ID": "12", "EB_WWW": "https:\/\/www.berlin.de\/ba-reinickendorf\/politik-und-verwaltung\/aemter\/jugendamt\/regionen\/mv\/artikel.151640.php", "Stand": "2020-06-30T00:00:00", "ES_Amt": "Schul- und Sportamt" }, "geometry": { "type": "Point", "coordinates": [ 388222.720481174241286, 5826096.506236388348043 ] } },
+{ "type": "Feature", "properties": { "ES_ID": "JVS_12.02", "EB_ETO": "Öff. und öff. geförderte Kultur- und weitere Bildungseinrichtungen", "EB_ETO_ID": "03", "EB_ET": "Jugendverkehrsschule", "EB_ET_ID": "03.S", "EB_Name": "JVS Reinickendorf II", "EB_Lage": "Senftenberger Ring 25a", "EB_PLZ": "13435", "EB_Ort": "Berlin", "EL_Bez_ID": "12", "EB_WWW": "https:\/\/www.berlin.de\/ba-reinickendorf\/politik-und-verwaltung\/aemter\/jugendamt\/regionen\/mv\/artikel.151640.php", "Stand": "2020-06-30T00:00:00", "ES_Amt": "Schul- und Sportamt" }, "geometry": { "type": "Point", "coordinates": [ 388734.91103897645371, 5829256.788049709051847 ] } }
+]
+}
