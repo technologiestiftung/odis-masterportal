@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   width="23.000002"
+   height="23"
+   viewBox="0 0 23.000002 23"
+   enable-background="new 0 0 100 100"
+   xml:space="preserve"
+   sodipodi:docname="Trinkbrunnen.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs18" /><sodipodi:namedview
+   id="namedview16"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="11.766257"
+   inkscape:cx="27.238909"
+   inkscape:cy="28.938685"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Ebene_1"
+   inkscape:showpageshadow="2"
+   inkscape:deskcolor="#d1d1d1" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="26.835899"
+   y1="49.977501"
+   x2="77.836899"
+   y2="49.977501"
+   gradientTransform="matrix(0.41818186,0,0,0.41818178,-10.385965,-9.3998892)">
+	<stop
+   offset="1"
+   style="stop-color:#FFFFFF"
+   id="stop2" />
+	<stop
+   offset="1"
+   style="stop-color:#000000"
+   id="stop4" />
+</linearGradient>
+<ellipse
+   stroke-width="1.67273"
+   stroke-miterlimit="10"
+   cx="11.500001"
+   cy="11.5"
+   id="circle7"
+   style="fill:url(#SVGID_1_);stroke:#008baf;stroke-opacity:1"
+   rx="10.663636"
+   ry="10.663635" />
+
+<g
+   id="g832"
+   transform="matrix(0.41972043,0,0,0.41972043,0.03564322,-0.03266752)"><path
+     style="fill:#008baf;fill-opacity:1;stroke:#008baf;stroke-width:2.7469;stroke-opacity:1"
+     d="m 9.2235122,37.864048 8.8055188,3.877454 5.19716,-13.755363 -7.916454,-3.143666 z"
+     id="path1782"
+     sodipodi:nodetypes="ccccc" /><circle
+     style="fill:#008baf;fill-opacity:1;stroke:#008baf;stroke-width:2.73413;stroke-opacity:1"
+     id="path1885"
+     cx="22.741829"
+     cy="18.378637"
+     r="5.6369772" /><path
+     id="rect347"
+     style="fill:#008baf;fill-opacity:1;stroke:#008baf;stroke-width:1.62759;stroke-opacity:1"
+     d="m 28.434085,28.076617 c -0.2677,0 -0.483419,0.303119 -0.483419,0.679278 0,0 -0.165912,0.872461 0.320749,1.380311 0.486668,0.507852 10.605029,8.214883 12.41414,8.871615 1.809108,0.656733 4.360585,-0.191627 4.360585,-0.191627 0.2677,0 0.483419,-0.303118 0.483419,-0.679278 v -9.381021 c 0,-0.376159 -0.215719,-0.679278 -0.483419,-0.679278 z"
+     sodipodi:nodetypes="sszzsssss" /><path
+     id="path4921"
+     style="fill:none;stroke:#008baf;stroke-width:3.78009;stroke-dasharray:none;stroke-opacity:1"
+     d="m 46.140894,18.660453 c -5.528904,-0.128154 -7.568699,0.902429 -8.533009,2.118009 -0.96431,1.21558 -0.90504,4.435627 -0.898493,5.93775"
+     sodipodi:nodetypes="czc" /></g></svg>

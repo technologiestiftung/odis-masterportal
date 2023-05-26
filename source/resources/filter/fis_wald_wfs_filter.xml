@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:GetFeature service="WFS" version="1.1.0" xmlns:fis="http://www.berlin.de/broker" xmlns:wfs="http://www.opengis.net/wfs" xmlns:ogc="http://www.opengis.net/ogc">
+    <wfs:Query typeName="fis:s_05_04forst2014">
+        <ogc:Filter>
+            <ogc:And>
+                <ogc:PropertyIsEqualTo>
+                    <ogc:PropertyName>bezirk</ogc:PropertyName>
+                		<ogc:Literal>Reinickendorf</ogc:Literal>
+                </ogc:PropertyIsEqualTo>
+            </ogc:And>
+        </ogc:Filter>
+    </wfs:Query>
+</wfs:GetFeature>

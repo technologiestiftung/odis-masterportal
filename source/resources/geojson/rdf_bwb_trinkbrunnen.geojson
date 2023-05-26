@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "rdf_bwb_trinkbrunnen",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Wasserwerk Tegel\n", "Betriebszeit": "Mai bis Oktober", "Hinweise": "Nicht öffentlich zugänglich" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 382450.192125071480405, 5826530.127597548998892, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Hallen am Borsigturm\n", "Betriebszeit": "Mai bis Oktober", "Hinweise": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 383939.253826361964457, 5827588.346741251647472, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Greenwichpromenade", "Betriebszeit": "Mai bis Oktober", "Hinweise": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 383101.979455635882914, 5827855.804963677190244, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Schäfersee", "Betriebszeit": "Mai bis Oktober", "Hinweise": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 388931.005865114857443, 5824952.842914614826441, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "U-Bahnhof Residenzstraße\n", "Betriebszeit": "Mai bis Oktober", "Hinweise": "barrierefrei" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 388870.041512243216857, 5825949.175467003136873, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Senftenberger Ring\n", "Betriebszeit": "Mai bis Oktober", "Hinweise": "barrierefrei" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 388467.81133673270233, 5829058.928987102583051, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Zeltinger Platz\n", "Betriebszeit": "Mai bis Oktober", "Hinweise": "barrierefrei" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 384297.090729012386873, 5832973.791767660528421, 0.0 ] ] } },
+{ "type": "Feature", "properties": { "Name": "Rathaus Reinickendorf\n", "Betriebszeit": "Mai bis Oktober", "Hinweise": null }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 386501.867338590382133, 5827847.632879883982241, 0.0 ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "fisintra_gartenas",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "ES_ID": "GAS_12.01", "EB_ETO": "Öff. und öff. geförderte Kultur- und weitere Bildungseinrichtungen", "EB_ETO_ID": "03", "EB_ET": "Gartenarbeitsschule", "EB_ET_ID": "03.G", "EB_Name": "Gartenarbeitsschule Reinickendorf", "EB_Lage": "Billerbecker Weg 123 a", "EB_PLZ": "13507", "EB_Ort": "Berlin", "EL_Bez_ID": "12", "EB_WWW": "https:\/\/www.berlin.de\/ba-reinickendorf\/politik-und-verwaltung\/aemter\/schul-und-sportamt\/schulamt\/", "Stand": "2020-06-30T00:00:00", "ES_Amt": "Schul- und Sportamt" }, "geometry": { "type": "Point", "coordinates": [ 383017.721200273314025, 5826316.857053030282259 ] } }
+]
+}

@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "rdf_stadtteilzentren",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "120003", "Name": "Stadtteilzentrum Haus am See", "Strasse": "Stargardtstraße", "Hausnr": "9", "PLZ": "13407", "Typ": "Stadtteilzentrum", "Internet": "https:\/\/www.stadtteilzentrum-haus-am-see.de\/" }, "geometry": { "type": "Point", "coordinates": [ 388904.231344265805092, 5825237.538220263086259 ] } },
+{ "type": "Feature", "properties": { "id": "120001", "Name": "Selbsthilfe- und Stadtteilzentrum Reinickendorf (Günter-Zemla-Haus)", "Strasse": "Eichhorster Weg", "Hausnr": "32", "PLZ": "13435", "Typ": "Stadtteilzentrum", "Internet": "https:\/\/www.unionhilfswerk.de\/angebote\/beratung-unterstuetzung\/selbsthilfe-und-stadtteilzentrum-reinickendorf\/" }, "geometry": { "type": "Point", "coordinates": [ 387840.609812452574261, 5828926.281025803647935 ] } },
+{ "type": "Feature", "properties": { "id": "120004", "Name": "Stadtteilzentrum im Mehrgenerationenhaus Berlin-Reinickendorf", "Strasse": "Auguste-Viktoria-Allee", "Hausnr": "17a", "PLZ": "13403", "Typ": "Stadtteilzentrum", "Internet": "https:\/\/www.albatrosggmbh.de\/de\/stadtteilarbeit-und-nachbarschaft\/stadtteilzentren\/reinickendorf-ava\/beschreibung.html" }, "geometry": { "type": "Point", "coordinates": [ 386361.9392284952919, 5825872.441329619847238 ] } },
+{ "type": "Feature", "properties": { "id": "120002", "Name": "Stadtteilbüro Rollberge", "Strasse": "Zabel-Krüger-Damm", "Hausnr": "50", "PLZ": "13469", "Typ": "Stadtteilzentrum", "Internet": "https:\/\/stadtteilbuero-rollberge.de\/" }, "geometry": { "type": "Point", "coordinates": [ 387298.863160640466958, 5830220.445219366811216 ] } }
+]
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   width="23.000002"
+   height="23"
+   viewBox="0 0 23.000002 23"
+   enable-background="new 0 0 100 100"
+   xml:space="preserve"
+   sodipodi:docname="Gartenschule.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs31464" /><sodipodi:namedview
+   id="namedview31462"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="8.32"
+   inkscape:cx="25.540865"
+   inkscape:cy="24.459135"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Ebene_1" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="26.502899"
+   y1="52.998001"
+   x2="77.503899"
+   y2="52.998001">
+	<stop
+   offset="1"
+   style="stop-color:#FFFFFF"
+   id="stop31442" />
+	<stop
+   offset="1"
+   style="stop-color:#000000"
+   id="stop31444" />
+</linearGradient>
+<ellipse
+   fill="url(#SVGID_1_)"
+   stroke-width="1.67273"
+   stroke-miterlimit="10"
+   cx="11.500001"
+   cy="11.5"
+   id="circle31447"
+   style="fill:#ffffff;fill-opacity:1;stroke:#95673e;stroke-opacity:1"
+   rx="10.663636"
+   ry="10.663635" />
+
+<g
+   id="g31455"
+   transform="translate(-24.502997,-25.497999)">
+</g>
+
+<g
+   id="g829"
+   transform="matrix(0.37604604,0,0,0.37604604,1.0480618,1.0580557)"><path
+     id="path39550"
+     style="fill:#95673e;fill-opacity:1;stroke:#95673e;stroke-width:1.93876;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+     d="M 37.804635,26.618042 A 13.64102,17.16014 0 0 1 27.3017,32.876019 13.64102,17.16014 0 0 1 16.816285,26.648127 10.781225,17.43469 0 0 0 16.518455,30.529278 10.781225,17.43469 0 0 0 27.3017,47.964354 10.781225,17.43469 0 0 0 38.080566,30.529278 10.781225,17.43469 0 0 0 37.804635,26.618042 Z" /><path
+     style="fill:#95673e;fill-opacity:1;stroke:#95673e;stroke-width:4.08745px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 27.512744,38.002258 27.193971,6.4885089"
+     id="path39688" /></g></svg>

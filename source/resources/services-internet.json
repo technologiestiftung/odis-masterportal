@@ -1,0 +1,1283 @@
+﻿[
+    {
+    "id": "bkg_basemap_farbe_wms",
+    "name": "Basemap.de Web Raster (farbig)",
+    "url": "https://sgx.geodatenzentrum.de/wms_basemapde",
+    "typ": "WMS",
+    "format": "image/png",
+    "layers": "de_basemapde_web_raster_farbe",
+    "version": "1.3.0",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 0,
+    "tilesize": "256",
+    "infoFormat": "text/xml",
+    "gutter": "0",
+    "minScale": "1500",
+    "maxScale": "5000000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "layerAttribution": "© basemap.de / BKG Oktober 2022",
+    "legendURL": "",
+    "cache": false,
+    "featureCount": "1",
+    "datasets": [{
+        "md_id": "69264016-D304-4DD6-BCEF-509C1ED19F14",
+        "csw_url": "https://gdk.gdi-de.org/gdi-de/srv/eng/csw",
+        "show_doc_url": "https://gdk.gdi-de.org/gdi-de/srv/ger/catalog.search#/metadata/",
+        "rs_id": "",
+        "md_name": "basemap.de Web Raster"
+    }]	
+    },
+
+	{
+    "id": "bkg_basemap_sw_wms",
+    "name": "Basemap.de Web Raster (grau)",
+    "url": "https://sgx.geodatenzentrum.de/wms_basemapde",
+    "typ": "WMS",
+    "format": "image/png",
+    "layers": "de_basemapde_web_raster_grau",
+    "infoFormat": "text/xml",
+    "version": "1.3.0",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 0,
+    "tilesize": "256",
+    "gutter": "0",
+    "minScale": "1500",
+    "maxScale": "5000000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "layerAttribution": "© basemap.de / BKG Oktober 2022",
+    "legendURL": "",
+    "cache": false,
+    "featureCount": "1",
+    "datasets": [{
+        "md_id": "971C190C-AE96-41B7-8EC9-2DF20D9BE521",
+        "csw_url": "https://gdk.gdi-de.org/gdi-de/srv/eng/csw",
+        "show_doc_url": "https://gdk.gdi-de.org/gdi-de/srv/ger/catalog.search#/metadata/",
+        "rs_id": "",
+        "md_name": "BASEMAP.DE WEB RASTER GRAU"
+    }]	
+    },
+
+    {
+    "id": "fis_truedop2022_rgbi_wms",
+    "name": "Digitale farbige TrueOrthophotos 2022 (TrueDOP20RGBI)",
+    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild2022_true_rgbi",
+	"urlIsVisible" : true,
+    "typ": "WMS",
+    "layers": "0",
+    "format": "image/png",
+    "version": "1.3.0",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 0,
+    "tilesize": "512",
+    "minScale": "0",
+    "maxScale": "2500000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "layerAttribution": "© Geoportal Berlin / Digitale farbige TrueOrthophotos 2022 (TrueDOP20RGBI)",
+    "legendURL": "ignore",
+    "cache": true,
+    "featureCount": "1",
+	"datasets": [{
+        "md_id": "bf885681-6daa-4ce7-8bc5-15fdba32f268",
+        "rs_id": "https://registry.gdi-de.org/id/de.be.csw/38140514-3995-3513-82e5-753bd246ae31",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+        "md_name": "Digitale farbige TrueOrthophotos 2022 (DOP20RGBI)",
+        "bbox": "369097.8529,5799298.1358,416865.038,5838236.2097",
+        "kategorie_opendata": ["Geographie und Stadtplanung"],
+        "kategorie_inspire": ["Orthofotografie"],
+        "kategorie_organisation": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin"
+    }]
+    },
+    
+    {
+    "id": "fis_luftbild_1953_wms",
+    "name": "Luftbilder 1953 (Maßstab 1:22.000)",
+    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1953",
+	"urlIsVisible" : true,	
+    "typ": "WMS",
+    "layers": "0",
+    "format": "image/png",
+    "version": "1.3.0",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 0,
+    "tilesize": "512",
+    "minScale": "0",
+    "maxScale": "2500000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "layerAttribution": "© Geoportal Berlin / Luftbilder 1953 (Maßstab 1:22.000)",
+    "legendURL": "ignore",
+    "cache": true,
+    "featureCount": "1",
+	"datasets": [{
+        "md_id": "91d4b7c9-d3b0-3a2f-bab4-33bc47ca52b8",
+        "rs_id": "https://registry.gdi-de.org/id/de.be.csw/20021817-2ce2-367c-b214-e00b274b9894",
+		"csw_url": "https://fbinter.stadt-berlin.de/fb/csw",
+        "md_name": "Luftbilder 1953, Maßstab 1:22 000",
+        "bbox": "369097.8529,5799298.1358,416865.038,5838236.2097"
+    }]
+    }, 
+    
+    {
+    "id": "fis_luftbild_1928_wms",
+    "name": "Luftbilder 1928 (Maßstab 1:4.000)",
+    "url": "https://fbinter.stadt-berlin.de/fb/wms/senstadt/k_luftbild1928",
+	"urlIsVisible" : true,	
+    "typ": "WMS",
+    "layers": "0",
+    "format": "image/png",
+    "version": "1.3.0",
+    "singleTile": false,
+    "transparent": true,
+    "transparency": 0,
+    "tilesize": "512",
+    "minScale": "0",
+    "maxScale": "2500000",
+    "gfiAttributes": "ignore",
+    "gfiTheme": "default",
+    "layerAttribution": "© Geoportal Berlin / Luftbilder 1928 (Maßstab 1:4.000)",
+    "legendURL": "ignore",
+    "cache": true,
+    "featureCount": "1",
+	"datasets": [{
+        "md_id": "6b746499-7354-3a3a-aa70-60e1fb37f993",
+        "rs_id": "https://registry.gdi-de.org/id/de.be.csw/2ca8d68f-afc1-3111-82c2-a376d4141620",
+		"csw_url": "https://fbinter.stadt-berlin.de/fb/csw",
+        "md_name": "Luftbilder 1928, Maßstab 1:4 000",
+        "bbox": "369097.8529,5799298.1358,416865.038,5838236.2097"
+    }]
+    }, 
+    
+    {
+	"id": "fis_alkis_bezirk_wfs",
+	"name": "ALKIS Berlin - Bezirke",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis_bezirk",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_wfs_alkis_bezirk",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / ALKIS Berlin - Bezirke",
+    "gfiAttributes": "ignore",
+	"datasets": [{
+		"md_id": "3fbfcbce-5c0e-3e92-a824-8d70ca5e8110",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/cb2897d1-4258-3312-a3db-7ceb2ad86be7",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "ALKIS Berlin Gemeinde",
+		"bbox": "13.079,52.3284,13.7701,52.6877",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Verwaltungseinheiten"],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin"
+    }]
+    },
+    
+    {
+	"id": "fis_alkis_ortsteile_wfs",
+    "name": "ALKIS Berlin - Ortsteil",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_alkis_ortsteile",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_wfs_alkis_ortsteile",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / ALKIS Ortsteile von Berlin",
+    "gfiAttributes": "ignore",
+	"datasets": [{
+		"md_id": "0a7c53a5-b29d-3f45-9734-1c811045e6c2",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/cb2897d1-4258-3312-a3db-7ceb2ad86be7",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "ALKIS Berlin Ortsteil",
+		"bbox": "13.079,52.3284,13.7701,52.6877",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Verwaltungseinheiten"],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin"
+    }]
+    },
+    
+    {
+	"id": "fis_reinickendorf_gebiet_gjs",
+	"name": "Reinickendorf Gebiet",
+	"url": "../resources/geojson/fis_reinickendorf_gebiet.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "layerAttribution": "© Geoportal Berlin / ALKIS Berlin - Bezirke",
+    "outputFormat": "XML",
+    "format": "image/png",	
+	"gfiAttributes": "ignore",
+	"cache": false
+    },
+    
+    {
+    "id": "fis_kita_wfs",
+    "name": "Kindertagesstätten",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_kita",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_kita",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Kindertagesstätten",
+    "gfiAttributes": {
+        "gisid": "Technischer Schlüssel",
+        "e_nr": "Einrichtungsnummer",
+        "e_name": "Einrichtungsname",
+        "e_bez_nr": "Bezirksnummer",
+        "e_bez": "Bezirk",
+        "e_plz": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "e_strasse": "Straße",
+        "e_hnr": "Hausnummer",
+        "e_zusatz": "Hausnummernzusatz",
+        "e_tel": "Telefonnummer",
+        "e_web": "Internetseite",
+        "e_platz": "Erlaubte Platzzahl",
+        "e_art": "Einrichtungsart",
+        "ang_1": "pädagogische Schwerpunkte",
+        "ang_2": "pädagogische Merkmale",
+        "t_nr": "Trägernummer",
+        "t_name": "Trägername",
+        "t_art": "Trägerart",
+        "t_web": "Internetseite des Trägers"
+    },
+    "datasets": [{
+        "md_id": "9d60f82f-7a3d-441e-8ffa-89ba87995196",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/cd8414c7-f1b0-37c7-b9d5-18751942c4c3",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Kindertagesstätten",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin"
+    }]
+    },
+    
+    {
+    "id": "fis_jugendfe_wfs",
+    "name": "Jugendfreizeiteinrichtungen",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_jfe",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_jfe",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Jugendfreizeiteinrichtungen",
+    "gfiAttributes": {
+        "gisid": "Technischer Schlüssel",
+        "e_nr": "Einrichtungsnummer",
+        "e_name": "Einrichtungsname",
+        "e_bez_nr": "Bezirksnummer",
+        "e_bez": "Bezirk",
+        "e_plz": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "e_strasse": "Straße",
+        "e_hnr": "Hausnummer",
+        "e_zus": "Hausnummernzusatz",
+        "e_tel": "Telefonnummer",
+        "e_web": "Internetseite",
+        "e_platz": "Platzzahl",
+        "e_art": "Einrichtungsart",
+        "zielgr1": "Angebote für Kinder",
+        "zielgr2": "Angebote für Jugendliche",
+        "gend1": "Angebot nur für Mädchen",
+        "gend2": "Angebot nur für Jungen",
+        "t_name": "Trägername",
+        "t_art": "Trägerart",
+        "t_web": "Internetseite des Trägers"
+    },
+    "datasets": [{
+        "md_id": "66acf6d2-5180-4668-96e3-caf7c65d60cd",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/d619c84e-aeae-3f7e-be41-46d8ebf96997",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Jugendfreizeiteinrichtungen",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin"
+    }]
+    },
+
+    {
+    "id": "fisintra_jugendks_gjs",
+    "name": "Öffentliche Jugendkunstschulen",
+    "url": "../resources/geojson/fisintra_jugendks.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "outputFormat": "XML",
+    "format": "image/png",
+    "gfiAttributes": {
+        "EB_Name": "Einrichtungsname",
+        "EB_Lage": "Adresse",
+        "EB_PLZ": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "EB_WWW": "Internetadresse"
+    },
+    "layerAttribution": "© Geoportal Berlin / Öff. Jugendkunstschulen (2021-12-31)",
+    "cache": false,
+    "datasets": [{
+        "md_id": "fisintra_jugendks_gjs.xml",
+        "csw_url": "../resources/meta/fisintra_jugendks_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Öffentliche Jugendkunstschulen",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "fisintra_jugendvs_gjs",
+    "name": "Öffentliche Jugendverkehrsschulen",
+    "url": "../resources/geojson/fisintra_jugendvs.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "outputFormat": "XML",
+    "format": "image/png",
+    "gfiAttributes": {
+        "EB_Name": "Einrichtungsname",
+        "EB_Lage": "Adresse",
+        "EB_PLZ": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "EB_WWW": "Internetadresse"
+    },
+    "layerAttribution": "© Geoportal Berlin / Öffentliche Jugendverkehrsschulen",
+    "cache": false,
+    "datasets": [{
+        "md_id": "fisintra_jugendvs_gjs.xml",
+        "csw_url": "../resources/meta/fisintra_jugendvs_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Öffentliche Jugendverkehrsschulen",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "fis_gymnasium_wfs",
+    "name": "Gymnasien",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_schulen",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_schulen",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Gymnasien",
+    "gfiAttributes": {
+        "gisid": "Technischer Schlüssel",
+        "bsn": "Schulnummer",
+        "name": "Name der Schule",
+        "schulart": "Schulart",
+        "traeger": "Träger",
+        "schultyp": "Schultyp",
+        "bezirk": "Bezirk",
+        "ortsteil": "Ortsteil",
+        "plz": "Postleitzahl",
+        "strasse": "Straße",
+        "hausnr": "Hausnummer",
+        "telefon": "Telefon",
+        "fax": "Fax",
+        "email": "Email",
+        "internet": "Internet"
+    },
+    "datasets": [{
+        "md_id": "2656f411-e4e9-3e57-8dc7-b4533426e048",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/decd827f-58cf-3a56-b2b7-5c72bbc5d984",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Schulen",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+		"kategorie_organisation": "Senatsverwaltung für Bildung, Jugend und Familie"
+    }]
+    },
+
+    {
+    "id": "fis_integ_sekundarschule_wfs",
+    "name": "Integrierte Sekundarschulen",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_schulen",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_schulen",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Integrierte Sekundarschulen",
+ 	"gfiAttributes": {
+        "gisid": "Technischer Schlüssel",
+        "bsn": "Schulnummer",
+        "name": "Name der Schule",
+        "schulart": "Schulart",
+        "traeger": "Träger",
+        "schultyp": "Schultyp",
+        "bezirk": "Bezirk",
+        "ortsteil": "Ortsteil",
+        "plz": "Postleitzahl",
+        "strasse": "Straße",
+        "hausnr": "Hausnummer",
+        "telefon": "Telefon",
+        "fax": "Fax",
+        "email": "Email",
+        "internet": "Internet"
+    },
+    "datasets": [{
+        "md_id": "2656f411-e4e9-3e57-8dc7-b4533426e048",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/decd827f-58cf-3a56-b2b7-5c72bbc5d984",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Schulen",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+		"kategorie_organisation": "Senatsverwaltung für Bildung, Jugend und Familie"
+    }]
+    },
+
+    {
+    "id": "fis_foerderschule_wfs",
+    "name": "Schulen mit sonderpäd. Förderschwerpkt.",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_schulen",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_schulen",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Schulen mit sonderpädagogischem Förderschwerpunkt",
+    "gfiAttributes": {
+        "gisid": "Technischer Schlüssel",
+        "bsn": "Schulnummer",
+        "name": "Name der Schule",
+        "schulart": "Schulart",
+        "traeger": "Träger",
+        "schultyp": "Schultyp",
+        "bezirk": "Bezirk",
+        "ortsteil": "Ortsteil",
+        "plz": "Postleitzahl",
+        "strasse": "Straße",
+        "hausnr": "Hausnummer",
+        "telefon": "Telefon",
+        "fax": "Fax",
+        "email": "Email",
+        "internet": "Internet"
+    },
+    "datasets": [{
+        "md_id": "2656f411-e4e9-3e57-8dc7-b4533426e048",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/decd827f-58cf-3a56-b2b7-5c72bbc5d984",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Schulen",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+		"kategorie_organisation": "Senatsverwaltung für Bildung, Jugend und Familie"
+    }]
+    },
+    
+    {
+    "id": "fis_berufsschule_wfs",
+    "name": "Berufsschulen",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_schulen",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_schulen",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Berufsschulen",
+    "gfiAttributes": {
+        "gisid": "Technischer Schlüssel",
+        "bsn": "Schulnummer",
+        "name": "Name der Schule",
+        "schulart": "Schulart",
+        "traeger": "Träger",
+        "schultyp": "Schultyp",
+        "bezirk": "Bezirk",
+        "ortsteil": "Ortsteil",
+        "plz": "Postleitzahl",
+        "strasse": "Straße",
+        "hausnr": "Hausnummer",
+        "telefon": "Telefon",
+        "fax": "Fax",
+        "email": "Email",
+        "internet": "Internet"
+    },
+    "datasets": [{
+        "md_id": "2656f411-e4e9-3e57-8dc7-b4533426e048",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/decd827f-58cf-3a56-b2b7-5c72bbc5d984",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Schulen",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+		"kategorie_organisation": "Senatsverwaltung für Bildung, Jugend und Familie"
+    }]
+    },
+    
+    {
+    "id": "fis_privatschule_wfs",
+    "name": "Privatschulen",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_schulen",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_schulen",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Privatschulen",
+    "gfiAttributes": {
+        "gisid": "Technischer Schlüssel",
+        "bsn": "Schulnummer",
+        "name": "Name der Schule",
+        "schulart": "Schulart",
+        "traeger": "Träger",
+        "schultyp": "Schultyp",
+        "bezirk": "Bezirk",
+        "ortsteil": "Ortsteil",
+        "plz": "Postleitzahl",
+        "strasse": "Straße",
+        "hausnr": "Hausnummer",
+        "telefon": "Telefon",
+        "fax": "Fax",
+        "email": "Email",
+        "internet": "Internet"
+    },
+    "datasets": [{
+        "md_id": "2656f411-e4e9-3e57-8dc7-b4533426e048",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/decd827f-58cf-3a56-b2b7-5c72bbc5d984",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Schulen",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+		"kategorie_organisation": "Senatsverwaltung für Bildung, Jugend und Familie"
+    }]
+    },
+
+    {
+    "id": "fis_grundschulen_wfs",
+    "name": "Grundschulen",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_schulen",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_schulen",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Grundschulen",
+    "gfiAttributes": {
+        "gisid": "Technischer Schlüssel",
+        "bsn": "Schulnummer",
+        "name": "Name der Schule",
+        "schulart": "Schulart",
+        "traeger": "Träger",
+        "schultyp": "Schultyp",
+        "bezirk": "Bezirk",
+        "ortsteil": "Ortsteil",
+        "plz": "Postleitzahl",
+        "strasse": "Straße",
+        "hausnr": "Hausnummer",
+        "telefon": "Telefon",
+        "fax": "Fax",
+        "email": "Email",
+        "internet": "Internet"
+    },
+    "datasets": [{
+        "md_id": "2656f411-e4e9-3e57-8dc7-b4533426e048",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/decd827f-58cf-3a56-b2b7-5c72bbc5d984",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Schulen",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+		"kategorie_organisation": "Senatsverwaltung für Bildung, Jugend und Familie"
+    }]
+    },
+    
+    {
+    "id": "fis_einschulbereiche2022_wfs",
+    "name": "Einschulbereiche - Schuljahr 2022/2023",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_esb_2022",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_esb_2022",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Einschulbereiche - Schuljahr 2022/2023",
+    "gfiAttributes": {
+        "esb": "Einschulbereichsnummer",
+        "esb_text": "Einschulbereich"
+    },
+    "datasets": [{
+    	"md_id": "e18ec2a8-4ca4-4383-a2c6-01a6499b17f1",
+        "rs_id": "https://registry.gdi-de.org/id/de.be.csw/50b43512-0d06-3245-8ab9-45d754372c1c",
+        "csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Einschulbereiche - Schuljahr 2022/2023",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+        "kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+        "kategorie_organisation": "Senatsverwaltung für Bildung, Jugend und Familie"
+    }]
+    },
+    
+    {
+    "id": "fis_einschulbereiche2023_wfs",
+    "name": "Einschulbereiche - Schuljahr 2023/2024 (Planung)",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_esb_2023",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_esb_2023",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Einschulbereiche - Schuljahr 2023/2024 (Planung)",
+    "gfiAttributes": {
+      "esb": "Einschulbereichsnummer",
+      "esb_text": "Einschulbereich"
+    },
+    "datasets": [{
+    	"md_id": "a1f8fc10-d0b5-472e-b2b9-b6d50223985c",
+        "rs_id": "https://registry.gdi-de.org/id/de.be.csw/7626c353-d152-3bb0-8008-21130f416ea5",
+        "csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+        "md_name": "Einschulbereiche - Schuljahr 2023/2024 (Planung)",
+        "bbox": "13.204,52.547,13.3858,52.6662",
+        "kategorie_opendata": ["Geographie und Stadtplanung"],
+        "kategorie_inspire": ["Versorgungswirtschaft und staatliche Dienste"],
+        "kategorie_organisation": "Senatsverwaltung für Bildung, Jugend und Familie"
+    }]
+    },
+    
+	{
+  	"id": "rdf_familienzentren_gjs",
+    "name": "Familienzentren im Bezirk Reinickendorf",
+    "url": "../resources/geojson/rdf_familienzentren.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Name": "Name",
+        "Strasse": "Straße",
+        "Hausnr": "Hausnummer",
+        "PLZ": {
+            "name": "Postleitzahl und Ort",
+            "suffix": "Berlin"
+        },
+        "Internet": "Internetadresse",
+        "Hinweise": "Hinweise"
+  	},
+    "layerAttribution": "© Bezirksamt Reinickendorf / Familienzentren im Bezirk Reinickendorf",
+    "cache": false,
+    "datasets": [{
+        "md_id": "rdf_familienzentren_gjs.xml",
+        "csw_url": "../resources/meta/rdf_familienzentren_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Familienzentren Reinickendorf",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "fisintra_musikschule_gjs",
+    "name": "Öffentliche Musikschulen",
+    "url": "../resources/geojson/fisintra_musikschule.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "outputFormat": "XML",
+    "format": "image/png",
+    "gfiAttributes": {
+        "EB_Name": "Name",
+        "EB_Lage": "Adresse",
+        "EB_PLZ": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "EB_WWW": "Interseite"
+    },
+    "layerAttribution": "© Geoportal Berlin / Öffentliche Musikschulen",
+    "cache": false,
+    "datasets": [{
+        "md_id": "fisintra_musikschule_gjs.xml",
+        "csw_url": "../resources/meta/fisintra_musikschule_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Öffentliche Musikschulen",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "sofis_bibliothek_gjs",
+    "name": "Öffentliche Bibliotheken",
+    "url": "../resources/geojson/sofis_bibliothek.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "outputFormat": "XML",
+    "format": "image/png",
+    "gfiAttributes": {
+        "EB_Name": "Name",
+        "EB_Lage": "Adresse",
+        "EB_PLZ": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "EB_Mail": "E-Mail",
+        "EB_WWW": "Interseite",
+        "ES_ABF": "Barrierefreiheit"
+    },
+    "layerAttribution": "© Geoportal Berlin / Öffentliche Bibliotheken",
+    "cache": false,
+    "datasets": [{
+        "md_id": "sofis_bibliothek_gjs.xml",
+        "csw_url": "../resources/meta/sofis_bibliothek_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Öffentliche Bibliotheken",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "fisintra_volkshochschule_gjs",
+    "name": "Öffentliche Volkshochschulen",
+    "url": "../resources/geojson/fisintra_volkshochschule.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "outputFormat": "XML",
+    "format": "image/png",
+    "gfiAttributes": {
+        "EB_Name": "Einrichtungsname",
+        "EB_Lage": "Adresse",
+        "EB_PLZ": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "EB_WWW": "Internetadresse"
+    },
+    "layerAttribution": "© Geoportal Berlin / Öffentliche Volkshochschulen",
+    "cache": false,
+    "datasets": [{
+        "md_id": "fisintra_volkshochschule_gjs.xml",
+        "csw_url": "../resources/meta/fisintra_volkshochschule_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Öffentliche Volkshochschulen",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "fisintra_gartenas_gjs",
+    "name": "Öffentliche Gartenarbeitsschulen",
+    "url": "../resources/geojson/fisintra_gartenas.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "outputFormat": "XML",
+    "format": "image/png",
+    "gfiAttributes": {
+        "EB_Name": "Einrichtungsname",
+        "EB_Lage": "Adresse",
+        "EB_PLZ": "Postleitzahl",
+        "EB_PLZ": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "EB_WWW": "Internetadresse"
+    },
+    "layerAttribution": "© Geoportal Berlin / Öffentliche Gartenarbeitsschulen",
+    "cache": false,
+    "datasets": [{
+        "md_id": "fisintra_gartenas_gjs.xml",
+        "csw_url": "../resources/meta/fisintra_gartenas_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Öffentliche Gartenarbeitsschulen",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    }, 
+    
+    {
+    "id": "fis_spielplatz_wfs",
+    "name": "Öffentliche Spielplätze",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_spielplatzbestand",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_spielplatzbestand",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Öffentliche Spielplätze",
+    "gfiAttributes": {
+        "kennzeich": "Objektnummer",
+        "ortstlname": "Ortsteil",
+        "namenr": "Name des Spielplatzes",
+        "namezusatz": "Namenszusatz des Spielplatzes",
+        "baujahr": "Baujahr",
+        "sanierjahr": "letztes Sanierungsjahr",
+        "katasterfl": "Größe in m² (Kataster)",
+        "widmung": "Widmung",
+        "plannr": "Nummer des Planungsraumes",
+        "planname": "Name des Planungsraumes",
+        "versorgein": "Versorgungseinheit",
+        "nettospfl": "Nettospielfläche in m²",
+        "anrech_sp": "anrechenbar Spielplatzversorgung"
+    },
+    "datasets": [{
+        "md_id": "848d2266-d757-36d2-9db6-8636bd5f2216",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/19f9a3e9-d99a-39c2-8557-418ecb5f1f21",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Grünanlagenbestand Berlin (einschl. der öffentlichen Spielplätze) - Spielplätze",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": [""],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin"
+    }]
+    },
+
+    
+	{
+  	"id": "rdf_toilettenhaeuschen_gjs",
+    "name": "Öffentliche Toiletten",
+    "url": "../resources/geojson/rdf_toilettenhaeuschen.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "nummer": "Nummer",
+        "kurzbeschreibung": "Kurzbeschreibung",
+        "description": "Lage"
+  	},
+    "layerAttribution": "© Bezirksamt Reinickendorf / Öffentliche Toiletten im Bezirk Reinickendorf",
+    "cache": false,
+    "datasets": [{
+      	"md_id": "rdf_toilettenhaeuschen_gjs.xml",
+        "csw_url": "../resources/meta/rdf_toilettenhaeuschen_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Öffentliche Toiletten",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "rdf_bwb_trinkbrunnen_gjs",
+    "name": "Öffentliche Trinkbrunnen in Reinickendorf",
+    "url": "../resources/geojson/rdf_bwb_trinkbrunnen.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Name": "Name",
+        "Betriebszeit": "Betriebszeit",
+		"Hinweise": "Hinweise"
+    },
+	"layerAttribution": "© Berliner Wasserbetriebe / Öffentliche Trinkbrunnen in Berlin",
+    "cache": false,
+	"datasets": [{
+      	"md_id": "rdf_bwb_trinkbrunnen_gjs.xml",
+        "csw_url": "../resources/meta/rdf_bwb_trinkbrunnen_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Öffentliche Trinkbrunnen in Berlin",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+		}]
+    },
+    
+    {
+    "id": "rdf_seniorenfs_gjs",
+    "name": "Seniorenfreizeitstätten",
+    "url": "../resources/geojson/rdf_seniorenfs.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "outputFormat": "XML",
+    "format": "image/png",
+    "gfiAttributes": {
+        "EB_Name": "Name",
+        "EB_Lage": "Adresse",
+        "EB_PLZ": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "EB_Mail": "Email",
+        "EB_WWW": "weitere Informationen"
+    },
+    "layerAttribution": "© Bezirksamt Reinickendorf / Seniorenfreizeitstätten",
+    "cache": false,
+    "datasets": [{
+        "md_id": "rdf_seniorenfs_gjs.xml",
+        "csw_url": "../resources/meta/rdf_seniorenfs_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Seniorenfreizeitstätten",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "rdf_stadtteilzentren_gjs",
+    "name": "Stadtteilzentren im Bezirk Reinickendorf",
+    "url": "../resources/geojson/rdf_stadtteilzentren.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Name": "Name",
+        "Strasse": "Straße",
+        "Hausnr": "Hausnummer",
+        "PLZ": {
+            "name": "Postleitzahl und Ort",
+            "suffix": "Berlin"
+        },
+        "Internet": "Internetadresse"
+    },
+		"layerAttribution": "© Bezirksamt Reinickendorf / Stadtteilzentren im Bezirk Reinickendorf",
+        "cache": false,
+		"datasets": [{
+      	"md_id": "rdf_stadtteilzentren_gjs.xml",
+        "csw_url": "../resources/meta/rdf_stadtteilzentren_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Stadtteilzentren Reinickendorf",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "fis_lor_prog_wfs",
+    "name": "LOR - Prognoseräume",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lor_pgr_2021",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_lor_pgr_2021",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Lebensweltlich orientierte Räume (LOR) - Prognoseräume",
+    "gfiAttributes": {
+        "PGR_NAME": "Prognoseraum"
+    },
+    "datasets": [{
+        "md_id": "5e05b70b-50d6-4164-b0fd-9cdef4e43559",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/1a9ee510-4aec-3a5b-94e5-bc6b25d80c2d",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Lebensweltlich orientierte Räume (LOR) - Prognoseräume (01.01.2021)",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Statistische Einheiten"],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin"
+    }]
+    },    
+
+    {
+    "id": "fis_lor_bzr_wfs",
+    "name": "LOR - Bezirksregionen",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lor_bzr_2021",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_lor_bzr_2021",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Lebensweltlich orientierte Räume (LOR) - Bezirksregionen",
+    "gfiAttributes": {
+        "BZR_NAME": "Bezirksregion",
+        "PGR_NAME": "Zugehörige Prognoseregion"
+    },
+    "datasets": [{
+        "md_id": "5e05b70b-50d6-4164-b0fd-9cdef4e43559",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/1a9ee510-4aec-3a5b-94e5-bc6b25d80c2d",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Lebensweltlich orientierte Räume (LOR) - Bezirksregionen (01.01.2021)",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Statistische Einheiten"],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin"
+    }]
+    },
+    
+    {
+    "id": "fis_lor_plr_wfs",
+    "name": "LOR - Planungsräume",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lor_plr_2021",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_lor_plr_2021",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Lebensweltlich orientierte Räume (LOR) - Planungsräume",
+    "gfiAttributes": {
+        "PLR_NAME": "Planungsraum",
+        "BZR_NAME": "Zugehörige Bezirksregion",
+        "PGR_NAME": "Zugehörige Prognoseregion"
+    },
+    "datasets": [{
+        "md_id": "5e05b70b-50d6-4164-b0fd-9cdef4e43559",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/1a9ee510-4aec-3a5b-94e5-bc6b25d80c2d",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Lebensweltlich orientierte Räume (LOR) - Planungsräume (01.01.2021)",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Statistische Einheiten"],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin"
+    }]
+    },
+    
+    {
+    "id": "fis_quartiermanagement_wfs",
+    "name": "Quartiersmanagement",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_quartier",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_quartier",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Sozialer Zusammenhalt und Quartiersmanagement",
+    "gfiAttributes": {
+        "gebietsname": "Gebietsname",
+        "sen1_nr": "Nummer des ersten Senatsbeschlusses",
+        "sen1_datum": "Datum des ersten Senatsbeschlusses",
+        "sen_aen_nr": "Nummer der Änderung des Senatsbeschlusses",
+        "sen_aen_datum": "Datum der Änderung des Senatsbeschlusses"
+    },
+    "datasets": [{
+        "md_id": "5cc48d12-140d-3dfb-bec6-cf531d8d2377",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/c16d16f8-7ed6-324c-87d6-d46f07692373",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Sozialer Zusammenhalt und Quartiersmanagement",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+        "kategorie_inspire": [""],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin"
+    }]
+    },
+    
+	{
+  	"id": "lageso_badestellen_gjs",
+    "name": "Badestellen im Bezirk Reinickendorf",
+    "url": "../resources/geojson/lageso_badestellen.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "gfiAttributes": {
+        "Name": "Name"
+  	},
+    "layerAttribution": "© Berliner Datenportal (LaGeSo)/ Badestellen in Berlin",
+    "cache": false,
+	"datasets": [{
+      	"md_id": "lageso_badestellen_gjs.xml",
+        "csw_url": "../resources/meta/lageso_badestellen_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Badestellen in Berlin",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+	}]
+    },
+    
+    {
+	"id": "fis_kga_wfs",
+	"name": "Kleingartenbestand Berlin",
+	"url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/sach_kleing",
+	"typ": "WFS",
+	"version": "1.1.0",
+	"featureType": "fis:sach_kleing",
+	"featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Kleingartenbestand",
+	"gfiAttributes": {
+        "ANLAGENNUMMER": "Anlagennummer",
+        "OBJEKTNAME": "Objektname",
+        "FLAECHENGROESSE":{
+			"name": "Flächengröße",
+			"type": "number",
+			"suffix": "m²"
+		},
+        "PARZELLENANZAHL": {
+			"name": "Parzellenanzahl",
+			"type": "number"
+		},
+		"ZWISCHENPAECHTER": "Zwischenpächter"
+	},
+	"datasets": [{
+        "md_id": "f3c8b4d4-ce97-33d7-bc12-f74d930169bd",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/0cd68b02-ee11-31b0-801f-e8fe5814b8a6",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Kleingärten",
+		"bbox": "13.0512,52.3246,13.7785,52.6935",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Bodennutzung"],
+		"kategorie_organisation": "Senatsverwaltung für Umwelt, Verkehr und Klimaschutz Berlin"
+    }]
+    },
+    
+    {
+	"id": "rdf_hundefreilauf_gjs",
+	"name": "Hundefreilaufflächen",
+	"url": "../resources/geojson/rdf_hundefreilauf.geojson",
+	"typ": "GeoJSON",
+	"gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "layerAttribution": "© Bezirksamt Reinickendorf / Hundefreilaufflächen",
+    "outputFormat": "XML",
+    "format": "image/png",	
+	"gfiAttributes": {
+		"bezeich": "Bezeichnung",
+		"adresse": "Adresse",
+		"info": "Info",
+		"zustaendig": "Zuständigkeit"
+	},
+	"cache": false,
+	"datasets": [{
+        "md_id": "rdf_hundefreilauf_gjs.xml",
+		"csw_url": "../resources/meta/rdf_hundefreilauf_gjs.xml",
+		"show_doc_url": "../resources/meta/",
+		"md_name": "Hundefreilaufflächen",
+		"bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "fis_wald_wfs",
+    "name": "Waldgebiet",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_05_04forst2014",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_05_04forst2014",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Alters- und Bestandesstruktur der Wälder - Forstbetriebskarte 2014 (Umweltatlas)",
+    "gfiAttributes": {
+        "invgname": "Forstamt",
+        "art": "Flächenart",
+        "betrkl": "Betriebsklasse",
+        "s1_1_deuts": "Hauptbestand, Baumart 1",
+        "s1_2_deuts": "Hauptbestand, Baumart 2",
+        "s1_3_deuts": "Hauptbestand, Baumart 3"
+    },
+    "datasets": [{
+        "md_id": "ea216e7d-77ca-3f96-847a-27166b111d31",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/ca631146-1993-3bd2-b32a-58a6030bb081",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Alters- und Bestandesstruktur der Wälder - Forstbetriebskarte 2014 (Umweltatlas)",
+		"bbox": "13.204,52.547,13.3858,52.6662",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": ["Bodenbedeckung"],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen Berlin"
+    }]
+    },
+    
+    {
+    "id": "fisintra_gruenanlagen_gjs",
+    "name": "Öffentliche Grünanlagen",
+    "url": "../resources/geojson/fisintra_gruenanlagen.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "outputFormat": "XML",
+    "format": "image/png",
+    "gfiAttributes": {
+        "namenr": "Name",
+        "namezusatz": "Namenszusatz",
+        "baujahr": "Baujahr",
+        "sanierjahr": "letztes Sanierungsjahr",
+        "ortstlname": "Ortsteil"
+    },
+    "layerAttribution": "© Geoportal Berlin / Grünanlagen",
+    "cache": false,
+    "datasets": [{
+        "md_id": "fisintra_gruenanlagen_gjs.xml",
+        "csw_url": "../resources/meta/fisintra_gruenanlagen_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Öffentliche Grünanlagen",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "fisintra_friedhof_gjs",
+    "name": "Friedhöfe",
+    "url": "../resources/geojson/fisintra_friedhof.geojson",
+    "typ": "GeoJSON",
+    "gfiTheme": "default",
+    "featureType": "Feature",
+    "version": "1.1.0",
+    "featureNS": "http://www.berlin.de/broker",
+    "outputFormat": "XML",
+    "format": "image/png",
+    "gfiAttributes": {
+        "NAME": "Name",
+        "spatial_name": "Schlüssel",
+        "STRASSE": "Adresse"
+    },
+    "layerAttribution": "© Geoportal Berlin / Friedhöfe",
+    "cache": false,
+    "datasets": [{
+        "md_id": "fisintra_friedhof_gjs.xml",
+        "csw_url": "../resources/meta/fisintra_friedhof_gjs.xml",
+        "show_doc_url": "../resources/meta/",
+        "md_name": "Friedhöfe",
+        "bbox": "13.079,52.3284,13.7701,52.6877"
+    }]
+    },
+    
+    {
+    "id": "fis_behindertenparkplatz_wfs", 
+    "name": "Behindertenparkplätze",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_bparkplatz",
+    "typ": "WFS",
+	"version": "1.1.0",
+    "featureType": "fis:s_bparkplatz",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Behindertenparkplätze",
+    "gfiAttributes": {
+        "anzahl": "Parkplatzanzahl",
+        "bemerkung": "Anmerkung",
+        "polizei": "Polizeiabschnitt",
+        "standort": "Standortbezeichnung",
+        "plz": {
+            "name": "Postleitzahl und Ort",
+            "suffix": "Berlin"
+        },
+        "ortsteil": "Ortsteil"
+    },
+    "datasets": [{
+        "md_id": "08469af9-5dc1-4362-9428-6c90a9c934a1",
+		"rs_id": "https://registry.gdi-de.org/id/de.be.csw/0c1e766a-0d4a-3703-8bfc-ab67de8dc09b",
+		"csw_url":"https://fbinter.stadt-berlin.de/fb/csw",
+		"md_name": "Behindertenparkplätze",
+		"bbox": "13.079,52.3284,13.7701,52.6877",
+		"kategorie_opendata": ["Geographie und Stadtplanung"],
+		"kategorie_inspire": [""],
+		"kategorie_organisation": "Senatsverwaltung für Stadtentwicklung und Wohnen Berlin"
+    }]
+    },
+    
+    {
+    "id": "fis_elektroladesaeulen_wfs",
+    "name": "Elektro-Ladesäulen - Standorte",
+    "url": "https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_lades_standort",
+    "typ": "WFS",
+    "version": "1.1.0",
+    "featureType": "fis:s_lades_standort",
+    "featureNS": "",
+    "layerAttribution": "© Geoportal Berlin / Elektro-Ladesäulen - Standorte",
+    "gfiAttributes": {
+        "adresse": "Straße & Hausnummer",
+        "plz": {
+            "name": "Postleitzahl & Ort",
+            "suffix": "Berlin"
+        },
+        "oeffentlicher_raum": "Zugang",
+        "art_ladeeinrichtung": "Art der Ladeeinrichtung",
+        "anzahl_ladepunkte": "Anzahl der Ladepunkte",
+        "ladeleistung_1": "Leistung von Ladepunkt 1 [kW]",
+        "anschluss_1": "Anschlusstyp von Ladepunkt 1",
+        "ladeleistung_2": "Leistung von Ladepunkt 2 [kW]",
+        "anschluss_2": "Anschlusstyp von Ladepunkt 2",
+        "ladeleistung_3": "Leistung von Ladepunkt 3 [kW]",
+        "anschluss_3": "Anschlusstyp von Ladepunkt 3",
+        "ladeleistung_4": "Leistung von Ladepunkt 4 [kW]",
+        "anschluss_4": "Anschlusstyp von Ladepunkt 4",
+        "betreiber": "Betreiber",
+        "standort_nr": "Standortnummer",
+        "inbetriebnahme": "Inbetriebnahmedatum",
+        "datenquelle": "Datenquelle"
+    },
+    "datasets": [{
+        "md_id": "296596d0-dde2-3a73-b769-5853fe3d8f80",
+        "rs_id": "https://registry.gdi-de.org/id/de.be.csw/eeebbc13-75dd-3122-965f-2efeabbfc358",
+        "csw_url": "https://gdi.berlin.de/geonetwork/srv/ger/csw"
+    }],
+    "featureNS": "http://www.berlin.de/broker"
+    }
+]

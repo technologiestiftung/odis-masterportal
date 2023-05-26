@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   width="23.000002"
+   height="23"
+   viewBox="0 0 23.000002 23"
+   enable-background="new 0 0 100 100"
+   xml:space="preserve"
+   sodipodi:docname="Musikschule.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs175"><color-profile
+     name="Adobe-RGB--1998-"
+     xlink:href="../../../../../../WINDOWS/system32/spool/drivers/color/AdobeRGB1998.icc"
+     id="color-profile845" /></defs><sodipodi:namedview
+   id="namedview173"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="8.09"
+   inkscape:cx="7.9728059"
+   inkscape:cy="29.851669"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Ebene_1" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="25.708"
+   y1="53.709"
+   x2="76.709"
+   y2="53.709"
+   gradientTransform="matrix(0.41818186,0,0,0.41818178,-9.9142556,-10.960124)">
+	<stop
+   offset="1"
+   style="stop-color:#FFFFFF"
+   id="stop93" />
+	<stop
+   offset="1"
+   style="stop-color:#000000"
+   id="stop95" />
+</linearGradient>
+
+
+
+<ellipse
+   fill="url(#SVGID_1_)"
+   stroke-width="1.67273"
+   stroke-miterlimit="10"
+   cx="11.500001"
+   cy="11.5"
+   id="circle98"
+   style="fill:url(#SVGID_1_);stroke:#8a6f91;stroke-opacity:1"
+   rx="10.663636"
+   ry="10.663635" /><g
+   id="g2128"
+   transform="matrix(0.59854966,0,0,0.57446943,-18.562525,-18.186467)"
+   style="fill:#8a6f91;stroke:none;stroke-opacity:1"><g
+     id="g8127"
+     transform="matrix(0.99999266,-0.00399194,0.0036772,0.99999266,-0.19106106,0.20264638)"
+     style="fill:#8a6f91;stroke:none"><ellipse
+       style="fill:#8a6f91;stroke:none;stroke-width:2.71752;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path7752"
+       cx="47.42329"
+       cy="59.069054"
+       rx="5.8042402"
+       ry="4.904696" /><rect
+       style="fill:#8a6f91;stroke:none;stroke-width:3.31764;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7938"
+       width="3.7476194"
+       height="18.971579"
+       x="49.479908"
+       y="40.145088"
+       ry="0.97917831" /><rect
+       style="fill:#8a6f91;stroke:none;stroke-width:2.14145;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect8042"
+       width="10.2374"
+       height="4.1162925"
+       x="49.479908"
+       y="40.145088"
+       ry="1.3720974" /></g></g></svg>
