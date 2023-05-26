@@ -1,7 +1,7 @@
 ﻿{
     "Portalconfig": {
         "portalTitle": {
-            "title": "bla",
+            "title": "Sozialraumorientierte Planungskoordination in Reinickendorf",
             "logo": "../resources/img/Logo_PDB_ohne_Wappen.png",
             "link": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/bezirksamt/wirtschaft-gesundheit-integration-und-soziales/artikel.127813.php",
             "tooltip": "Bezirksamt Reinickendorf, FB Vermessung"
@@ -28,7 +28,7 @@
             "tree": {},
             "recommendedListLength": 3,
             "startZoomLevel": 5,
-            "placeholder": "bla"
+            "placeholder": "Suche nach: - Adresse - Aktiven WFS"
         },
         "mapView": {
             "backgroundImage": "../resources/img/backgroundCanvas.jpeg",
