@@ -3,7 +3,7 @@
         "portalTitle": {
             "title": "Sozialraumorientierte Planungskoordination in Reinickendorf",
             "logo": "../resources/img/Logo_PDB_ohne_Wappen.png",
-            "link": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/bezirksamt/wirtschaft-gesundheit-integration-und-soziales/artikel.127813.php",
+            "link": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/bezirksamt/finanzen-personal-und-buergerdienste/sozialraumorientierte-planungskoordination/",
             "tooltip": "Bezirksamt Reinickendorf, FB Vermessung"
         },
         "treeType": "custom",
@@ -118,16 +118,16 @@
             "info": {
                 "name": "&nbsp;Informationen",
                 "children": {
-                    "staticlinks": [
+                    "staticlinks": [                        
                         {
                         "name": "Sozialraumorientierte Planungskoordination",
                         "url": "https://www.berlin.de/ba-reinickendorf/politik-und-verwaltung/bezirksamt/finanzen-personal-und-kultur/sozialraumorientierte-planungskoordination/"
                         },
                         {
                         "name": "Impressum",
+                        "icon": "bi-info-square",
                         "url": "https://www.berlin.de/ba-reinickendorf/allgemeine-informationen/artikel.19001.php"
-                        }
-                        
+                        }                        
                     ]
                 }
             }
@@ -426,7 +426,7 @@
                     },
                     {
                     "id": "rdf_stadtteilzentren_gjs",
-                    "name": "Stadteilzentren",
+                    "name": "Stadtteilzentren",
                     "styleId": "rdf_stadtteilzentren_gjs",
                     "visibility": false,
                     "mouseHoverField": "Name"

@@ -3,6 +3,6 @@
 "name": "fisintra_musikschule",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25833" } },
 "features": [
-{ "type": "Feature", "properties": { "ES_ID": "MUS_12.01", "EB_ETO": "Öff. und öff. geförderte Kultur- und weitere Bildungseinrichtungen", "EB_ETO_ID": "03", "EB_ET": "Musikschule", "EB_ET_ID": "03.M", "EB_Name": "Musikschule Reinickendorf", "EB_Lage": "Ziekowstraße 161-163", "EB_PLZ": "13509", "EB_Ort": "Berlin ", "EL_Bez_ID": "12", "EB_WWW": "https:\/\/www.berlin.de\/ba-reinickendorf\/politik-und-verwaltung\/einrichtungen\/musikschule\/", "Stand": "2021-12-31T00:00:00", "ES_Anm": null }, "geometry": { "type": "Point", "coordinates": [ 384219.813073020544834, 5828594.230996926315129 ] } }
+{ "type": "Feature", "properties": { "ES_ID": "MUS_12.01", "EB_ETO": "Öff. und öff. geförderte Kultur- und weitere Bildungseinrichtungen", "EB_ETO_ID": "03", "EB_ET": "Musikschule", "EB_ET_ID": "03.M", "EB_Name": "Musikschule Reinickendorf", "EB_Lage": "Ziekowstraße 161-163", "EB_PLZ": "13509", "EB_Ort": "Berlin ", "EL_Bez_ID": "12", "EB_WWW": "https://www.berlin.de/musikschule-reinickendorf/", "Stand": "2021-12-31T00:00:00", "ES_Anm": null }, "geometry": { "type": "Point", "coordinates": [ 384219.813073020544834, 5828594.230996926315129 ] } }
 ]
 }
