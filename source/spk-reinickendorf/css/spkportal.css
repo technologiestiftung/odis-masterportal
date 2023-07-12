@@ -149,6 +149,11 @@
         min-width: 452px;
     }
 
+/*Themenbaum Einzellayer Platzierung*/
+    #Overlayer .layer.dropdown-item div {
+        padding-left: 16px;
+    }
+
 /*Transparenz Einstellung im Themenbaum*/
     .badge {
         padding:7px 7px;
